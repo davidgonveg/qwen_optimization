@@ -1,0 +1,10 @@
+{"client_elapsed_seconds":1.7844433,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:27:58.3362168Z\",\"message\":{\"role\":\"assistant\",\"content\":\"-\"},\"done\":false}"}
+{"client_elapsed_seconds":2.6457494,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:27:59.1932301Z\",\"message\":{\"role\":\"assistant\",\"content\":\"3\"},\"done\":false}"}
+{"client_elapsed_seconds":2.6462148,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:27:59.1932301Z\",\"message\":{\"role\":\"assistant\",\"content\":\",\"},\"done\":false}"}
+{"client_elapsed_seconds":3.4487348,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:27:59.9993652Z\",\"message\":{\"role\":\"assistant\",\"content\":\"0\"},\"done\":false}"}
+{"client_elapsed_seconds":3.4493006,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:27:59.9993652Z\",\"message\":{\"role\":\"assistant\",\"content\":\",\"},\"done\":false}"}
+{"client_elapsed_seconds":3.4495302,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:28:00.0003644Z\",\"message\":{\"role\":\"assistant\",\"content\":\"8\"},\"done\":false}"}
+{"client_elapsed_seconds":3.4497011,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:28:00.0003644Z\",\"message\":{\"role\":\"assistant\",\"content\":\",\"},\"done\":false}"}
+{"client_elapsed_seconds":3.449866,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:28:00.0003644Z\",\"message\":{\"role\":\"assistant\",\"content\":\"1\"},\"done\":false}"}
+{"client_elapsed_seconds":4.3429517,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:28:00.8953416Z\",\"message\":{\"role\":\"assistant\",\"content\":\"4\"},\"done\":false}"}
+{"client_elapsed_seconds":4.3433488,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T17:28:00.8958506Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":4342696900,\"load_duration\":33179500,\"prompt_eval_count\":46,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":1637883000,\"eval_count\":10,\"eval_duration\":2559403000}"}

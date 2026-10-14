@@ -1,0 +1,42 @@
+[
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Benchmark.Common.ps1",
+    "Hash": "3F0C44205789CD479E3C877D61231922EF40FBFB3CFCF318062AC1B7C5324F83"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-BenchmarkPilot.ps1",
+    "Hash": "F2180E0420C0942C1333CE1D5D227D9015456CB35475431E751806788E04A0A2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-SmokeTests.ps1",
+    "Hash": "53317C2A4060F4F53768EC09CBD85504728F49683B5863EC1A89B278A08115B0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Measure-ProjectResources.ps1",
+    "Hash": "AA1E898517E4EE23B2D39CDB8EB0289AEBE95250ABF9B412DAEF2C6158E7E621"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Pull-Reference.ps1",
+    "Hash": "7244F4C2881F55B581E7007625FA4993AF8E3565C039D21762EC8B09DAC73A96"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Start-ProjectOllama.ps1",
+    "Hash": "49E19275673635E70463E5FD02592A16E40A34D43B9AFC8B8CD0E61E5BD112A5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Stop-ProjectOllama.ps1",
+    "Hash": "9DA2121D52A4868132893BF85FE35C3ACE9DF086BCE2C687DFC6B47856C9B4E4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Summarize-BenchmarkPilot.ps1",
+    "Hash": "5F5AD4EAB671D30EE44A38176A518DC787A3A86D02FCCB6993A8264B1C4A8602"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkArtifacts.ps1",
+    "Hash": "94BED243D0E2BC0FF9B1D829EC0B25A8CDAF208C843F16D38FAD7F5C59172DA4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkScoring.ps1",
+    "Hash": "41EC20AEA06CB5C9B2CD441670891A868317EBAE9D09D8A9C4D800B71DA3FAE4"
+  }
+]

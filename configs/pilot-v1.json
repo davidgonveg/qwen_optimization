@@ -1,0 +1,15 @@
+{
+  "protocol_id": "phase2a-pilot-v1",
+  "suite": "benchmarks/pilot-v1.json",
+  "repetitions": 5,
+  "performance_prompt": "Ignora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+  "prefix_template": "Identificador de medición: {nonce}.\n",
+  "conditions": [
+    {"id":"resident-variable-prefix","nonces":["A001","B002","C003","D004","E005","F006"],"warmup_nonce":"A001"},
+    {"id":"resident-repeated-prefix","nonces":["R000","R000","R000","R000","R000","R000"],"warmup_nonce":"R000"}
+  ],
+  "order": "compatibility nonresident, quality q01..q10 resident, variable warmup+5, repeated warmup+5",
+  "cache_policy": "No borrado de caché de disco. Prefijo variable reduce reutilización de texto usuario, pero comparte plantilla; verificar prompt_eval_cached_count, no afirmar ausencia de caché.",
+  "percentiles": "nearest-rank: sorted[ceil(p*n)-1]; p95 con n=5 es el máximo y orientativo",
+  "failure_policy": "Sin reintentos; preservar parcial/error y excluir fallos/truncamientos de percentiles con recuento explícito"
+}

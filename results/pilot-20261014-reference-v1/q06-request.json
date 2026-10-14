@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.8:27b",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "think": false,
+  "stream": true,
+  "messages": [
+    {
+      "content": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+      "role": "user"
+    }
+  ],
+  "keep_alive": "5m"
+}

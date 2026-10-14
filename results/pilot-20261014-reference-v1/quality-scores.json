@@ -1,0 +1,136 @@
+[
+  {
+    "scorer": "json_exact",
+    "id": "q01",
+    "area": "calculo",
+    "score": {
+      "expected": {
+        "libros_por_estante": 7,
+        "sobrantes": 3
+      },
+      "reason": "Exception calling \"Parse\" with \"1\" argument(s): \"'`' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.\"",
+      "status": "scored",
+      "pass": false
+    }
+  },
+  {
+    "scorer": "json_exact",
+    "id": "q02",
+    "area": "calculo",
+    "score": {
+      "expected": {
+        "total_euros": 74
+      },
+      "reason": "Exception calling \"Parse\" with \"1\" argument(s): \"'`' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.\"",
+      "status": "scored",
+      "pass": false
+    }
+  },
+  {
+    "scorer": "exact",
+    "id": "q03",
+    "area": "calculo",
+    "score": {
+      "expected": "11:25",
+      "reason": null,
+      "status": "scored",
+      "pass": true
+    }
+  },
+  {
+    "scorer": "exact",
+    "id": "q04",
+    "area": "logica",
+    "score": {
+      "expected": "sí",
+      "reason": null,
+      "status": "scored",
+      "pass": false
+    }
+  },
+  {
+    "scorer": "json_exact",
+    "id": "q05",
+    "area": "instrucciones",
+    "score": {
+      "expected": {
+        "idioma": "español",
+        "numeros": [
+          2,
+          4,
+          6
+        ]
+      },
+      "reason": null,
+      "status": "scored",
+      "pass": true
+    }
+  },
+  {
+    "scorer": "json_exact",
+    "id": "q06",
+    "area": "extraccion",
+    "score": {
+      "expected": {
+        "nombre": "Luis",
+        "ciudad": "Cádiz"
+      },
+      "reason": null,
+      "status": "scored",
+      "pass": true
+    }
+  },
+  {
+    "scorer": "exact",
+    "id": "q07",
+    "area": "instrucciones",
+    "score": {
+      "expected": "-3,0,8,14",
+      "reason": null,
+      "status": "scored",
+      "pass": true
+    }
+  },
+  {
+    "scorer": "manual",
+    "id": "q08",
+    "area": "espanol",
+    "score": {
+      "rubric": [
+        "Una sola frase en español, máximo 30 palabras",
+        "Conserva lunes a viernes a las ocho",
+        "Conserva sábado a las diez y domingo cerrado"
+      ],
+      "status": "pending_manual",
+      "pass": null
+    }
+  },
+  {
+    "scorer": "manual",
+    "id": "q09",
+    "area": "espanol",
+    "score": {
+      "rubric": [
+        "Exactamente dos frases en español y máximo 60 palabras",
+        "RAM como espacio temporal de trabajo, almacenamiento como conservación de datos",
+        "Analogía coherente con mesa y armario, sin decir que RAM conserva datos al apagar"
+      ],
+      "status": "pending_manual",
+      "pass": null
+    }
+  },
+  {
+    "scorer": "manual",
+    "id": "q10",
+    "area": "codigo_estatico",
+    "score": {
+      "rubric": [
+        "Función con nombre y argumento pedidos, devuelve un conteo",
+        "Cuenta estrictamente > 0, no incluye cero ni negativos",
+        "No modifica entrada, código legible y sin Markdown; revisión estática, nunca ejecución"
+      ],
+      "status": "pending_manual",
+      "pass": null
+    }
+  }
+]

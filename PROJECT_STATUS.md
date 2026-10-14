@@ -4,7 +4,7 @@ Actualizado: 14 de octubre de 2026.
 
 ## Hito actual
 
-**Fase 1 completada:** Qwen3.8-27B descargado y ejecutado localmente. Identidad fijada, cuatro peticiones completadas sin errores de runtime ni truncamientos y comandos reproducibles. **No hay todavía una referencia formal de calidad/rendimiento ni optimizaciones.** La petición de cálculo devolvió una respuesta incorrecta; se conserva y se prioriza la evaluación de calidad.
+**Fase 2A completada:** protocolo, runner y piloto de calidad/rendimiento ejecutados y comprobados. Referencia y fase 1 preservadas. **Fase 2 sigue abierta: el piloto de desarrollo no constituye referencia final ni hay optimizaciones.** Diez tareas de calidad, dos calentamientos, diez mediciones de rendimiento y una prueba de compatibilidad/carga; 23 finales completos, cero errores/truncamientos.
 
 ## Evidencias
 
@@ -23,17 +23,30 @@ Actualizado: 14 de octubre de 2026.
 
 - La fase 1 cierra puesta en marcha, no aprobación de calidad para uso diario. No inferir calidad general a partir de una respuesta ni atribuir el fallo a Q4_K_M o a no-thinking sin comparación.
 - Conservar la referencia y el comportamiento heredado del runtime. No ajustar MTP, contexto o reparto GPU antes de medir la referencia de fase 2.
-- Implementar **fase 2A: protocolo, runner y piloto reducido** en la siguiente conversación. Una evaluación amplia queda para después de validar el procedimiento; optimización requiere autorización posterior.
+- Fase 2A validó el procedimiento; continuar con **fase 2B: referencia reducida**. Mantener muestras de fases 1/2A como desarrollo, crear nuevas y no relajar retrospectivamente criterios. Evaluación amplia y optimización requieren alcance posterior.
 - Próximo modelo recomendado: **GPT-6.1 Sol (`gpt-6.1-sol`), razonamiento medium**, para integrar métricas, telemetría y evaluación generativa. Nombre/esfuerzo corroborados con ficha oficial y catálogo de la sesión. No se cambia automáticamente el modelo.
 - Git: seguir `main` y upstream `origin/main`, remoto `git@github.com:davidgonveg/qwen_optimization.git`. Excluir `models`, `runtime`, cachés y entornos; versionar evidencia pequeña pertinente.
 
 ## Próximo paso y pendientes
 
-Ejecutar el nuevo `NEXT_PROMPT.md`: diseñar e implementar un runner con piloto acotado, rúbricas/extractores fijados, condiciones de carga/caché explícitas y al menos cinco repeticiones por condición de rendimiento viable. Verificar compatibilidad real de logprobs/loglikelihood antes de elegir tareas estándar; una evaluación generativa se identifica como tal.
+Ejecutar `NEXT_PROMPT.md`, fase 2B: generalizar runner/validación, suite reducida de 20–24 tareas nuevas, dos longitudes de entrada dentro de 2048 tokens, orden equilibrado y prueba sostenida acotada. Registrar temperatura, memoria y coste; sin optimización. Revisión humana de rúbricas asistidas pendiente. Logprobs generados comprobados, loglikelihood arbitraria no demostrado: no usar MMLU estándar sin backend/protocolo adecuados.
 
 Pendiente medir calidad con más muestras, rendimiento estable, variación entre repeticiones, contexto efectivo, coste de repetir la suite y fiabilidad. Visión, modo de razonamiento, aislamiento para ejecutar código y optimización siguen fuera de lo realizado. No hay bloqueos de puesta en marcha pendientes.
 
 ## Registro de continuidad y Git
+
+### Fase 2A
+
+- Protocolo/manifiestos fijados antes de ejecutar. Diez tareas originales CC0, zero-shot, desarrollo; sin datasets/paquetes externos ni ejecución de código generado.
+- Evidencia: `results/pilot-20261014-reference-v1`; informe: `reports/phase2a-20261014.md`. Identidad/tamaños revalidados, definiciones/hashes, peticiones/streams/textos, métricas/scores, revisión asistida, inventarios y telemetría.
+- Calidad automática: 4/7 estrictas. q01 cálculo correcto pero Markdown; q02 Markdown y 74,8 en vez de 74; q04 «si» sin tilde exigida. Tres tareas revisadas por Codex: 9/9 criterios, sin validación humana independiente ni pass@1.
+- Cinco mediciones por condición, calentamientos excluidos. Variable: caché 0/61, TTFT p50/p95 1,881/1,936 s, total 11,280/13,708 s, generación p50 2,374 tokens/s. Idéntico: caché 57/61, TTFT 0,774/0,855 s, total 9,190/9,434 s, generación p50 2,628 tokens/s. Orden, temperatura y tokens de salida confunden causalidad. Con n=5, p95 es máximo y orientativo.
+- Carga no residente: 50,65 s API, primer contenido 52,99 s y total 53,79 s; caché Windows sin vaciar. API real devuelve logprobs solicitados, sin acreditar loglikelihood arbitraria. Opciones/contexto/MTP/hilos/offload intactos.
+- 248 muestras sin errores: VRAM pico 11.511 MiB, GPU 64 °C/71,05 W; RAM residente árbol pico 14,65 GiB, privada comprometida 25,55 GiB, RAM libre mínimo 3,02 GiB. Energía GPU estimada 2,883 Wh/253,118 s, incluye otros procesos; no energía PC ni paginación. Suma peticiones 251,99 s (~4,2 min).
+- Doce casos del scorer, sintaxis/JSON, 23 streams reconstruidos, diez scores recalculados, cinco mediciones por condición y percentiles coherentes: `validation.json`.
+- Correcciones posteriores: lista vacía de errores serializada correctamente (resumen inicial conservado); parada espera proceso/puerto tras observar desaparición diferida del listener. Arranque/parada de regresión sin inferencia probado. Ambos PIDs propios detenidos, 11435 libre, servicio/modelos habituales intactos en `inventory-after.json`.
+
+### Historial previo
 
 - Preparación: fase 0 documental; sin descarga/inferencia.
 - Puesta en marcha: fase 1 con descarga, configuración local, cuatro pruebas y evidencias. La conversación se interrumpió durante la descarga; se comprobó que había terminado antes de continuar.

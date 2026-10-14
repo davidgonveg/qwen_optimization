@@ -1,0 +1,99 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.8308703,
+  "started_at": "2026-10-14T17:28:32.1974032Z",
+  "client_total_seconds": 5.9880827,
+  "first_chunk_seconds": 1.8308703,
+  "ended_at": "2026-10-14T17:28:38.1865001Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:28:38.1821705Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 5981621200,
+    "load_duration": 15536700,
+    "prompt_eval_count": 50,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1679282000,
+    "eval_count": 24,
+    "eval_duration": 4160631999
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:33:31.9680191+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q10",
+      "area": "codigo_estatico",
+      "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+      "scorer": "manual",
+      "rubric": [
+        "Función con nombre y argumento pedidos, devuelve un conteo",
+        "Cuenta estrictamente > 0, no incluye cero ni negativos",
+        "No modifica entrada, código legible y sin Markdown; revisión estática, nunca ejecución"
+      ]
+    },
+    "kind": "quality",
+    "id": "q10",
+    "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 29.774629871576067,
+  "ps_after_error": null,
+  "ttft_seconds": 1.8308703,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:33:38.1831793+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 5.768354424464446,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 74
+}

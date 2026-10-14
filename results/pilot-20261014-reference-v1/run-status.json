@@ -1,0 +1,8 @@
+{
+  "requests_completed": 23,
+  "expected_requests": 23,
+  "complete": true,
+  "finished_at": "2026-10-14T17:30:46.0558398Z",
+  "telemetry_state": "Completed",
+  "fatal_error": null
+}

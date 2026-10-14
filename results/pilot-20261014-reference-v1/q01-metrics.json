@@ -1,0 +1,98 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7695505,
+  "started_at": "2026-10-14T17:27:25.7922532Z",
+  "client_total_seconds": 6.3171787,
+  "first_chunk_seconds": 1.7695505,
+  "ended_at": "2026-10-14T17:27:32.1114918Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:27:32.1084537Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 6315358500,
+    "load_duration": 13449700,
+    "prompt_eval_count": 61,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1639417000,
+    "eval_count": 30,
+    "eval_duration": 4553233000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:25.7155614+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q01",
+      "area": "calculo",
+      "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+      "scorer": "json_exact",
+      "expected": {
+        "libros_por_estante": 7,
+        "sobrantes": 3
+      }
+    },
+    "kind": "quality",
+    "id": "q01",
+    "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 37.208349065551964,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7695505,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:32.1090075+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 6.588724978493304,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 59
+}

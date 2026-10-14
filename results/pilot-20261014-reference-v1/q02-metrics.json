@@ -1,0 +1,97 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7028177,
+  "started_at": "2026-10-14T17:27:32.1500635Z",
+  "client_total_seconds": 6.0066231,
+  "first_chunk_seconds": 1.7028177,
+  "ended_at": "2026-10-14T17:27:38.1592207Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:27:38.1365299Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 5986290400,
+    "load_duration": 8493100,
+    "prompt_eval_count": 56,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1573515000,
+    "eval_count": 21,
+    "eval_duration": 4284206000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:32.1090075+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q02",
+      "area": "calculo",
+      "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+      "scorer": "json_exact",
+      "expected": {
+        "total_euros": 74
+      }
+    },
+    "kind": "quality",
+    "id": "q02",
+    "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 35.58911100307274,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7028177,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:38.1378284+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 4.901725080446645,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 37
+}

@@ -1,0 +1,23 @@
+{
+  "model": "qwen3.8:27b",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "think": false,
+  "stream": true,
+  "messages": [
+    {
+      "content": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+      "role": "user"
+    }
+  ],
+  "keep_alive": "5m"
+}

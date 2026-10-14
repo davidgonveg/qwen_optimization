@@ -1,0 +1,2127 @@
+[
+  {
+    "truncated": false,
+    "first_content_seconds": 52.9917698,
+    "started_at": "2026-10-14T17:26:31.9330438Z",
+    "client_total_seconds": 53.7876764,
+    "first_chunk_seconds": 52.9917698,
+    "ended_at": "2026-10-14T17:27:25.7647830Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:25.7150145Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 53777047600,
+      "load_duration": 50647363000,
+      "prompt_eval_count": 17,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2315023000,
+      "eval_count": 3,
+      "eval_duration": 806677000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": []
+    },
+    "sample": {
+      "kind": "compatibility",
+      "id": "compatibility-nonresident",
+      "logprobs": true,
+      "prompt": "Responde únicamente: listo",
+      "condition": "nonresident-disk-cache-uncontrolled"
+    },
+    "uncached_prompt_tokens_per_second": 7.3433395694124854,
+    "ps_after_error": null,
+    "ttft_seconds": 52.9917698,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:25.7155614+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 3.7189606248845575,
+    "logprobs_observed": true,
+    "first_thinking_seconds": null,
+    "content_characters": 5
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7695505,
+    "started_at": "2026-10-14T17:27:25.7922532Z",
+    "client_total_seconds": 6.3171787,
+    "first_chunk_seconds": 1.7695505,
+    "ended_at": "2026-10-14T17:27:32.1114918Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:32.1084537Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6315358500,
+      "load_duration": 13449700,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1639417000,
+      "eval_count": 30,
+      "eval_duration": 4553233000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:25.7155614+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q01",
+        "area": "calculo",
+        "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+        "scorer": "json_exact",
+        "expected": {
+          "libros_por_estante": 7,
+          "sobrantes": 3
+        }
+      },
+      "kind": "quality",
+      "id": "q01",
+      "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 37.208349065551964,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7695505,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:32.1090075+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 6.588724978493304,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 59
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7028177,
+    "started_at": "2026-10-14T17:27:32.1500635Z",
+    "client_total_seconds": 6.0066231,
+    "first_chunk_seconds": 1.7028177,
+    "ended_at": "2026-10-14T17:27:38.1592207Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:38.1365299Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5986290400,
+      "load_duration": 8493100,
+      "prompt_eval_count": 56,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1573515000,
+      "eval_count": 21,
+      "eval_duration": 4284206000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:32.1090075+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q02",
+        "area": "calculo",
+        "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+        "scorer": "json_exact",
+        "expected": {
+          "total_euros": 74
+        }
+      },
+      "kind": "quality",
+      "id": "q02",
+      "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 35.58911100307274,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7028177,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:38.1378284+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 4.901725080446645,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 37
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7029396,
+    "started_at": "2026-10-14T17:27:38.2416386Z",
+    "client_total_seconds": 3.3622528,
+    "first_chunk_seconds": 1.7029396,
+    "ended_at": "2026-10-14T17:27:41.6054984Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:41.6030791Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3361791900,
+      "load_duration": 20202800,
+      "prompt_eval_count": 47,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1558007000,
+      "eval_count": 6,
+      "eval_duration": 1660459000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:38.1378284+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q03",
+        "area": "calculo",
+        "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+        "scorer": "exact",
+        "expected": "11:25"
+      },
+      "kind": "quality",
+      "id": "q03",
+      "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 30.16674507880902,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7029396,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:41.6035837+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 3.6134586882301822,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 5
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8437478,
+    "started_at": "2026-10-14T17:27:41.6270141Z",
+    "client_total_seconds": 2.686719,
+    "first_chunk_seconds": 1.8437478,
+    "ended_at": "2026-10-14T17:27:44.3151281Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:44.3126825Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2685783600,
+      "load_duration": 13020900,
+      "prompt_eval_count": 58,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1702249000,
+      "eval_count": 2,
+      "eval_duration": 845815000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:41.6035837+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q04",
+        "area": "logica",
+        "prompt": "Todos los objetos rojos de esta caja son de madera. El objeto A es rojo y está en esta caja. ¿Se deduce que A es de madera? Responde solo sí o no, en minúsculas.",
+        "scorer": "exact",
+        "expected": "sí"
+      },
+      "kind": "quality",
+      "id": "q04",
+      "prompt": "Todos los objetos rojos de esta caja son de madera. El objeto A es rojo y está en esta caja. ¿Se deduce que A es de madera? Responde solo sí o no, en minúsculas.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 34.07257105159116,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8437478,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:44.3131889+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.364583271755644,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 2
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7817379,
+    "started_at": "2026-10-14T17:27:44.3352254Z",
+    "client_total_seconds": 6.8167401,
+    "first_chunk_seconds": 1.7817379,
+    "ended_at": "2026-10-14T17:27:51.1552678Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:51.144564Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6809220300,
+      "load_duration": 12521800,
+      "prompt_eval_count": 42,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1642163000,
+      "eval_count": 29,
+      "eval_duration": 5025174000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:44.3131889+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q05",
+        "area": "instrucciones",
+        "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+        "scorer": "json_exact",
+        "expected": {
+          "idioma": "español",
+          "numeros": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      "kind": "quality",
+      "id": "q05",
+      "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 25.5760238173677,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7817379,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:51.1460831+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 5.770944448888735,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 49
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7896177,
+    "started_at": "2026-10-14T17:27:51.3052018Z",
+    "client_total_seconds": 5.141785,
+    "first_chunk_seconds": 1.7896177,
+    "ended_at": "2026-10-14T17:27:56.4482601Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:27:56.4458358Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5141027900,
+      "load_duration": 11335900,
+      "prompt_eval_count": 57,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1666782000,
+      "eval_count": 13,
+      "eval_duration": 3353526000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:51.1460831+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q06",
+        "area": "extraccion",
+        "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+        "scorer": "json_exact",
+        "expected": {
+          "nombre": "Luis",
+          "ciudad": "Cádiz"
+        }
+      },
+      "kind": "quality",
+      "id": "q06",
+      "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 34.19763352376015,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7896177,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:56.4473436+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 3.8765168363090075,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 34
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.7844433,
+    "started_at": "2026-10-14T17:27:56.5530347Z",
+    "client_total_seconds": 4.3435444,
+    "first_chunk_seconds": 1.7844433,
+    "ended_at": "2026-10-14T17:28:00.8980284Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:28:00.8958506Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4342696900,
+      "load_duration": 33179500,
+      "prompt_eval_count": 46,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1637883000,
+      "eval_count": 10,
+      "eval_duration": 2559403000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:32:56.4473436+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q07",
+        "area": "instrucciones",
+        "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+        "scorer": "exact",
+        "expected": "-3,0,8,14"
+      },
+      "kind": "quality",
+      "id": "q07",
+      "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 28.085034156896434,
+    "ps_after_error": null,
+    "ttft_seconds": 1.7844433,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:00.8958506+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 3.9071611621929017,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 9
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8884557,
+    "started_at": "2026-10-14T17:28:00.9270488Z",
+    "client_total_seconds": 7.8467441,
+    "first_chunk_seconds": 1.8884557,
+    "ended_at": "2026-10-14T17:28:08.7748249Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:28:08.763668Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 7835452700,
+      "load_duration": 15957600,
+      "prompt_eval_count": 63,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1749406000,
+      "eval_count": 24,
+      "eval_duration": 5948452000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:00.8958506+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q08",
+        "area": "espanol",
+        "prompt": "Resume en español, en una sola frase de un máximo de 30 palabras: El taller del barrio abre de lunes a viernes a las ocho. Los sábados abre a las diez. Los domingos permanece cerrado. Conserva los tres datos de horario.",
+        "scorer": "manual",
+        "rubric": [
+          "Una sola frase en español, máximo 30 palabras",
+          "Conserva lunes a viernes a las ocho",
+          "Conserva sábado a las diez y domingo cerrado"
+        ]
+      },
+      "kind": "quality",
+      "id": "q08",
+      "prompt": "Resume en español, en una sola frase de un máximo de 30 palabras: El taller del barrio abre de lunes a viernes a las ocho. Los sábados abre a las diez. Los domingos permanece cerrado. Conserva los tres datos de horario.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 36.01222357760291,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8884557,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:08.7642756+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 4.0346631358881275,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 102
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.838373,
+    "started_at": "2026-10-14T17:28:08.8718413Z",
+    "client_total_seconds": 23.1025927,
+    "first_chunk_seconds": 1.838373,
+    "ended_at": "2026-10-14T17:28:31.9755155Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:28:31.9680191Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 23096050300,
+      "load_duration": 15114000,
+      "prompt_eval_count": 51,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1682882000,
+      "eval_count": 59,
+      "eval_duration": 21265338000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:08.7642756+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q09",
+        "area": "espanol",
+        "prompt": "Explica en español la diferencia entre RAM y almacenamiento a alguien sin conocimientos técnicos. Usa exactamente dos frases y una analogía con una mesa y un armario. Máximo 60 palabras.",
+        "scorer": "manual",
+        "rubric": [
+          "Exactamente dos frases en español y máximo 60 palabras",
+          "RAM como espacio temporal de trabajo, almacenamiento como conservación de datos",
+          "Analogía coherente con mesa y armario, sin decir que RAM conserva datos al apagar"
+        ]
+      },
+      "kind": "quality",
+      "id": "q09",
+      "prompt": "Explica en español la diferencia entre RAM y almacenamiento a alguien sin conocimientos técnicos. Usa exactamente dos frases y una analogía con una mesa y un armario. Máximo 60 palabras.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 30.3051550851456,
+    "ps_after_error": null,
+    "ttft_seconds": 1.838373,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:31.9680191+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.7744680098665726,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 283
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8308703,
+    "started_at": "2026-10-14T17:28:32.1974032Z",
+    "client_total_seconds": 5.9880827,
+    "first_chunk_seconds": 1.8308703,
+    "ended_at": "2026-10-14T17:28:38.1865001Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:28:38.1821705Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5981621200,
+      "load_duration": 15536700,
+      "prompt_eval_count": 50,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1679282000,
+      "eval_count": 24,
+      "eval_duration": 4160631999
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:31.9680191+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "task": {
+        "id": "q10",
+        "area": "codigo_estatico",
+        "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+        "scorer": "manual",
+        "rubric": [
+          "Función con nombre y argumento pedidos, devuelve un conteo",
+          "Cuenta estrictamente > 0, no incluye cero ni negativos",
+          "No modifica entrada, código legible y sin Markdown; revisión estática, nunca ejecución"
+        ]
+      },
+      "kind": "quality",
+      "id": "q10",
+      "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+      "condition": "resident-quality"
+    },
+    "uncached_prompt_tokens_per_second": 29.774629871576067,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8308703,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:38.1831793+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 5.768354424464446,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 74
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.9220877,
+    "started_at": "2026-10-14T17:28:38.2510240Z",
+    "client_total_seconds": 11.1222811,
+    "first_chunk_seconds": 1.9220877,
+    "ended_at": "2026-10-14T17:28:49.3801351Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:28:49.371609Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 11119958100,
+      "load_duration": 20231200,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1725964000,
+      "eval_count": 22,
+      "eval_duration": 9211358000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:38.1831793+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-0",
+      "condition": "resident-variable-prefix",
+      "repetition": 0,
+      "prompt": "Identificador de medición: A001.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "warmup",
+      "nonce": "A001"
+    },
+    "uncached_prompt_tokens_per_second": 35.34256797940166,
+    "ps_after_error": null,
+    "ttft_seconds": 1.9220877,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:49.3742471+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.388355766869554,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 124
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.9078822,
+    "started_at": "2026-10-14T17:28:49.4122551Z",
+    "client_total_seconds": 11.1755835,
+    "first_chunk_seconds": 1.9078822,
+    "ended_at": "2026-10-14T17:29:00.5893651Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:00.5863411Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 11173878500,
+      "load_duration": 12327600,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1762055000,
+      "eval_count": 22,
+      "eval_duration": 9266509000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:33:49.3742471+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-1",
+      "condition": "resident-variable-prefix",
+      "repetition": 1,
+      "prompt": "Identificador de medición: B002.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "B002"
+    },
+    "uncached_prompt_tokens_per_second": 34.61866967830176,
+    "ps_after_error": null,
+    "ttft_seconds": 1.9078822,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:00.5869143+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.3741411139837023,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8755068,
+    "started_at": "2026-10-14T17:29:00.6255914Z",
+    "client_total_seconds": 13.7078937,
+    "first_chunk_seconds": 1.8755068,
+    "ended_at": "2026-10-14T17:29:14.3351136Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:14.332615Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 13704633100,
+      "load_duration": 14312300,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1694848000,
+      "eval_count": 26,
+      "eval_duration": 11841546000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:00.5869143+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-2",
+      "condition": "resident-variable-prefix",
+      "repetition": 2,
+      "prompt": "Identificador de medición: C003.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "C003"
+    },
+    "uncached_prompt_tokens_per_second": 35.99142813986859,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8755068,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:14.3331221+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.1956592492230325,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 135
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8811791,
+    "started_at": "2026-10-14T17:29:14.3636520Z",
+    "client_total_seconds": 11.2799833,
+    "first_chunk_seconds": 1.8811791,
+    "ended_at": "2026-10-14T17:29:25.6457430Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:25.6419998Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 11278122500,
+      "load_duration": 13605000,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1736611000,
+      "eval_count": 22,
+      "eval_duration": 9397980000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:14.3331221+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-3",
+      "condition": "resident-variable-prefix",
+      "repetition": 3,
+      "prompt": "Identificador de medición: D004.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "D004"
+    },
+    "uncached_prompt_tokens_per_second": 35.12588599289075,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8811791,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:25.6427283+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.340928582525181,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.9356379,
+    "started_at": "2026-10-14T17:29:25.7019381Z",
+    "client_total_seconds": 11.2016849,
+    "first_chunk_seconds": 1.9356379,
+    "ended_at": "2026-10-14T17:29:36.9050128Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:36.8974114Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 11195497900,
+      "load_duration": 21869400,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1795602000,
+      "eval_count": 22,
+      "eval_duration": 9265029000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:25.6427283+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-4",
+      "condition": "resident-variable-prefix",
+      "repetition": 4,
+      "prompt": "Identificador de medición: E005.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "E005"
+    },
+    "uncached_prompt_tokens_per_second": 33.971893548793105,
+    "ps_after_error": null,
+    "ttft_seconds": 1.9356379,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:36.8981908+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.3745203603787965,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 126
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.880129,
+    "started_at": "2026-10-14T17:29:36.9889102Z",
+    "client_total_seconds": 11.9824644,
+    "first_chunk_seconds": 1.880129,
+    "ended_at": "2026-10-14T17:29:48.9727323Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:48.9507922Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 11961615900,
+      "load_duration": 31300600,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1705841000,
+      "eval_count": 25,
+      "eval_duration": 10081136000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:36.8981908+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-variable-prefix-5",
+      "condition": "resident-variable-prefix",
+      "repetition": 5,
+      "prompt": "Identificador de medición: F006.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "F006"
+    },
+    "uncached_prompt_tokens_per_second": 35.75948754895679,
+    "ps_after_error": null,
+    "ttft_seconds": 1.880129,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:48.9517902+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.4798792517033794,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 126
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 1.8806342,
+    "started_at": "2026-10-14T17:29:49.0099259Z",
+    "client_total_seconds": 10.30474,
+    "first_chunk_seconds": 1.8806342,
+    "ended_at": "2026-10-14T17:29:59.3158329Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:29:59.3081039Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 10298092800,
+      "load_duration": 14003000,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1722838000,
+      "eval_count": 22,
+      "eval_duration": 8429083000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:48.9517902+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-0",
+      "condition": "resident-repeated-prefix",
+      "repetition": 0,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "warmup",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 35.40669523193707,
+    "ps_after_error": null,
+    "ttft_seconds": 1.8806342,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:59.3091712+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.610011077124285,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 0.829682,
+    "started_at": "2026-10-14T17:29:59.3544794Z",
+    "client_total_seconds": 9.4337696,
+    "first_chunk_seconds": 0.829682,
+    "ended_at": "2026-10-14T17:30:08.7910308Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:30:08.7730356Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 9418487700,
+      "load_duration": 11926500,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 57,
+      "prompt_eval_duration": 806678000,
+      "eval_count": 22,
+      "eval_duration": 8590973000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:34:59.3091712+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-1",
+      "condition": "resident-repeated-prefix",
+      "repetition": 1,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 4.95860801955675,
+    "ps_after_error": null,
+    "ttft_seconds": 0.829682,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:08.7745184+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.5608275104577793,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 0.759463,
+    "started_at": "2026-10-14T17:30:08.8708719Z",
+    "client_total_seconds": 9.1897182,
+    "first_chunk_seconds": 0.759463,
+    "ended_at": "2026-10-14T17:30:18.0625577Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:30:18.0596292Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 9188578000,
+      "load_duration": 21577000,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 57,
+      "prompt_eval_duration": 729159000,
+      "eval_count": 22,
+      "eval_duration": 8429415999
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:08.7745184+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-2",
+      "condition": "resident-repeated-prefix",
+      "repetition": 2,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 5.485771964688086,
+    "ps_after_error": null,
+    "ttft_seconds": 0.759463,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:18.060293+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.609907970209313,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 0.8554289,
+    "started_at": "2026-10-14T17:30:18.0900532Z",
+    "client_total_seconds": 9.2301586,
+    "first_chunk_seconds": 0.8554289,
+    "ended_at": "2026-10-14T17:30:27.3211664Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:30:27.3065675Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 9216295200,
+      "load_duration": 27562400,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 57,
+      "prompt_eval_duration": 805242000,
+      "eval_count": 22,
+      "eval_duration": 8372635000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:18.060293+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-3",
+      "condition": "resident-repeated-prefix",
+      "repetition": 3,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 4.967450778772096,
+    "ps_after_error": null,
+    "ttft_seconds": 0.8554289,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:27.3080842+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.627607676675264,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 0.7743043,
+    "started_at": "2026-10-14T17:30:27.4402867Z",
+    "client_total_seconds": 9.0385717,
+    "first_chunk_seconds": 0.7743043,
+    "ended_at": "2026-10-14T17:30:36.4801269Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:30:36.4694637Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 9029416500,
+      "load_duration": 14568700,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 57,
+      "prompt_eval_duration": 750301000,
+      "eval_count": 22,
+      "eval_duration": 8239263000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:27.3080842+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-4",
+      "condition": "resident-repeated-prefix",
+      "repetition": 4,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 5.3311937475759725,
+    "ps_after_error": null,
+    "ttft_seconds": 0.7743043,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:36.4942388+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.6701417347643837,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  },
+  {
+    "truncated": false,
+    "first_content_seconds": 0.7551415,
+    "started_at": "2026-10-14T17:30:36.5645062Z",
+    "client_total_seconds": 8.9215149,
+    "first_chunk_seconds": 0.7551415,
+    "ended_at": "2026-10-14T17:30:45.4874526Z",
+    "error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T17:30:45.4828247Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 8918377300,
+      "load_duration": 15847500,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 57,
+      "prompt_eval_duration": 732765000,
+      "eval_count": 22,
+      "eval_duration": 8164152000
+    },
+    "thinking_characters": 0,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:36.4942388+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "sample": {
+      "id": "resident-repeated-prefix-5",
+      "condition": "resident-repeated-prefix",
+      "repetition": 5,
+      "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+      "kind": "performance",
+      "nonce": "R000"
+    },
+    "uncached_prompt_tokens_per_second": 5.458776005950066,
+    "ps_after_error": null,
+    "ttft_seconds": 0.7551415,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T19:35:45.4833318+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "tokens_per_second": 2.694707300892977,
+    "logprobs_observed": false,
+    "first_thinking_seconds": null,
+    "content_characters": 117
+  }
+]

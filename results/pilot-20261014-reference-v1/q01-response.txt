@@ -1,0 +1,6 @@
+```json
+{
+  "libros_por_estante": 7,
+  "sobrantes": 3
+}
+```

@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "finding": "Streaming, duraciones ns, cached count y logprobs de tokens generados; no scoring de continuación arbitraria documentado",
+      "url": "https://docs.ollama.com/api/chat"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ollama/ollama/v0.40.3/api/types.go",
+      "revision": "v0.40.3",
+      "finding": "ChatRequest Logprobs/TopLogprobs y ChatResponse Logprobs; Metrics PromptEvalCachedCount es opcional; velocidad de entrada descuenta caché"
+    },
+    {
+      "finding": "loglikelihood recibe contexto y continuación objetivo; generate_until es otra operación. No se instaló harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/model_guide.md"
+    },
+    {
+      "finding": "Parámetros recomendados no-thinking coinciden con referencia; no se cambia el runtime",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    {
+      "finding": "Nombre GPT-6.1 Sol y esfuerzo medium corroborados con ficha y catálogo de sesión; no garantía de acceso",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+    }
+  ],
+  "consulted_date": "2026-10-14"
+}

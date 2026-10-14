@@ -1,0 +1,102 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7817379,
+  "started_at": "2026-10-14T17:27:44.3352254Z",
+  "client_total_seconds": 6.8167401,
+  "first_chunk_seconds": 1.7817379,
+  "ended_at": "2026-10-14T17:27:51.1552678Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:27:51.144564Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 6809220300,
+    "load_duration": 12521800,
+    "prompt_eval_count": 42,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1642163000,
+    "eval_count": 29,
+    "eval_duration": 5025174000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:44.3131889+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q05",
+      "area": "instrucciones",
+      "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+      "scorer": "json_exact",
+      "expected": {
+        "idioma": "español",
+        "numeros": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "kind": "quality",
+    "id": "q05",
+    "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 25.5760238173677,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7817379,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:51.1460831+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 5.770944448888735,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 49
+}

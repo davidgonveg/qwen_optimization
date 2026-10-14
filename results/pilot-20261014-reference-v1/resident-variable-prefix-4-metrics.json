@@ -1,0 +1,90 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.9356379,
+  "started_at": "2026-10-14T17:29:25.7019381Z",
+  "client_total_seconds": 11.2016849,
+  "first_chunk_seconds": 1.9356379,
+  "ended_at": "2026-10-14T17:29:36.9050128Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:29:36.8974114Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 11195497900,
+    "load_duration": 21869400,
+    "prompt_eval_count": 61,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1795602000,
+    "eval_count": 22,
+    "eval_duration": 9265029000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:34:25.6427283+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "id": "resident-variable-prefix-4",
+    "condition": "resident-variable-prefix",
+    "repetition": 4,
+    "prompt": "Identificador de medición: E005.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "E005"
+  },
+  "uncached_prompt_tokens_per_second": 33.971893548793105,
+  "ps_after_error": null,
+  "ttft_seconds": 1.9356379,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:34:36.8981908+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 2.3745203603787965,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 126
+}

@@ -1,0 +1,117 @@
+{
+  "working_tree_status": [
+    "?? benchmarks/",
+    "?? configs/pilot-v1.json",
+    "?? results/pilot-20261014-reference-v1/",
+    "?? scripts/Benchmark.Common.ps1",
+    "?? scripts/Invoke-BenchmarkPilot.ps1",
+    "?? scripts/Test-BenchmarkScoring.ps1"
+  ],
+  "layer_sizes_verified": true,
+  "hashes": [
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Benchmark.Common.ps1",
+      "Hash": "3F0C44205789CD479E3C877D61231922EF40FBFB3CFCF318062AC1B7C5324F83"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-BenchmarkPilot.ps1",
+      "Hash": "F2180E0420C0942C1333CE1D5D227D9015456CB35475431E751806788E04A0A2"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-SmokeTests.ps1",
+      "Hash": "53317C2A4060F4F53768EC09CBD85504728F49683B5863EC1A89B278A08115B0"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Measure-ProjectResources.ps1",
+      "Hash": "AA1E898517E4EE23B2D39CDB8EB0289AEBE95250ABF9B412DAEF2C6158E7E621"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Pull-Reference.ps1",
+      "Hash": "7244F4C2881F55B581E7007625FA4993AF8E3565C039D21762EC8B09DAC73A96"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Start-ProjectOllama.ps1",
+      "Hash": "49E19275673635E70463E5FD02592A16E40A34D43B9AFC8B8CD0E61E5BD112A5"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Stop-ProjectOllama.ps1",
+      "Hash": "61EA5D9DB92348B645E7D08006AD8141B6CE659928173955FAF46A369A06008B"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkScoring.ps1",
+      "Hash": "41EC20AEA06CB5C9B2CD441670891A868317EBAE9D09D8A9C4D800B71DA3FAE4"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\configs\\reference.json",
+      "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\configs\\pilot-v1.json",
+      "Hash": "CED160CCD33096219C4A6D0CE1D23E36FBB413474AA08263EB94122E0EF5C73B"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\benchmarks\\pilot-v1.json",
+      "Hash": "7857461D953B8EBB313F6BA7C9924DA30A022371AB9F222A14230BA9926BB78E"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\benchmarks\\PROTOCOL.md",
+      "Hash": "DC38DB063361D22DCD1FF011C129BEECD55D530836745257CF563D9B3838ADDD"
+    }
+  ],
+  "version": {
+    "version": "0.40.3"
+  },
+  "dotnet": ".NET 10.0.11",
+  "tags": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "modified_at": "2026-10-14T18:45:36.393043+02:00",
+        "size": 17741872154,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "qwen3.8:27b-q4_K_M",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 5120,
+          "runner": "llamacpp"
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "weights_rehashed": false,
+  "powershell": "7.6.5",
+  "started_at": "2026-10-14T17:26:29.2501675Z",
+  "server": {
+    "executable": "C:\\Users\\gonza\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "start_time": "2026-10-14T17:26:06.613387Z",
+    "pid": 25860,
+    "settings": {
+      "OLLAMA_MODELS": "E:\\Documents\\qwen_optimization\\models\\ollama",
+      "OLLAMA_CONTEXT_LENGTH": "2048",
+      "OLLAMA_NO_CLOUD": "1",
+      "OLLAMA_HOST": "127.0.0.1:11435",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_KEEP_ALIVE": "5m",
+      "OLLAMA_NUM_PARALLEL": "1"
+    }
+  },
+  "code_revision": "96deb422da4a12135869ea9d32c46de3300c7723",
+  "manifest_original_sha256": "sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+  "ps_before": {
+    "models": []
+  }
+}

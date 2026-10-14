@@ -110,6 +110,16 @@ La API de Ollama ofrece contadores y duraciones que pueden ayudar a medir carga,
 
 **Criterio de cierre:** runner repetible, resultados crudos, informe de referencia, límites conocidos y costes estimados para repetir la suite. El usuario debe poder comprender qué se ha medido y reproducirlo.
 
+### Piloto de fase 2A comprobado el 14 de octubre de 2026
+
+Protocolo y diez tareas de desarrollo en `benchmarks`, condiciones en `configs/pilot-v1.json`, runner PowerShell sin instalaciones. Veintitrés peticiones completas: compatibilidad/carga, diez tareas y dos bloques de calentamiento más cinco mediciones. Informe `reports/phase2a-20261014.md`, evidencia `results/pilot-20261014-reference-v1`. Fase 2 aún abierta.
+
+Exactitud estricta (4/7) separada de lectura asistida (9/9 criterios en tres tareas), con errores de formato, cálculo y ortografía identificados. No relajar extractores tras observar respuestas ni usar desarrollo como conjunto final. Revisión por Codex identificada, sin validación humana independiente.
+
+Prefijos idénticos reutilizaron 57/61 tokens; variables comunicaron cero. Comprobar contador: cambiar prefijo usuario no garantiza vaciar plantilla. Velocidad de entrada descuenta caché; desconocida si falta contador. Nearest-rank con n=5 orientativo; separar bloques y controlar temperatura, orden y salida antes de atribuir diferencias. Logprobs generados presentes, sin demostrar scoring forzado para harness.
+
+RAM libre mínima 3,02 GiB y margen VRAM 777 MiB: medir antes de ampliar entradas, sin cambiar referencia automáticamente. Energía GPU integra potencia del dispositivo, sin restar reposo, documentando cobertura y procesos ajenos. Parada propia espera proceso/puerto y protege ante nuevo propietario.
+
 ## Fase 3 — Optimizar, más adelante
 
 Esta fase queda fuera del encargo actual y no se inicia automáticamente. Comparar cada variante con la referencia conservada:
@@ -126,7 +136,7 @@ Para cada experimento guardar hipótesis, única variable principal, configuraci
 
 Cada cierre debe recomendar en `NEXT_PROMPT.md` un modelo, su versión y esfuerzo de razonamiento, con una razón relacionada con el encargo. Priorizar eficiencia sin sacrificar la calidad necesaria: Luna para tareas acotadas, Sol para implementación e integración y Astra para investigación o diagnóstico especialmente difíciles. Revisar la recomendación en cada conversación; no asignar un modelo fijo a todas las fases.
 
-Para la siguiente conversación (fase 2A: runner y piloto) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere integrar streaming, telemetría, evaluación generativa y control de caché. El catálogo de esta sesión incluye esa versión y esfuerzo, y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), consultada el 14 de octubre de 2026, confirma el nombre y `medium`. Es una recomendación práctica, no una evaluación propia ni una garantía de acceso en otras cuentas.
+Para la siguiente conversación (fase 2B: referencia reducida) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere generalizar runner/validación, fijar muestras nuevas y controlar longitudes, orden y memoria en Windows. El catálogo de esta sesión incluye esa versión y esfuerzo, y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), consultada el 14 de octubre de 2026, confirma nombre y `medium`. Recomendación práctica, sin garantía de acceso en otras cuentas.
 
 ## Organización prevista
 

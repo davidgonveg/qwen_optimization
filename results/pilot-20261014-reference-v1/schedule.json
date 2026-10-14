@@ -1,0 +1,262 @@
+[
+  {
+    "kind": "compatibility",
+    "id": "compatibility-nonresident",
+    "logprobs": true,
+    "prompt": "Responde únicamente: listo",
+    "condition": "nonresident-disk-cache-uncontrolled"
+  },
+  {
+    "task": {
+      "id": "q01",
+      "area": "calculo",
+      "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+      "scorer": "json_exact",
+      "expected": {
+        "libros_por_estante": 7,
+        "sobrantes": 3
+      }
+    },
+    "kind": "quality",
+    "id": "q01",
+    "prompt": "Una biblioteca recibe 7 cajas de 9 libros y presta 18 libros. Reparte los restantes por igual entre 6 estantes. Devuelve solo JSON con las claves libros_por_estante y sobrantes, con valores enteros.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q02",
+      "area": "calculo",
+      "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+      "scorer": "json_exact",
+      "expected": {
+        "total_euros": 74
+      }
+    },
+    "kind": "quality",
+    "id": "q02",
+    "prompt": "Una entrada cuesta 80 euros. Se aplica un descuento del 15% y después se suman 6 euros de gastos. Devuelve solo JSON con la clave total_euros y un valor numérico.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q03",
+      "area": "calculo",
+      "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+      "scorer": "exact",
+      "expected": "11:25"
+    },
+    "kind": "quality",
+    "id": "q03",
+    "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q04",
+      "area": "logica",
+      "prompt": "Todos los objetos rojos de esta caja son de madera. El objeto A es rojo y está en esta caja. ¿Se deduce que A es de madera? Responde solo sí o no, en minúsculas.",
+      "scorer": "exact",
+      "expected": "sí"
+    },
+    "kind": "quality",
+    "id": "q04",
+    "prompt": "Todos los objetos rojos de esta caja son de madera. El objeto A es rojo y está en esta caja. ¿Se deduce que A es de madera? Responde solo sí o no, en minúsculas.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q05",
+      "area": "instrucciones",
+      "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+      "scorer": "json_exact",
+      "expected": {
+        "idioma": "español",
+        "numeros": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "kind": "quality",
+    "id": "q05",
+    "prompt": "Devuelve solo JSON válido, sin Markdown, con exactamente dos claves: idioma con valor español y numeros con la lista [2,4,6].",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q06",
+      "area": "extraccion",
+      "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+      "scorer": "json_exact",
+      "expected": {
+        "nombre": "Luis",
+        "ciudad": "Cádiz"
+      }
+    },
+    "kind": "quality",
+    "id": "q06",
+    "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q07",
+      "area": "instrucciones",
+      "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+      "scorer": "exact",
+      "expected": "-3,0,8,14"
+    },
+    "kind": "quality",
+    "id": "q07",
+    "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q08",
+      "area": "espanol",
+      "prompt": "Resume en español, en una sola frase de un máximo de 30 palabras: El taller del barrio abre de lunes a viernes a las ocho. Los sábados abre a las diez. Los domingos permanece cerrado. Conserva los tres datos de horario.",
+      "scorer": "manual",
+      "rubric": [
+        "Una sola frase en español, máximo 30 palabras",
+        "Conserva lunes a viernes a las ocho",
+        "Conserva sábado a las diez y domingo cerrado"
+      ]
+    },
+    "kind": "quality",
+    "id": "q08",
+    "prompt": "Resume en español, en una sola frase de un máximo de 30 palabras: El taller del barrio abre de lunes a viernes a las ocho. Los sábados abre a las diez. Los domingos permanece cerrado. Conserva los tres datos de horario.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q09",
+      "area": "espanol",
+      "prompt": "Explica en español la diferencia entre RAM y almacenamiento a alguien sin conocimientos técnicos. Usa exactamente dos frases y una analogía con una mesa y un armario. Máximo 60 palabras.",
+      "scorer": "manual",
+      "rubric": [
+        "Exactamente dos frases en español y máximo 60 palabras",
+        "RAM como espacio temporal de trabajo, almacenamiento como conservación de datos",
+        "Analogía coherente con mesa y armario, sin decir que RAM conserva datos al apagar"
+      ]
+    },
+    "kind": "quality",
+    "id": "q09",
+    "prompt": "Explica en español la diferencia entre RAM y almacenamiento a alguien sin conocimientos técnicos. Usa exactamente dos frases y una analogía con una mesa y un armario. Máximo 60 palabras.",
+    "condition": "resident-quality"
+  },
+  {
+    "task": {
+      "id": "q10",
+      "area": "codigo_estatico",
+      "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+      "scorer": "manual",
+      "rubric": [
+        "Función con nombre y argumento pedidos, devuelve un conteo",
+        "Cuenta estrictamente > 0, no incluye cero ni negativos",
+        "No modifica entrada, código legible y sin Markdown; revisión estática, nunca ejecución"
+      ]
+    },
+    "kind": "quality",
+    "id": "q10",
+    "prompt": "Escribe una función Python contar_positivos(valores) que devuelva cuántos elementos son mayores que cero sin modificar la lista. Devuelve solo el código, sin Markdown ni explicaciones.",
+    "condition": "resident-quality"
+  },
+  {
+    "id": "resident-variable-prefix-0",
+    "condition": "resident-variable-prefix",
+    "repetition": 0,
+    "prompt": "Identificador de medición: A001.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "warmup",
+    "nonce": "A001"
+  },
+  {
+    "id": "resident-variable-prefix-1",
+    "condition": "resident-variable-prefix",
+    "repetition": 1,
+    "prompt": "Identificador de medición: B002.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "B002"
+  },
+  {
+    "id": "resident-variable-prefix-2",
+    "condition": "resident-variable-prefix",
+    "repetition": 2,
+    "prompt": "Identificador de medición: C003.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "C003"
+  },
+  {
+    "id": "resident-variable-prefix-3",
+    "condition": "resident-variable-prefix",
+    "repetition": 3,
+    "prompt": "Identificador de medición: D004.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "D004"
+  },
+  {
+    "id": "resident-variable-prefix-4",
+    "condition": "resident-variable-prefix",
+    "repetition": 4,
+    "prompt": "Identificador de medición: E005.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "E005"
+  },
+  {
+    "id": "resident-variable-prefix-5",
+    "condition": "resident-variable-prefix",
+    "repetition": 5,
+    "prompt": "Identificador de medición: F006.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "F006"
+  },
+  {
+    "id": "resident-repeated-prefix-0",
+    "condition": "resident-repeated-prefix",
+    "repetition": 0,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "warmup",
+    "nonce": "R000"
+  },
+  {
+    "id": "resident-repeated-prefix-1",
+    "condition": "resident-repeated-prefix",
+    "repetition": 1,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "R000"
+  },
+  {
+    "id": "resident-repeated-prefix-2",
+    "condition": "resident-repeated-prefix",
+    "repetition": 2,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "R000"
+  },
+  {
+    "id": "resident-repeated-prefix-3",
+    "condition": "resident-repeated-prefix",
+    "repetition": 3,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "R000"
+  },
+  {
+    "id": "resident-repeated-prefix-4",
+    "condition": "resident-repeated-prefix",
+    "repetition": 4,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "R000"
+  },
+  {
+    "id": "resident-repeated-prefix-5",
+    "condition": "resident-repeated-prefix",
+    "repetition": 5,
+    "prompt": "Identificador de medición: R000.\nIgnora el identificador anterior. Escribe exactamente una frase de entre 15 y 20 palabras en español que explique para qué sirve una biblioteca. No escribas nada más.",
+    "kind": "performance",
+    "nonce": "R000"
+  }
+]

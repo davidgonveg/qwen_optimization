@@ -1,0 +1,19 @@
+{
+  "result": "pass",
+  "requests_checked": 23,
+  "quality_scores_recomputed": 10,
+  "checked_at": "2026-10-14T17:38:39.2847128Z",
+  "telemetry_samples": 248,
+  "checks": [
+    "options unchanged",
+    "response equals concatenated stream",
+    "monotonic timestamps",
+    "first text timings",
+    "final matches raw stream",
+    "quality extraction",
+    "5 repetitions per condition",
+    "JSON parse",
+    "summary empty errors and nearest-rank percentiles when present",
+    "manual review response hashes when present"
+  ]
+}

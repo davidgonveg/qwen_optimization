@@ -1,0 +1,1 @@
+La RAM es como tu mesa de trabajo, donde colocas los documentos que estás usando ahora mismo para acceder a ellos rápidamente. El almacenamiento funciona como el armario, guardando todo lo demás de forma segura pero más lenta hasta que decidas sacarlo a la mesa para trabajar con él.

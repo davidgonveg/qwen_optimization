@@ -1,0 +1,66 @@
+{
+  "reviewed_at": "2026-10-14T17:29:26.1860313Z",
+  "method": "Aplicación de rúbrica fijada antes de generar; código leído como texto, jamás ejecutado",
+  "criteria_total": 9,
+  "reviewer": "Codex, lectura asistida en esta sesión; no revisión humana independiente",
+  "tasks": [
+    {
+      "criteria": [
+        {
+          "pass": true,
+          "evidence": "Una frase en español, debajo del límite de 30 palabras"
+        },
+        {
+          "pass": true,
+          "evidence": "de lunes a viernes a las ocho"
+        },
+        {
+          "pass": true,
+          "evidence": "los sábados a las diez ... cerrado los domingos"
+        }
+      ],
+      "id": "q08",
+      "response_sha256": "a038fb960a262ca4d59ab7f8fbed35a6147b0aff63e7befc67151da485da8ee7",
+      "word_count": 20
+    },
+    {
+      "criteria": [
+        {
+          "pass": true,
+          "evidence": "Dos frases en español, debajo del límite de 60 palabras"
+        },
+        {
+          "pass": true,
+          "evidence": "documentos que estás usando ahora mismo ... guardando todo lo demás ... hasta que decidas sacarlo; temporalidad implícita, sin explicar pérdida al apagar"
+        },
+        {
+          "pass": true,
+          "evidence": "mesa de trabajo para RAM y armario para almacenamiento; no afirma conservación de RAM al apagar"
+        }
+      ],
+      "id": "q09",
+      "response_sha256": "d03c4b9ca543fe7ff52f92c48df424c67632d2e8c596da69f6096187f1b650d0",
+      "word_count": 49
+    },
+    {
+      "executed": false,
+      "id": "q10",
+      "response_sha256": "95bcc4dc83c6d7655ddb24f9a04438069d514ae945d1b7e2a990072794301294",
+      "criteria": [
+        {
+          "pass": true,
+          "evidence": "def contar_positivos(valores): return sum(...)"
+        },
+        {
+          "pass": true,
+          "evidence": "if v > 0 excluye cero y negativos"
+        },
+        {
+          "pass": true,
+          "evidence": "Itera sin asignaciones ni mutación de entrada; sin Markdown"
+        }
+      ]
+    }
+  ],
+  "criteria_passed": 9
+}

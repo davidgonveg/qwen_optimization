@@ -1,0 +1,95 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7029396,
+  "started_at": "2026-10-14T17:27:38.2416386Z",
+  "client_total_seconds": 3.3622528,
+  "first_chunk_seconds": 1.7029396,
+  "ended_at": "2026-10-14T17:27:41.6054984Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:27:41.6030791Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3361791900,
+    "load_duration": 20202800,
+    "prompt_eval_count": 47,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1558007000,
+    "eval_count": 6,
+    "eval_duration": 1660459000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:38.1378284+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q03",
+      "area": "calculo",
+      "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+      "scorer": "exact",
+      "expected": "11:25"
+    },
+    "kind": "quality",
+    "id": "q03",
+    "prompt": "Un autobús sale a las 09:35 y tarda 1 hora y 50 minutos. Devuelve únicamente la hora de llegada en formato HH:MM.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 30.16674507880902,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7029396,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:41.6035837+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 3.6134586882301822,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 5
+}

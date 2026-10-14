@@ -1,0 +1,95 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7844433,
+  "started_at": "2026-10-14T17:27:56.5530347Z",
+  "client_total_seconds": 4.3435444,
+  "first_chunk_seconds": 1.7844433,
+  "ended_at": "2026-10-14T17:28:00.8980284Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:28:00.8958506Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 4342696900,
+    "load_duration": 33179500,
+    "prompt_eval_count": 46,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1637883000,
+    "eval_count": 10,
+    "eval_duration": 2559403000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:56.4473436+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q07",
+      "area": "instrucciones",
+      "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+      "scorer": "exact",
+      "expected": "-3,0,8,14"
+    },
+    "kind": "quality",
+    "id": "q07",
+    "prompt": "Ordena de menor a mayor 14, -3, 8, 0. Responde únicamente con los números separados por comas, sin espacios.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 28.085034156896434,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7844433,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:33:00.8958506+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 3.9071611621929017,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 9
+}

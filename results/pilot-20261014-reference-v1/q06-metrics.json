@@ -1,0 +1,98 @@
+{
+  "truncated": false,
+  "first_content_seconds": 1.7896177,
+  "started_at": "2026-10-14T17:27:51.3052018Z",
+  "client_total_seconds": 5.141785,
+  "first_chunk_seconds": 1.7896177,
+  "ended_at": "2026-10-14T17:27:56.4482601Z",
+  "error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T17:27:56.4458358Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 5141027900,
+    "load_duration": 11335900,
+    "prompt_eval_count": 57,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1666782000,
+    "eval_count": 13,
+    "eval_duration": 3353526000
+  },
+  "thinking_characters": 0,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:51.1460831+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "sample": {
+    "task": {
+      "id": "q06",
+      "area": "extraccion",
+      "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+      "scorer": "json_exact",
+      "expected": {
+        "nombre": "Luis",
+        "ciudad": "Cádiz"
+      }
+    },
+    "kind": "quality",
+    "id": "q06",
+    "prompt": "Lee: Marta tiene 31 años y vive en León. Luis tiene 28 años y vive en Cádiz. Devuelve solo JSON con nombre y ciudad de la persona de menor edad. No añadas claves.",
+    "condition": "resident-quality"
+  },
+  "uncached_prompt_tokens_per_second": 34.19763352376015,
+  "ps_after_error": null,
+  "ttft_seconds": 1.7896177,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T19:32:56.4473436+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "tokens_per_second": 3.8765168363090075,
+  "logprobs_observed": false,
+  "first_thinking_seconds": null,
+  "content_characters": 34
+}

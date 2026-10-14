@@ -1,0 +1,2 @@
+def contar_positivos(valores):
+    return sum(1 for v in valores if v > 0)
