@@ -1,0 +1,5 @@
+{
+  "result": "pass",
+  "cancelled": true,
+  "test": "live monitor with synthetic RAM threshold, no inference"
+}

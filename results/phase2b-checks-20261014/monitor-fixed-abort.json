@@ -1,0 +1,50 @@
+{
+  "at_utc": "2026-10-14T17:59:16.7738747Z",
+  "sample": {
+    "os": {
+      "TotalVisibleMemorySize": 33419336,
+      "FreePhysicalMemory": 18813264,
+      "TotalVirtualMemorySize": 45477960,
+      "FreeVirtualMemory": 24031448
+    },
+    "collection_seconds": 0.4399907,
+    "gpu": {
+      "memory_used_MiB": "1705",
+      "memory_total_MiB": "12288",
+      "utilization_percent": "7",
+      "temperature_C": "55",
+      "power_W": "20.81"
+    },
+    "errors": [],
+    "at_utc": "2026-10-14T17:59:16.7738747Z",
+    "processes": [
+      {
+        "ProcessId": 6688,
+        "ParentProcessId": 38764,
+        "Name": "pwsh.exe",
+        "WorkingSetSize": 103837696,
+        "PrivatePageCount": 37556224,
+        "KernelModeTime": 2812500,
+        "UserModeTime": 4843750
+      },
+      {
+        "ProcessId": 19720,
+        "ParentProcessId": 6688,
+        "Name": "conhost.exe",
+        "WorkingSetSize": 7979008,
+        "PrivatePageCount": 1269760,
+        "KernelModeTime": 0,
+        "UserModeTime": 0
+      }
+    ]
+  },
+  "policy": {
+    "max_consecutive_sensor_errors": 2,
+    "max_gpu_temperature_C": 80,
+    "min_free_ram_KiB": 999999999,
+    "min_free_vram_MiB": 384
+  },
+  "reasons": [
+    "ram_pressure"
+  ]
+}

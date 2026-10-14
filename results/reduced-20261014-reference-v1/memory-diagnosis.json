@@ -1,0 +1,227 @@
+{
+  "recovery_pending": "Review official pinned runtime source; consider separate sessions for performance/sustained with explicit cache/thermal state, no changes to reference; new protocol/run IDs",
+  "pressure_event": {
+    "at_utc": "2026-10-14T18:03:11.6156876Z",
+    "sample": {
+      "at_utc": "2026-10-14T18:03:11.6156876Z",
+      "collection_seconds": 0.6419448,
+      "processes": [
+        {
+          "ProcessId": 31280,
+          "ParentProcessId": 36916,
+          "Name": "ollama.exe",
+          "WorkingSetSize": 73191424,
+          "PrivatePageCount": 104062976,
+          "KernelModeTime": 11093750,
+          "UserModeTime": 5468750
+        },
+        {
+          "ProcessId": 26796,
+          "ParentProcessId": 31280,
+          "Name": "conhost.exe",
+          "WorkingSetSize": 13475840,
+          "PrivatePageCount": 2060288,
+          "KernelModeTime": 312500,
+          "UserModeTime": 156250
+        },
+        {
+          "ProcessId": 3252,
+          "ParentProcessId": 31280,
+          "Name": "llama-server.exe",
+          "WorkingSetSize": 18908143616,
+          "PrivatePageCount": 30626082816,
+          "KernelModeTime": 1255312500,
+          "UserModeTime": 6178906250
+        },
+        {
+          "ProcessId": 12600,
+          "ParentProcessId": 3252,
+          "Name": "conhost.exe",
+          "WorkingSetSize": 7774208,
+          "PrivatePageCount": 1220608,
+          "KernelModeTime": 0,
+          "UserModeTime": 0
+        }
+      ],
+      "os": {
+        "TotalVisibleMemorySize": 33419336,
+        "FreePhysicalMemory": 1431832,
+        "TotalVirtualMemorySize": 52905556,
+        "FreeVirtualMemory": 1035440
+      },
+      "errors": [],
+      "gpu": {
+        "memory_used_MiB": "11386",
+        "memory_total_MiB": "12288",
+        "utilization_percent": "89",
+        "temperature_C": "58",
+        "power_W": "99.11"
+      }
+    },
+    "reasons": [
+      "ram_pressure"
+    ],
+    "policy": {
+      "min_free_ram_KiB": 1572864,
+      "min_free_vram_MiB": 384,
+      "max_gpu_temperature_C": 80,
+      "max_consecutive_sensor_errors": 2
+    }
+  },
+  "cache_states": [
+    {
+      "line": 376,
+      "prompts": 0,
+      "cache_MiB": 0.0
+    },
+    {
+      "line": 406,
+      "prompts": 1,
+      "cache_MiB": 300.566
+    },
+    {
+      "line": 441,
+      "prompts": 2,
+      "cache_MiB": 604.609
+    },
+    {
+      "line": 478,
+      "prompts": 3,
+      "cache_MiB": 907.638
+    },
+    {
+      "line": 517,
+      "prompts": 4,
+      "cache_MiB": 1210.867
+    },
+    {
+      "line": 558,
+      "prompts": 5,
+      "cache_MiB": 1513.893
+    },
+    {
+      "line": 601,
+      "prompts": 6,
+      "cache_MiB": 1817.607
+    },
+    {
+      "line": 646,
+      "prompts": 7,
+      "cache_MiB": 2121.133
+    },
+    {
+      "line": 693,
+      "prompts": 8,
+      "cache_MiB": 2424.026
+    },
+    {
+      "line": 742,
+      "prompts": 9,
+      "cache_MiB": 2727.177
+    },
+    {
+      "line": 793,
+      "prompts": 10,
+      "cache_MiB": 3029.789
+    },
+    {
+      "line": 846,
+      "prompts": 11,
+      "cache_MiB": 3334.585
+    },
+    {
+      "line": 901,
+      "prompts": 12,
+      "cache_MiB": 3639.515
+    },
+    {
+      "line": 958,
+      "prompts": 13,
+      "cache_MiB": 3944.593
+    },
+    {
+      "line": 1017,
+      "prompts": 14,
+      "cache_MiB": 4248.229
+    },
+    {
+      "line": 1078,
+      "prompts": 15,
+      "cache_MiB": 4551.458
+    },
+    {
+      "line": 1141,
+      "prompts": 16,
+      "cache_MiB": 4855.723
+    },
+    {
+      "line": 1206,
+      "prompts": 17,
+      "cache_MiB": 5158.67
+    },
+    {
+      "line": 1273,
+      "prompts": 18,
+      "cache_MiB": 5461.896
+    },
+    {
+      "line": 1342,
+      "prompts": 19,
+      "cache_MiB": 5764.476
+    },
+    {
+      "line": 1413,
+      "prompts": 20,
+      "cache_MiB": 6069.667
+    },
+    {
+      "line": 1486,
+      "prompts": 21,
+      "cache_MiB": 6375.417
+    },
+    {
+      "line": 1561,
+      "prompts": 22,
+      "cache_MiB": 6681.75
+    },
+    {
+      "line": 1638,
+      "prompts": 23,
+      "cache_MiB": 6987.278
+    },
+    {
+      "line": 1717,
+      "prompts": 24,
+      "cache_MiB": 7296.216
+    },
+    {
+      "line": 1800,
+      "prompts": 25,
+      "cache_MiB": 7781.834
+    },
+    {
+      "line": 1886,
+      "prompts": 25,
+      "cache_MiB": 7939.859
+    },
+    {
+      "line": 1972,
+      "prompts": 25,
+      "cache_MiB": 8121.435
+    }
+  ],
+  "ram_free_GiB_at_stop": 1.3655014038085938,
+  "gpu_peak_MiB": 11391.0,
+  "cache_peak_MiB": 8121.435,
+  "not_established": [
+    "memory leak",
+    "paging measured",
+    "causality from input length alone",
+    "viability of lowering cache"
+  ],
+  "tree_resident_peak_GiB": 17.69753646850586,
+  "scope": "Read-only diagnosis from actual run; no parameter change or retry",
+  "tree_private_committed_peak_GiB": 28.62273406982422,
+  "observed_cache_limit_MiB": 8192,
+  "hypothesis": "Accumulating RAM prompt cache/checkpoints contributes to rising memory; other buffers/processes not isolated"
+}

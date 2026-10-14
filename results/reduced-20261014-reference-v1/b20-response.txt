@@ -1,0 +1,1 @@
+Al copiar, creas una réplica independiente mientras el original permanece intacto en su ubicación inicial. En cambio, al mover, trasladas el archivo a un nuevo destino y el original desaparece del sitio anterior.

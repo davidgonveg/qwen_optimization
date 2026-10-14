@@ -1,0 +1,99 @@
+{
+  "first_content_seconds": 1.7372912,
+  "tokens_per_second": 3.700085499725685,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:02:41.5577819Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 12547833800,
+    "load_duration": 9110400,
+    "prompt_eval_count": 64,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1627624000,
+    "eval_count": 40,
+    "eval_duration": 10810561000
+  },
+  "started_at": "2026-10-14T18:02:29.0103391Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:07:41.5587896+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.7372912,
+  "client_total_seconds": 12.5486826,
+  "first_chunk_seconds": 1.7372912,
+  "content_characters": 163,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 39.32112084854979,
+  "sample": {
+    "id": "b21",
+    "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b21",
+      "area": "instrucciones",
+      "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+      "scorer": "manual",
+      "rubric": [
+        "Dos frases, tono formal, hasta 45 palabras",
+        "Comunica mañana, cierre a las 17 y mantenimiento",
+        "Pide devolución antes de las 17 sin inventar datos ni otras instrucciones"
+      ]
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:07:28.9901978+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:02:41.5610615Z",
+  "logprobs_observed": false
+}

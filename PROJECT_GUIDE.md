@@ -120,6 +120,16 @@ Prefijos idénticos reutilizaron 57/61 tokens; variables comunicaron cero. Compr
 
 RAM libre mínima 3,02 GiB y margen VRAM 777 MiB: medir antes de ampliar entradas, sin cambiar referencia automáticamente. Energía GPU integra potencia del dispositivo, sin restar reposo, documentando cobertura y procesos ajenos. Parada propia espera proceso/puerto y protege ante nuevo propietario.
 
+### Fase 2B ejecutada parcialmente el 14 de octubre de 2026
+
+Suite nueva de 22 tareas originales, protocolo `benchmarks/PROTOCOL-2B.md`, configuración `configs/reduced-v1.json` y runner configurable conservando el comando del piloto. Evidencia `results/reduced-20261014-reference-v1`, informe `reports/phase2b-20261014.md`. Calidad completa: 15/18 estrictas y 10/12 criterios mediante lectura asistida, pendiente humana independiente. No comparar muestras distintas como mejora del modelo.
+
+Entradas efectivas 135/519 tokens, calentamientos completos; solo una medida válida por longitud antes de cancelar por RAM libre 1,366 GiB <umbral previo 1,5. No se completaron repeticiones ni se inició sostenido. **Fase 2B y fase 2 siguen abiertas.** Un validador de parciales comprueba integridad, nunca demuestra cierre. Datos no observados en null; resultados anteriores intactos.
+
+La memoria de la sesión incluye caché de prompts/checkpoints persistentes: log con límite 8192 MiB y hasta 8121,435 MiB acumulados. No limitar estimaciones a pesos/contexto de una sola petición. Diagnosticar con fuentes/logs y distinguir crecimiento esperado de fuga. No cambiar esa caché para rescatar silenciosamente la referencia. Sesiones separadas por bloque pueden ser una recuperación metodológica, pero exigen protocolo/versionado previo, calentamientos y estado de caché/temperatura explícitos; no mezclarlas con sesiones monolíticas como condiciones equivalentes.
+
+Paradas conservadoras fijadas por perfil antes de ejecutar, monitor listo y cancelación enlazada al cliente; detener solo instancia propia. Una parada conserva evidencia y pendientes prioritarios. No bajar umbrales después de observar presión ni inferir OOM/paginación/throttling a partir de memoria comprometida.
+
 ## Fase 3 — Optimizar, más adelante
 
 Esta fase queda fuera del encargo actual y no se inicia automáticamente. Comparar cada variante con la referencia conservada:
@@ -136,7 +146,7 @@ Para cada experimento guardar hipótesis, única variable principal, configuraci
 
 Cada cierre debe recomendar en `NEXT_PROMPT.md` un modelo, su versión y esfuerzo de razonamiento, con una razón relacionada con el encargo. Priorizar eficiencia sin sacrificar la calidad necesaria: Luna para tareas acotadas, Sol para implementación e integración y Astra para investigación o diagnóstico especialmente difíciles. Revisar la recomendación en cada conversación; no asignar un modelo fijo a todas las fases.
 
-Para la siguiente conversación (fase 2B: referencia reducida) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere generalizar runner/validación, fijar muestras nuevas y controlar longitudes, orden y memoria en Windows. El catálogo de esta sesión incluye esa versión y esfuerzo, y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), consultada el 14 de octubre de 2026, confirma nombre y `medium`. Recomendación práctica, sin garantía de acceso en otras cuentas.
+Para la siguiente conversación (continuación fase 2B: diagnóstico y recuperación) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere investigar memoria/cache y preparar sesiones controladas sin alterar pesos/runtime. Luna bastaría para un cierre documental rutinario, pero ahora hay un bloqueo técnico con varias dependencias. El catálogo de sesión incluye esa versión/esfuerzo y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), reconsultada el 14 de octubre, confirma nombre y medium. Sin cambio automático ni garantía de acceso.
 
 ## Organización prevista
 

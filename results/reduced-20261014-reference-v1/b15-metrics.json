@@ -1,0 +1,102 @@
+{
+  "first_content_seconds": 1.8908657,
+  "tokens_per_second": 5.6197226686241395,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:01:51.0948457Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 7051386100,
+    "load_duration": 14138700,
+    "prompt_eval_count": 45,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1718684000,
+    "eval_count": 29,
+    "eval_duration": 5160397000
+  },
+  "started_at": "2026-10-14T18:01:44.0437104Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:51.0948457+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.8908657,
+  "client_total_seconds": 7.0516038,
+  "first_chunk_seconds": 1.8908657,
+  "content_characters": 56,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 26.182823602244508,
+  "sample": {
+    "id": "b15",
+    "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b15",
+      "area": "instrucciones",
+      "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+      "scorer": "json_exact",
+      "expected": {
+        "activo": false,
+        "etiqueta": "",
+        "ids": [
+          5,
+          1
+        ]
+      }
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:44.0018311+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:01:51.0964952Z",
+  "logprobs_observed": false
+}

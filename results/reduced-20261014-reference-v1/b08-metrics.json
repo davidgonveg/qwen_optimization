@@ -1,0 +1,95 @@
+{
+  "first_content_seconds": 1.8419733,
+  "tokens_per_second": 4.585173611867346,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:01:17.2137447Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3584037600,
+    "load_duration": 10973500,
+    "prompt_eval_count": 49,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1680786000,
+    "eval_count": 8,
+    "eval_duration": 1744754000
+  },
+  "started_at": "2026-10-14T18:01:13.6299901Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:17.2144764+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.8419733,
+  "client_total_seconds": 3.58577,
+  "first_chunk_seconds": 1.8419733,
+  "content_characters": 13,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 29.153027214648386,
+  "sample": {
+    "id": "b08",
+    "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b08",
+      "area": "logica",
+      "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+      "scorer": "exact",
+      "expected": "Eva,Raúl,Sara"
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:13.6066307+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:01:17.2170229Z",
+  "logprobs_observed": false
+}

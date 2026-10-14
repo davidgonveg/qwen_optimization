@@ -46,7 +46,7 @@ function Test-JsonValue($Actual, $Expected) {
     return $Actual -eq $Expected
 }
 
-function Invoke-BenchmarkRequest($Client, $Config, [string]$OutDir, $Sample, $Request) {
+function Invoke-BenchmarkRequest($Client, $Config, [string]$OutDir, $Sample, $Request, $SafetyCancellation=$null, [double]$TimeoutSeconds=0) {
     $id = $Sample.id
     $requestJson = ConvertTo-Json -InputObject $Request -Depth 15
     $requestJson | Set-Content (Join-Path $OutDir "$id-request.json") -Encoding utf8
@@ -55,7 +55,9 @@ function Invoke-BenchmarkRequest($Client, $Config, [string]$OutDir, $Sample, $Re
     $writer.AutoFlush = $true
     $httpRequest = [Net.Http.HttpRequestMessage]::new([Net.Http.HttpMethod]::Post, "$($Config.base_url)/api/chat")
     $httpRequest.Content = [Net.Http.StringContent]::new($requestJson,[Text.Encoding]::UTF8,'application/json')
-    $cancel = [Threading.CancellationTokenSource]::new([TimeSpan]::FromSeconds($Config.request_timeout_seconds))
+    if ($TimeoutSeconds -le 0) { $TimeoutSeconds=$Config.request_timeout_seconds }
+    $cancel = if ($SafetyCancellation) { [Threading.CancellationTokenSource]::CreateLinkedTokenSource($SafetyCancellation.Token) } else { [Threading.CancellationTokenSource]::new() }
+    $cancel.CancelAfter([TimeSpan]::FromSeconds($TimeoutSeconds))
     $content = [Text.StringBuilder]::new(); $thinking = [Text.StringBuilder]::new()
     $firstChunk=$null; $firstContent=$null; $firstThinking=$null; $final=$null; $errorText=$null
     $response=$null; $reader=$null; $logprobsObserved=$false

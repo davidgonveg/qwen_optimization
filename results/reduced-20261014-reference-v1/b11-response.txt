@@ -1,0 +1,4 @@
+{
+  "dia": "martes",
+  "sala": 5
+}

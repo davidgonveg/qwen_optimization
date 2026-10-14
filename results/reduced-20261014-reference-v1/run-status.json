@@ -1,0 +1,11 @@
+{
+  "fatal_error": "Petición fallida: input-long-002. No se continúa automáticamente.",
+  "finished_at": "2026-10-14T18:03:12.6624889Z",
+  "requests_completed": 28,
+  "complete": false,
+  "sustained": null,
+  "safety_cancelled": true,
+  "telemetry_state": "Completed",
+  "expected_requests": 37,
+  "fixed_requests": 37
+}

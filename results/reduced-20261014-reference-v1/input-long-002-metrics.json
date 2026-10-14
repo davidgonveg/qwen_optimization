@@ -1,0 +1,74 @@
+{
+  "first_content_seconds": null,
+  "tokens_per_second": null,
+  "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+  "ps_after_error": null,
+  "final": null,
+  "started_at": "2026-10-14T18:03:09.4351453Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:08:12.2632941+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": null,
+  "client_total_seconds": 2.8341987,
+  "first_chunk_seconds": null,
+  "content_characters": 0,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": null,
+  "sample": {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-002",
+    "repetition": 2,
+    "id": "input-long-002"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:08:09.3346889+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:03:12.2727629Z",
+  "logprobs_observed": false
+}

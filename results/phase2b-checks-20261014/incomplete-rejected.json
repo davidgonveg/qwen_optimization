@@ -1,0 +1,5 @@
+{
+  "observed_error": "Ejecución incompleta: no constituye referencia cerrada",
+  "result": "pass",
+  "check": "Complete validation rejects aborted run"
+}

@@ -1,0 +1,4 @@
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:03.889846Z\",\"message\":{\"role\":\"assistant\",\"content\":\"4\"},\"done\":false}","client_elapsed_seconds":1.8133954}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:04.7015552Z\",\"message\":{\"role\":\"assistant\",\"content\":\"5\"},\"done\":false}","client_elapsed_seconds":2.6335498}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:04.7021947Z\",\"message\":{\"role\":\"assistant\",\"content\":\"0\"},\"done\":false}","client_elapsed_seconds":2.6340308}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:04.7021947Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":2622608300,\"load_duration\":11247800,\"prompt_eval_count\":51,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":1644966000,\"eval_count\":4,\"eval_duration\":810258000}","client_elapsed_seconds":2.6343044}

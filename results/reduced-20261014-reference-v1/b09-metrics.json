@@ -1,0 +1,95 @@
+{
+  "first_content_seconds": 1.888808,
+  "tokens_per_second": 2.43673623548619,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:01:19.9386525Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2689951800,
+    "load_duration": 10514400,
+    "prompt_eval_count": 47,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1713181000,
+    "eval_count": 2,
+    "eval_duration": 820770000
+  },
+  "started_at": "2026-10-14T18:01:17.2481312Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:19.9391593+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.888808,
+  "client_total_seconds": 2.6917206,
+  "first_chunk_seconds": 1.888808,
+  "content_characters": 2,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 27.43434581634982,
+  "sample": {
+    "id": "b09",
+    "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b09",
+      "area": "logica",
+      "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+      "scorer": "exact",
+      "expected": "no"
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:17.2144764+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:01:19.9410519Z",
+  "logprobs_observed": false
+}

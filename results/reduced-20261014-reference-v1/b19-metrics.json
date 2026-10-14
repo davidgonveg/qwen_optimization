@@ -1,0 +1,99 @@
+{
+  "first_content_seconds": 1.8006373,
+  "tokens_per_second": 4.253861613033696,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:02:09.2841537Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 7676891000,
+    "load_duration": 11026400,
+    "prompt_eval_count": 61,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1634520000,
+    "eval_count": 25,
+    "eval_duration": 5877013000
+  },
+  "started_at": "2026-10-14T18:02:01.6069500Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:07:09.2946239+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.8006373,
+  "client_total_seconds": 7.6782798,
+  "first_chunk_seconds": 1.8006373,
+  "content_characters": 95,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 37.31982478036365,
+  "sample": {
+    "id": "b19",
+    "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b19",
+      "area": "espanol",
+      "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+      "scorer": "manual",
+      "rubric": [
+        "Una sola frase en español y hasta 25 palabras",
+        "Conserva martes y jueves, de 16 a 20",
+        "Conserva gratuidad y reserva por teléfono sin añadir datos"
+      ]
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:07:01.5569549+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:02:09.2865051Z",
+  "logprobs_observed": false
+}

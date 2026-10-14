@@ -1,0 +1,11 @@
+{
+  "result": "pass",
+  "phase_complete": false,
+  "checks": [
+    "partial status/summary counts",
+    "real safety event replay",
+    "unknown failed metrics remain null",
+    "own port free/global identities unchanged",
+    "definition copies match pre-run hashes"
+  ]
+}

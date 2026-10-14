@@ -1,0 +1,95 @@
+{
+  "first_content_seconds": 1.8133954,
+  "tokens_per_second": 4.936699174830733,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:01:04.7021947Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2622608300,
+    "load_duration": 11247800,
+    "prompt_eval_count": 51,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1644966000,
+    "eval_count": 4,
+    "eval_duration": 810258000
+  },
+  "started_at": "2026-10-14T18:01:02.0776964Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:04.7115226+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.8133954,
+  "client_total_seconds": 2.6346554,
+  "first_chunk_seconds": 1.8133954,
+  "content_characters": 3,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 31.003680319228483,
+  "sample": {
+    "id": "b04",
+    "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b04",
+      "area": "calculo",
+      "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+      "scorer": "exact",
+      "expected": "450"
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:02.0120217+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:01:04.7142916Z",
+  "logprobs_observed": false
+}

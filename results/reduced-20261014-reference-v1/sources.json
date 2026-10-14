@@ -1,0 +1,20 @@
+{
+  "model_identity_sources": "Conservadas en results/phase1-20261014/sources.json",
+  "new_external_datasets": false,
+  "consulted_on": "2026-10-14",
+  "new_packages": false,
+  "sources": [
+    {
+      "purpose": "Métricas y streaming chat; salida generativa, sin loglikelihood arbitraria",
+      "url": "https://docs.ollama.com/api/chat"
+    },
+    {
+      "purpose": "API fijada del runtime local",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/v0.40.3/api/types.go"
+    },
+    {
+      "purpose": "Nombre y esfuerzo medium para continuidad",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+    }
+  ]
+}

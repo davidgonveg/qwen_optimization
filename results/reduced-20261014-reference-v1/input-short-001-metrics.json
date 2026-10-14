@@ -1,0 +1,90 @@
+{
+  "first_content_seconds": 2.1817652,
+  "tokens_per_second": 5.045625064647071,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:03:05.348389Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2939996700,
+    "load_duration": 10806100,
+    "prompt_eval_count": 135,
+    "prompt_eval_cached_count": 7,
+    "prompt_eval_duration": 1946351000,
+    "eval_count": 4,
+    "eval_duration": 792766000
+  },
+  "started_at": "2026-10-14T18:03:02.4082327Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:08:05.3489591+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 2.1817652,
+  "client_total_seconds": 2.9419919,
+  "first_chunk_seconds": 2.1817652,
+  "content_characters": 6,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 65.76408880001603,
+  "sample": {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-001",
+    "repetition": 1,
+    "id": "input-short-001"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:08:02.3843629+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:03:05.3517326Z",
+  "logprobs_observed": false
+}

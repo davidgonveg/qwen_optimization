@@ -1,0 +1,7 @@
+{
+  "no_parameter_change": true,
+  "limitation": "master is mutable, not pinned shipped revision; actual 8192/8121MiB is evidenced by local log",
+  "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+  "consulted_on": "2026-10-14",
+  "purpose": "General primary documentation of cache-ram and checkpoints"
+}

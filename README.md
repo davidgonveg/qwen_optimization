@@ -52,3 +52,25 @@ El runner envía 23 peticiones secuenciales: compatibilidad/carga, diez tareas d
 La carga no residente conserva la caché de disco del sistema. Los bloques de prefijo variable y repetido son intenciones de caché: consultar `prompt_eval_cached_count` antes de afirmar reutilización. El p95 con cinco mediciones es el máximo, solo orientativo. Las tareas personales son de desarrollo; la evaluación final deberá usar muestras nuevas. El resumen separa puntuación automática, revisión asistida y recursos de la GPU completa. No mide energía del PC ni paginación.
 
 Resultado conservado: [informe de fase 2A](reports/phase2a-20261014.md), con evidencia en `results/pilot-20261014-reference-v1`. No se instaló Python ni se ajustó el runtime.
+
+## Referencia reducida (fase 2B)
+
+Suite de 22 tareas nuevas en [reduced-v1](benchmarks/reduced-v1.json), protocolo previo en [PROTOCOL-2B.md](benchmarks/PROTOCOL-2B.md) y condiciones/límites en [configs/reduced-v1.json](configs/reduced-v1.json). Mantiene intacta la referencia. 18 puntuaciones estrictas y cuatro rúbricas asistidas separadas; sin datasets externos ni código ejecutado.
+
+```powershell
+./scripts/Test-BenchmarkScoring.ps1
+./scripts/Test-BenchmarkSchedule.ps1
+# Gestiona arranque/parada propios; RunId siempre nuevo.
+./scripts/Invoke-ReducedReference.ps1 -RunId reduced-MI-NUEVA-EJECUCION
+# Leer respuestas y documentar revisión asistida con hashes y rúbricas.
+./scripts/Summarize-BenchmarkPilot.ps1 -RunId reduced-MI-NUEVA-EJECUCION -ExpectedPerformanceResponse Oviedo
+./scripts/Test-BenchmarkArtifacts.ps1 -RunId reduced-MI-NUEVA-EJECUCION
+# Regresión sin inferencia, fuera del directorio histórico:
+./scripts/Test-BenchmarkArtifacts.ps1 -RunId pilot-20261014-reference-v1 -ValidationPath results/MI-REGRESION-NUEVA.json
+```
+
+El runner configurable conserva el comando original de fase 2A. El perfil 2B envía carga, 22 tareas, dos calentamientos y seis medidas por longitud (37 peticiones fijas), seguidos de candidatos sostenidos hasta 180 s, con límite duro de 210 s. El orden corto/largo y largo/corto se alterna; se comprueban rangos de tokens reales. Padding repetitivo y recuperación de una ciudad no prueban comprensión de contexto natural.
+
+El monitor cancela ante RAM libre <1,5 GiB, VRAM libre <384 MiB, GPU >=80 °C o dos errores consecutivos de sensores. Las cancelaciones y fallos conservan parciales; no hay reintentos ni adaptación de parámetros. El wrapper descarga/detiene exclusivamente la instancia propia y comprueba servicio/modelos habituales. Un resumen o validación existente no se sobrescribe; indicar una nueva ruta `-ValidationPath` para una nueva comprobación.
+
+Ejecución del 14 de octubre: [informe de fase 2B](reports/phase2b-20261014.md), evidencia `results/reduced-20261014-reference-v1`. **Incompleta por parada de RAM**, con las 22 tareas de calidad terminadas; faltan repeticiones y carga sostenida. Para auditar parciales usar `Test-BenchmarkArtifacts.ps1 -AllowPartial` y ruta nueva: informa integridad parcial y nunca cierre. Los datos no observados siguen en null; no usar una única medición por longitud como percentiles de referencia. El siguiente prompt prioriza recuperación sin ajustar parámetros.

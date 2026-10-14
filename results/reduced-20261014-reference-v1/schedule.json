@@ -1,0 +1,447 @@
+[
+  {
+    "id": "compatibility-nonresident",
+    "prompt": "Responde únicamente: listo",
+    "condition": "nonresident-disk-cache-uncontrolled",
+    "logprobs": true,
+    "kind": "compatibility"
+  },
+  {
+    "id": "b01",
+    "prompt": "Hay 53 fichas. Se retiran 8 y las restantes se reparten entre 7 personas por igual. Devuelve solo JSON válido sin Markdown, con claves por_persona y resto, ambas enteras.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b01",
+      "area": "calculo",
+      "prompt": "Hay 53 fichas. Se retiran 8 y las restantes se reparten entre 7 personas por igual. Devuelve solo JSON válido sin Markdown, con claves por_persona y resto, ambas enteras.",
+      "scorer": "json_exact",
+      "expected": {
+        "por_persona": 6,
+        "resto": 3
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b02",
+    "prompt": "Un producto vale 120 euros. Descuenta el 25% y suma 9 euros de envío. Devuelve solo el importe final como número entero, sin unidad ni explicación.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b02",
+      "area": "calculo",
+      "prompt": "Un producto vale 120 euros. Descuenta el 25% y suma 9 euros de envío. Devuelve solo el importe final como número entero, sin unidad ni explicación.",
+      "scorer": "exact",
+      "expected": "99"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b03",
+    "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b03",
+      "area": "calculo",
+      "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+      "scorer": "exact",
+      "expected": "01:15"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b04",
+    "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b04",
+      "area": "calculo",
+      "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+      "scorer": "exact",
+      "expected": "450"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b05",
+    "prompt": "Compras 3 cuadernos de 4 euros y 2 bolígrafos de 3 euros. Pagas con 25 euros. Devuelve solo JSON válido sin Markdown con la clave cambio y valor entero.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b05",
+      "area": "calculo",
+      "prompt": "Compras 3 cuadernos de 4 euros y 2 bolígrafos de 3 euros. Pagas con 25 euros. Devuelve solo JSON válido sin Markdown con la clave cambio y valor entero.",
+      "scorer": "json_exact",
+      "expected": {
+        "cambio": 7
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b06",
+    "prompt": "Todos los tulipanes del jardín son amarillos. La flor Z es amarilla y está en ese jardín. ¿Se deduce necesariamente que Z es un tulipán? Responde únicamente no o sí en minúsculas.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b06",
+      "area": "logica",
+      "prompt": "Todos los tulipanes del jardín son amarillos. La flor Z es amarilla y está en ese jardín. ¿Se deduce necesariamente que Z es un tulipán? Responde únicamente no o sí en minúsculas.",
+      "scorer": "exact",
+      "expected": "no"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b07",
+    "prompt": "Si una tarjeta está activa, puede abrir la puerta. La tarjeta K está activa. ¿Puede abrir la puerta según estas reglas? Responde solo sí o no en minúsculas.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b07",
+      "area": "logica",
+      "prompt": "Si una tarjeta está activa, puede abrir la puerta. La tarjeta K está activa. ¿Puede abrir la puerta según estas reglas? Responde solo sí o no en minúsculas.",
+      "scorer": "exact",
+      "expected": "sí"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b08",
+    "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b08",
+      "area": "logica",
+      "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+      "scorer": "exact",
+      "expected": "Eva,Raúl,Sara"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b09",
+    "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b09",
+      "area": "logica",
+      "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+      "scorer": "exact",
+      "expected": "no"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b10",
+    "prompt": "Pedidos: código A, 12 euros, pendiente; código B, 19 euros, enviado; código C, 8 euros, enviado. Devuelve solo JSON válido sin Markdown con codigo e importe del pedido enviado de menor importe.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b10",
+      "area": "extraccion",
+      "prompt": "Pedidos: código A, 12 euros, pendiente; código B, 19 euros, enviado; código C, 8 euros, enviado. Devuelve solo JSON válido sin Markdown con codigo e importe del pedido enviado de menor importe.",
+      "scorer": "json_exact",
+      "expected": {
+        "codigo": "C",
+        "importe": 8
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b11",
+    "prompt": "Agenda: lunes, pintura, sala 2; martes, música, sala 5; jueves, teatro, sala 3. Devuelve solo JSON válido sin Markdown con dia y sala de la actividad de música; sala debe ser un número.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b11",
+      "area": "extraccion",
+      "prompt": "Agenda: lunes, pintura, sala 2; martes, música, sala 5; jueves, teatro, sala 3. Devuelve solo JSON válido sin Markdown con dia y sala de la actividad de música; sala debe ser un número.",
+      "scorer": "json_exact",
+      "expected": {
+        "dia": "martes",
+        "sala": 5
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b12",
+    "prompt": "Texto: La estación Norte abrió en 1987. La estación Sur abrió en 1994. No se menciona cuándo abrió la estación Este. Devuelve solo JSON válido sin Markdown con estacion igual a Este y anio igual a null.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b12",
+      "area": "extraccion",
+      "prompt": "Texto: La estación Norte abrió en 1987. La estación Sur abrió en 1994. No se menciona cuándo abrió la estación Este. Devuelve solo JSON válido sin Markdown con estacion igual a Este y anio igual a null.",
+      "scorer": "json_exact",
+      "expected": {
+        "estacion": "Este",
+        "anio": null
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b13",
+    "prompt": "Inventario: pera 4, manzana 7, pera 3. Suma las cantidades de pera. Devuelve solo JSON válido sin Markdown con fruta igual a pera y cantidad igual al total entero.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b13",
+      "area": "extraccion",
+      "prompt": "Inventario: pera 4, manzana 7, pera 3. Suma las cantidades de pera. Devuelve solo JSON válido sin Markdown con fruta igual a pera y cantidad igual al total entero.",
+      "scorer": "json_exact",
+      "expected": {
+        "fruta": "pera",
+        "cantidad": 7
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b14",
+    "prompt": "De la lista 9,2,9,5,2 conserva la primera aparición de cada número, sin ordenar. Responde solo con números separados por punto y coma, sin espacios.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b14",
+      "area": "instrucciones",
+      "prompt": "De la lista 9,2,9,5,2 conserva la primera aparición de cada número, sin ordenar. Responde solo con números separados por punto y coma, sin espacios.",
+      "scorer": "exact",
+      "expected": "9;2;5"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b15",
+    "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b15",
+      "area": "instrucciones",
+      "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+      "scorer": "json_exact",
+      "expected": {
+        "activo": false,
+        "etiqueta": "",
+        "ids": [
+          5,
+          1
+        ]
+      }
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b16",
+    "prompt": "Escribe exactamente tres líneas: en la primera sol, en la segunda mar y en la tercera pan. Todo en minúsculas, sin signos, listas ni explicación.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b16",
+      "area": "instrucciones",
+      "prompt": "Escribe exactamente tres líneas: en la primera sol, en la segunda mar y en la tercera pan. Todo en minúsculas, sin signos, listas ni explicación.",
+      "scorer": "exact",
+      "expected": "sol\nmar\npan"
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b17",
+    "prompt": "Corrige solo la concordancia de esta oración: Las niña pequeños juega. Devuelve únicamente la oración corregida, manteniendo el sustantivo en femenino plural y el punto final.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b17",
+      "area": "espanol",
+      "prompt": "Corrige solo la concordancia de esta oración: Las niña pequeños juega. Devuelve únicamente la oración corregida, manteniendo el sustantivo en femenino plural y el punto final.",
+      "scorer": "exact",
+      "expected": "Las niñas pequeñas juegan."
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b18",
+    "prompt": "Transforma al pasado imperfecto: Nosotros caminamos por el parque. Devuelve solo la oración resultante con punto final.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b18",
+      "area": "espanol",
+      "prompt": "Transforma al pasado imperfecto: Nosotros caminamos por el parque. Devuelve solo la oración resultante con punto final.",
+      "scorer": "exact",
+      "expected": "Nosotros caminábamos por el parque."
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b19",
+    "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b19",
+      "area": "espanol",
+      "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+      "scorer": "manual",
+      "rubric": [
+        "Una sola frase en español y hasta 25 palabras",
+        "Conserva martes y jueves, de 16 a 20",
+        "Conserva gratuidad y reserva por teléfono sin añadir datos"
+      ]
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b20",
+    "prompt": "Explica a una persona principiante la diferencia entre copiar un archivo y moverlo, en dos frases y hasta 55 palabras. Indica qué ocurre con el original en cada caso.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b20",
+      "area": "espanol",
+      "prompt": "Explica a una persona principiante la diferencia entre copiar un archivo y moverlo, en dos frases y hasta 55 palabras. Indica qué ocurre con el original en cada caso.",
+      "scorer": "manual",
+      "rubric": [
+        "Dos frases en español y hasta 55 palabras",
+        "Copiar conserva el original y crea otra copia",
+        "Mover cambia su ubicación y no conserva el original en la ubicación anterior"
+      ]
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b21",
+    "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b21",
+      "area": "instrucciones",
+      "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+      "scorer": "manual",
+      "rubric": [
+        "Dos frases, tono formal, hasta 45 palabras",
+        "Comunica mañana, cierre a las 17 y mantenimiento",
+        "Pide devolución antes de las 17 sin inventar datos ni otras instrucciones"
+      ]
+    },
+    "kind": "quality"
+  },
+  {
+    "id": "b22",
+    "prompt": "Un panel muestra 100 tareas: 80 completadas y 20 pendientes. Explica en una frase de hasta 30 palabras qué significa el porcentaje completado, sin afirmar cuánto tiempo falta ni si las tareas son fáciles.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b22",
+      "area": "espanol",
+      "prompt": "Un panel muestra 100 tareas: 80 completadas y 20 pendientes. Explica en una frase de hasta 30 palabras qué significa el porcentaje completado, sin afirmar cuánto tiempo falta ni si las tareas son fáciles.",
+      "scorer": "manual",
+      "rubric": [
+        "Una frase en español y hasta 30 palabras",
+        "Identifica 80% y 80 de cada 100 tareas completadas",
+        "No deduce tiempo restante ni dificultad"
+      ]
+    },
+    "kind": "quality"
+  },
+  {
+    "condition": "input-short",
+    "kind": "warmup",
+    "prompt": "Identificador de medición: input-short-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-000",
+    "repetition": 0,
+    "id": "input-short-000"
+  },
+  {
+    "condition": "input-long",
+    "kind": "warmup",
+    "prompt": "Identificador de medición: input-long-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-000",
+    "repetition": 0,
+    "id": "input-long-000"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-001",
+    "repetition": 1,
+    "id": "input-short-001"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-001",
+    "repetition": 1,
+    "id": "input-long-001"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-002",
+    "repetition": 2,
+    "id": "input-long-002"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-002",
+    "repetition": 2,
+    "id": "input-short-002"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-003. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-003",
+    "repetition": 3,
+    "id": "input-short-003"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-003. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-003",
+    "repetition": 3,
+    "id": "input-long-003"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-004. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-004",
+    "repetition": 4,
+    "id": "input-long-004"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-004. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-004",
+    "repetition": 4,
+    "id": "input-short-004"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-005. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-005",
+    "repetition": 5,
+    "id": "input-short-005"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-005. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-005",
+    "repetition": 5,
+    "id": "input-long-005"
+  },
+  {
+    "condition": "input-long",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-long-006. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-long-006",
+    "repetition": 6,
+    "id": "input-long-006"
+  },
+  {
+    "condition": "input-short",
+    "kind": "performance",
+    "prompt": "Identificador de medición: input-short-006. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "nonce": "input-short-006",
+    "repetition": 6,
+    "id": "input-short-006"
+  }
+]

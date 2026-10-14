@@ -1,0 +1,23 @@
+{
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "keep_alive": "5m",
+  "think": false,
+  "model": "qwen3.8:27b",
+  "stream": true,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Agenda: lunes, pintura, sala 2; martes, música, sala 5; jueves, teatro, sala 3. Devuelve solo JSON válido sin Markdown con dia y sala de la actividad de música; sala debe ser un número."
+    }
+  ]
+}

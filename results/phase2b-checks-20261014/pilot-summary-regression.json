@@ -1,0 +1,463 @@
+{
+  "client_request_seconds_sum": 251.9883029,
+  "run_complete": true,
+  "sustained": null,
+  "truncations": 0,
+  "incomplete_or_empty": 0,
+  "requests": 23,
+  "performance": [
+    {
+      "ttft_seconds": {
+        "n": 5,
+        "p50": 0.7743043,
+        "min": 0.7551415,
+        "max": 0.8554289,
+        "p95": 0.8554289
+      },
+      "generation_tokens_per_second": {
+        "n": 5,
+        "p50": 2.627607676675264,
+        "min": 2.5608275104577793,
+        "max": 2.694707300892977,
+        "p95": 2.694707300892977
+      },
+      "samples": [
+        {
+          "uncached_prompt_tokens_per_second": 4.95860801955675,
+          "ttft_seconds": 0.829682,
+          "done_reason": "stop",
+          "id": "resident-repeated-prefix-1",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 57,
+          "initial_telemetry": {
+            "distance_seconds": 0.2638643,
+            "free_ram_KiB": 3314988,
+            "gpu_temperature_C": "50",
+            "at_utc": "2026-10-14T17:29:59.6183437Z"
+          },
+          "generation_tokens_per_second": 2.5608275104577793,
+          "total_seconds": 9.4337696,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 5.485771964688086,
+          "ttft_seconds": 0.759463,
+          "done_reason": "stop",
+          "id": "resident-repeated-prefix-2",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 57,
+          "initial_telemetry": {
+            "distance_seconds": 0.1500751,
+            "free_ram_KiB": 3258320,
+            "gpu_temperature_C": "49",
+            "at_utc": "2026-10-14T17:30:09.020947Z"
+          },
+          "generation_tokens_per_second": 2.609907970209313,
+          "total_seconds": 9.1897182,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 4.967450778772096,
+          "ttft_seconds": 0.8554289,
+          "done_reason": "stop",
+          "id": "resident-repeated-prefix-3",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 57,
+          "initial_telemetry": {
+            "distance_seconds": 0.410623,
+            "free_ram_KiB": 3189076,
+            "gpu_temperature_C": "50",
+            "at_utc": "2026-10-14T17:30:18.5006762Z"
+          },
+          "generation_tokens_per_second": 2.627607676675264,
+          "total_seconds": 9.2301586,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 5.3311937475759725,
+          "ttft_seconds": 0.7743043,
+          "done_reason": "stop",
+          "id": "resident-repeated-prefix-4",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 57,
+          "initial_telemetry": {
+            "distance_seconds": 0.2035199,
+            "free_ram_KiB": 3262800,
+            "gpu_temperature_C": "49",
+            "at_utc": "2026-10-14T17:30:27.6438066Z"
+          },
+          "generation_tokens_per_second": 2.6701417347643837,
+          "total_seconds": 9.0385717,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 5.458776005950066,
+          "ttft_seconds": 0.7551415,
+          "done_reason": "stop",
+          "id": "resident-repeated-prefix-5",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 57,
+          "initial_telemetry": {
+            "distance_seconds": 0.3474284,
+            "free_ram_KiB": 3262708,
+            "gpu_temperature_C": "49",
+            "at_utc": "2026-10-14T17:30:36.9119346Z"
+          },
+          "generation_tokens_per_second": 2.694707300892977,
+          "total_seconds": 8.9215149,
+          "input_tokens": 61,
+          "error": null
+        }
+      ],
+      "not_attempted": 0,
+      "failures": 0,
+      "id": "resident-repeated-prefix",
+      "n_planned": 5,
+      "total_seconds": {
+        "n": 5,
+        "p50": 9.1897182,
+        "min": 8.9215149,
+        "max": 9.4337696,
+        "p95": 9.4337696
+      },
+      "n_requested": 5,
+      "n_valid": 5
+    },
+    {
+      "ttft_seconds": {
+        "n": 5,
+        "p50": 1.8811791,
+        "min": 1.8755068,
+        "max": 1.9356379,
+        "p95": 1.9356379
+      },
+      "generation_tokens_per_second": {
+        "n": 5,
+        "p50": 2.3741411139837023,
+        "min": 2.1956592492230325,
+        "max": 2.4798792517033794,
+        "p95": 2.4798792517033794
+      },
+      "samples": [
+        {
+          "uncached_prompt_tokens_per_second": 34.61866967830176,
+          "ttft_seconds": 1.9078822,
+          "done_reason": "stop",
+          "id": "resident-variable-prefix-1",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 0,
+          "initial_telemetry": {
+            "distance_seconds": 0.4798957,
+            "free_ram_KiB": 5069572,
+            "gpu_temperature_C": "53",
+            "at_utc": "2026-10-14T17:28:48.9323594Z"
+          },
+          "generation_tokens_per_second": 2.3741411139837023,
+          "total_seconds": 11.1755835,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 35.99142813986859,
+          "ttft_seconds": 1.8755068,
+          "done_reason": "stop",
+          "id": "resident-variable-prefix-2",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 26,
+          "cached_tokens": 0,
+          "initial_telemetry": {
+            "distance_seconds": 0.4283505,
+            "free_ram_KiB": 4688988,
+            "gpu_temperature_C": "52",
+            "at_utc": "2026-10-14T17:29:00.1972409Z"
+          },
+          "generation_tokens_per_second": 2.1956592492230325,
+          "total_seconds": 13.7078937,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 35.12588599289075,
+          "ttft_seconds": 1.8811791,
+          "done_reason": "stop",
+          "id": "resident-variable-prefix-3",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 0,
+          "initial_telemetry": {
+            "distance_seconds": 0.1736023,
+            "free_ram_KiB": 4047012,
+            "gpu_temperature_C": "52",
+            "at_utc": "2026-10-14T17:29:14.1900497Z"
+          },
+          "generation_tokens_per_second": 2.340928582525181,
+          "total_seconds": 11.2799833,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 33.971893548793105,
+          "ttft_seconds": 1.9356379,
+          "done_reason": "stop",
+          "id": "resident-variable-prefix-4",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 22,
+          "cached_tokens": 0,
+          "initial_telemetry": {
+            "distance_seconds": 0.3145688,
+            "free_ram_KiB": 4070984,
+            "gpu_temperature_C": "51",
+            "at_utc": "2026-10-14T17:29:25.3873693Z"
+          },
+          "generation_tokens_per_second": 2.3745203603787965,
+          "total_seconds": 11.2016849,
+          "input_tokens": 61,
+          "error": null
+        },
+        {
+          "uncached_prompt_tokens_per_second": 35.75948754895679,
+          "ttft_seconds": 1.880129,
+          "done_reason": "stop",
+          "id": "resident-variable-prefix-5",
+          "response_exact": null,
+          "expected_response": null,
+          "output_tokens": 25,
+          "cached_tokens": 0,
+          "initial_telemetry": {
+            "distance_seconds": 0.3978331,
+            "free_ram_KiB": 3726580,
+            "gpu_temperature_C": "50",
+            "at_utc": "2026-10-14T17:29:36.5910771Z"
+          },
+          "generation_tokens_per_second": 2.4798792517033794,
+          "total_seconds": 11.9824644,
+          "input_tokens": 61,
+          "error": null
+        }
+      ],
+      "not_attempted": 0,
+      "failures": 0,
+      "id": "resident-variable-prefix",
+      "n_planned": 5,
+      "total_seconds": {
+        "n": 5,
+        "p50": 11.2799833,
+        "min": 11.1755835,
+        "max": 13.7078937,
+        "p95": 13.7078937
+      },
+      "n_requested": 5,
+      "n_valid": 5
+    }
+  ],
+  "output_tokens_sum": 492.0,
+  "compatibility": [
+    {
+      "logprobs_observed": true,
+      "client_total_seconds": 53.7876764,
+      "ttft_seconds": 52.9917698,
+      "final": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-10-14T17:27:25.7150145Z",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 53777047600,
+        "load_duration": 50647363000,
+        "prompt_eval_count": 17,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2315023000,
+        "eval_count": 3,
+        "eval_duration": 806677000
+      },
+      "error": null
+    }
+  ],
+  "request_errors": 0,
+  "quality": {
+    "manual_tasks": 3,
+    "note": "Muestra heterogénea personal, sin inferencia de calidad poblacional ni puntuación oficial",
+    "automatic_invalid": 0,
+    "automatic_tasks": 7,
+    "automatic_pass": 4,
+    "manual_review": {
+      "reviewed_at": "2026-10-14T17:29:26.1860313Z",
+      "method": "Aplicación de rúbrica fijada antes de generar; código leído como texto, jamás ejecutado",
+      "criteria_total": 9,
+      "reviewer": "Codex, lectura asistida en esta sesión; no revisión humana independiente",
+      "tasks": [
+        {
+          "criteria": [
+            {
+              "pass": true,
+              "evidence": "Una frase en español, debajo del límite de 30 palabras"
+            },
+            {
+              "pass": true,
+              "evidence": "de lunes a viernes a las ocho"
+            },
+            {
+              "pass": true,
+              "evidence": "los sábados a las diez ... cerrado los domingos"
+            }
+          ],
+          "id": "q08",
+          "response_sha256": "a038fb960a262ca4d59ab7f8fbed35a6147b0aff63e7befc67151da485da8ee7",
+          "word_count": 20
+        },
+        {
+          "criteria": [
+            {
+              "pass": true,
+              "evidence": "Dos frases en español, debajo del límite de 60 palabras"
+            },
+            {
+              "pass": true,
+              "evidence": "documentos que estás usando ahora mismo ... guardando todo lo demás ... hasta que decidas sacarlo; temporalidad implícita, sin explicar pérdida al apagar"
+            },
+            {
+              "pass": true,
+              "evidence": "mesa de trabajo para RAM y armario para almacenamiento; no afirma conservación de RAM al apagar"
+            }
+          ],
+          "id": "q09",
+          "response_sha256": "d03c4b9ca543fe7ff52f92c48df424c67632d2e8c596da69f6096187f1b650d0",
+          "word_count": 49
+        },
+        {
+          "executed": false,
+          "id": "q10",
+          "response_sha256": "95bcc4dc83c6d7655ddb24f9a04438069d514ae945d1b7e2a990072794301294",
+          "criteria": [
+            {
+              "pass": true,
+              "evidence": "def contar_positivos(valores): return sum(...)"
+            },
+            {
+              "pass": true,
+              "evidence": "if v > 0 excluye cero y negativos"
+            },
+            {
+              "pass": true,
+              "evidence": "Itera sin asignaciones ni mutación de entrada; sin Markdown"
+            }
+          ]
+        }
+      ],
+      "criteria_passed": 9
+    },
+    "split": "development-pilot; no es conjunto final ni benchmark oficial"
+  },
+  "telemetry": {
+    "gpu_power_W": {
+      "n": 248,
+      "p50": 39.53,
+      "min": 20.11,
+      "max": 71.05,
+      "p95": 66.2
+    },
+    "samples": 248,
+    "errors": [],
+    "energy_scope": "GPU completa, potencia integrada por trapecios, sin restar reposo; no energía del PC",
+    "gpu_vram_MiB": {
+      "n": 248,
+      "p50": 11439.0,
+      "min": 1889.0,
+      "max": 11511.0,
+      "p95": 11500.0
+    },
+    "first_utc": "2026-10-14T17:26:31.9095673Z",
+    "gpu_temperature_C": {
+      "n": 248,
+      "p50": 54.0,
+      "min": 48.0,
+      "max": 64.0,
+      "p95": 61.0
+    },
+    "interval_seconds": {
+      "n": 247,
+      "p50": 1.0132343,
+      "min": 0.9997154,
+      "max": 1.551318,
+      "p95": 1.0755176
+    },
+    "tree_private_committed_bytes": {
+      "n": 248,
+      "p50": 25088507904.0,
+      "min": 346562560.0,
+      "max": 27432288256.0,
+      "p95": 27430445056.0
+    },
+    "gpu_energy_Wh": 2.882890343563194,
+    "last_utc": "2026-10-14T17:30:45.0272882Z",
+    "energy_coverage_seconds": 253.11772090000022,
+    "tree_working_set_bytes": {
+      "n": 248,
+      "p50": 13518118912.0,
+      "min": 157945856.0,
+      "max": 15732056064.0,
+      "p95": 15730204672.0
+    },
+    "collection_seconds": {
+      "n": 248,
+      "p50": 0.6225193,
+      "min": 0.2960104,
+      "max": 1.5507132,
+      "p95": 1.0731167
+    },
+    "tree_cpu_percent_of_all_logical_processors": {
+      "n": 247,
+      "p50": 39.377316531734,
+      "min": 0.5132782875630355,
+      "max": 86.45200022407538,
+      "p95": 62.97128535814963
+    },
+    "error_samples": 0,
+    "system_free_RAM_KiB": {
+      "n": 248,
+      "p50": 5287116,
+      "min": 3171216,
+      "max": 18051180,
+      "p95": 9570100
+    },
+    "gpu_utilization_percent": {
+      "n": 248,
+      "p50": 4.0,
+      "min": 1.0,
+      "max": 99.0,
+      "p95": 86.0
+    },
+    "unavailable": [
+      "paginación",
+      "temperatura CPU",
+      "throttling",
+      "energía del PC",
+      "respuesta interactiva"
+    ]
+  },
+  "run_id": "pilot-20261014-reference-v1",
+  "generated_at": "2026-10-14T18:06:07.6297303Z",
+  "fatal_error": null
+}

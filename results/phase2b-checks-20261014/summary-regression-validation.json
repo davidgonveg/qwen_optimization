@@ -1,0 +1,5 @@
+{
+  "prior_results_written": false,
+  "check": "All prior numeric summary metrics, telemetry, compatibility and performance distributions unchanged",
+  "result": "pass"
+}

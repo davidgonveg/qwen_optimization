@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-10-14T18:03:11.6156876Z",
+  "sample": {
+    "at_utc": "2026-10-14T18:03:11.6156876Z",
+    "collection_seconds": 0.6419448,
+    "processes": [
+      {
+        "ProcessId": 31280,
+        "ParentProcessId": 36916,
+        "Name": "ollama.exe",
+        "WorkingSetSize": 73191424,
+        "PrivatePageCount": 104062976,
+        "KernelModeTime": 11093750,
+        "UserModeTime": 5468750
+      },
+      {
+        "ProcessId": 26796,
+        "ParentProcessId": 31280,
+        "Name": "conhost.exe",
+        "WorkingSetSize": 13475840,
+        "PrivatePageCount": 2060288,
+        "KernelModeTime": 312500,
+        "UserModeTime": 156250
+      },
+      {
+        "ProcessId": 3252,
+        "ParentProcessId": 31280,
+        "Name": "llama-server.exe",
+        "WorkingSetSize": 18908143616,
+        "PrivatePageCount": 30626082816,
+        "KernelModeTime": 1255312500,
+        "UserModeTime": 6178906250
+      },
+      {
+        "ProcessId": 12600,
+        "ParentProcessId": 3252,
+        "Name": "conhost.exe",
+        "WorkingSetSize": 7774208,
+        "PrivatePageCount": 1220608,
+        "KernelModeTime": 0,
+        "UserModeTime": 0
+      }
+    ],
+    "os": {
+      "TotalVisibleMemorySize": 33419336,
+      "FreePhysicalMemory": 1431832,
+      "TotalVirtualMemorySize": 52905556,
+      "FreeVirtualMemory": 1035440
+    },
+    "errors": [],
+    "gpu": {
+      "memory_used_MiB": "11386",
+      "memory_total_MiB": "12288",
+      "utilization_percent": "89",
+      "temperature_C": "58",
+      "power_W": "99.11"
+    }
+  },
+  "reasons": [
+    "ram_pressure"
+  ],
+  "policy": {
+    "min_free_ram_KiB": 1572864,
+    "min_free_vram_MiB": 384,
+    "max_gpu_temperature_C": 80,
+    "max_consecutive_sensor_errors": 2
+  }
+}

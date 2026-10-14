@@ -1,0 +1,23 @@
+{
+  "quality_scores_recomputed": 10,
+  "telemetry_samples": 248,
+  "checks": [
+    "options unchanged",
+    "configured schedule/executed prefix",
+    "response equals concatenated stream",
+    "monotonic timestamps",
+    "first text timings",
+    "complete finals or explicit partial error",
+    "quality extraction",
+    "configured repetitions/sustained required only in complete mode",
+    "input ranges/context for complete responses",
+    "JSON parse",
+    "summary empty errors and nearest-rank percentiles when present",
+    "manual review response hashes when present"
+  ],
+  "checked_at": "2026-10-14T18:06:08.3325366Z",
+  "phase_complete": true,
+  "partial_mode": false,
+  "result": "pass",
+  "requests_checked": 23
+}

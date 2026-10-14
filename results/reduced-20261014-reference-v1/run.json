@@ -1,0 +1,144 @@
+{
+  "server": {
+    "settings": {
+      "OLLAMA_HOST": "127.0.0.1:11435",
+      "OLLAMA_NUM_PARALLEL": "1",
+      "OLLAMA_MODELS": "E:\\Documents\\qwen_optimization\\models\\ollama",
+      "OLLAMA_KEEP_ALIVE": "5m",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_CONTEXT_LENGTH": "2048",
+      "OLLAMA_NO_CLOUD": "1"
+    },
+    "pid": 31280,
+    "executable": "C:\\Users\\gonza\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "start_time": "2026-10-14T17:59:51.5785192Z"
+  },
+  "powershell": "7.6.5",
+  "dotnet": ".NET 10.0.11",
+  "ps_before": {
+    "models": []
+  },
+  "code_revision": "cf71817a2fda39bebadccc7883bfaa329d8d2c0c",
+  "weights_rehashed": false,
+  "tags": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "modified_at": "2026-10-14T18:45:36.393043+02:00",
+        "size": 17741872154,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "qwen3.8:27b-q4_K_M",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 5120,
+          "runner": "llamacpp"
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "layer_sizes_verified": true,
+  "version": {
+    "version": "0.40.3"
+  },
+  "hashes": [
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Benchmark.Common.ps1",
+      "Hash": "9DED6739FD9CE36A23792B7EEAA959842FC018E7ADDA3E40729EA6AA4AB95510"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Benchmark.Schedule.ps1",
+      "Hash": "866B989C838B589CAD047096E095E55D6ED25F3D60DF822E6D13EC69D2EFE601"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-BenchmarkPilot.ps1",
+      "Hash": "B24AED5C890572AEFABB2C58CBA488B0CFB94E7815F2B7392592B0F3C4D43ED1"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-ReducedReference.ps1",
+      "Hash": "DC091E72A218E1EC642D86D5CFFEE962C7C8E56628EA65B5BCD465A81E80F830"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Invoke-SmokeTests.ps1",
+      "Hash": "53317C2A4060F4F53768EC09CBD85504728F49683B5863EC1A89B278A08115B0"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Measure-ProjectResources.ps1",
+      "Hash": "3435B1E64C7BE2DAC775E7E0DFC39D5FF8912D058D714C4821E61AA2BD3CB588"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Pull-Reference.ps1",
+      "Hash": "7244F4C2881F55B581E7007625FA4993AF8E3565C039D21762EC8B09DAC73A96"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Start-ProjectOllama.ps1",
+      "Hash": "49E19275673635E70463E5FD02592A16E40A34D43B9AFC8B8CD0E61E5BD112A5"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Stop-ProjectOllama.ps1",
+      "Hash": "9DA2121D52A4868132893BF85FE35C3ACE9DF086BCE2C687DFC6B47856C9B4E4"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Summarize-BenchmarkPilot.ps1",
+      "Hash": "B995A79B63723228F9A6B923CCC4D57F003955117705C08B3D435012353D6CC8"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkArtifacts.ps1",
+      "Hash": "A26BB4D8C2046FB3DD14D5FFB4B8D8D0DED86B7A334C6D0E2AE84B02D1EEE86C"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkSchedule.ps1",
+      "Hash": "43072504FEF1742D8557CF1CD6107DC430B971F2393735991ABA5AA820777991"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\scripts\\Test-BenchmarkScoring.ps1",
+      "Hash": "41EC20AEA06CB5C9B2CD441670891A868317EBAE9D09D8A9C4D800B71DA3FAE4"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\configs\\reference.json",
+      "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\configs\\reduced-v1.json",
+      "Hash": "9B10976CF88C4ADB84EC4CD3A3BCA337751E7EAF00C8EFDF35C364885F6A32F2"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\benchmarks\\reduced-v1.json",
+      "Hash": "E9EAFB684581C8D48C76B10288D2596D78951E9425115CF1C1F4F1CC008D88AE"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\benchmarks\\PROTOCOL-2B.md",
+      "Hash": "C039FE29BDA90201337D70E6F62E9F18F0E8039C464B6A70027E44833E1E256F"
+    }
+  ],
+  "working_tree_status": [
+    " M scripts/Benchmark.Common.ps1",
+    " M scripts/Invoke-BenchmarkPilot.ps1",
+    " M scripts/Measure-ProjectResources.ps1",
+    " M scripts/Summarize-BenchmarkPilot.ps1",
+    " M scripts/Test-BenchmarkArtifacts.ps1",
+    "?? benchmarks/PROTOCOL-2B.md",
+    "?? benchmarks/reduced-v1.json",
+    "?? configs/reduced-v1.json",
+    "?? results/phase2b-checks-20261014/",
+    "?? results/reduced-20261014-reference-v1/",
+    "?? scripts/Benchmark.Schedule.ps1",
+    "?? scripts/Invoke-ReducedReference.ps1",
+    "?? scripts/Test-BenchmarkSchedule.ps1"
+  ],
+  "manifest_original_sha256": "sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+  "started_at": "2026-10-14T17:59:56.2036298Z"
+}

@@ -1,0 +1,280 @@
+[
+  {
+    "id": "b01",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": false,
+      "status": "scored",
+      "expected": {
+        "por_persona": 6,
+        "resto": 3
+      }
+    },
+    "area": "calculo"
+  },
+  {
+    "id": "b02",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "99"
+    },
+    "area": "calculo"
+  },
+  {
+    "id": "b03",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "01:15"
+    },
+    "area": "calculo"
+  },
+  {
+    "id": "b04",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "450"
+    },
+    "area": "calculo"
+  },
+  {
+    "id": "b05",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": false,
+      "status": "scored",
+      "expected": {
+        "cambio": 7
+      }
+    },
+    "area": "calculo"
+  },
+  {
+    "id": "b06",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "no"
+    },
+    "area": "logica"
+  },
+  {
+    "id": "b07",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": false,
+      "status": "scored",
+      "expected": "sí"
+    },
+    "area": "logica"
+  },
+  {
+    "id": "b08",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "Eva,Raúl,Sara"
+    },
+    "area": "logica"
+  },
+  {
+    "id": "b09",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "no"
+    },
+    "area": "logica"
+  },
+  {
+    "id": "b10",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": {
+        "codigo": "C",
+        "importe": 8
+      }
+    },
+    "area": "extraccion"
+  },
+  {
+    "id": "b11",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": {
+        "dia": "martes",
+        "sala": 5
+      }
+    },
+    "area": "extraccion"
+  },
+  {
+    "id": "b12",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": {
+        "estacion": "Este",
+        "anio": null
+      }
+    },
+    "area": "extraccion"
+  },
+  {
+    "id": "b13",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": {
+        "fruta": "pera",
+        "cantidad": 7
+      }
+    },
+    "area": "extraccion"
+  },
+  {
+    "id": "b14",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "9;2;5"
+    },
+    "area": "instrucciones"
+  },
+  {
+    "id": "b15",
+    "scorer": "json_exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": {
+        "activo": false,
+        "etiqueta": "",
+        "ids": [
+          5,
+          1
+        ]
+      }
+    },
+    "area": "instrucciones"
+  },
+  {
+    "id": "b16",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "sol\nmar\npan"
+    },
+    "area": "instrucciones"
+  },
+  {
+    "id": "b17",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "Las niñas pequeñas juegan."
+    },
+    "area": "espanol"
+  },
+  {
+    "id": "b18",
+    "scorer": "exact",
+    "score": {
+      "reason": null,
+      "pass": true,
+      "status": "scored",
+      "expected": "Nosotros caminábamos por el parque."
+    },
+    "area": "espanol"
+  },
+  {
+    "id": "b19",
+    "scorer": "manual",
+    "score": {
+      "pass": null,
+      "status": "pending_manual",
+      "rubric": [
+        "Una sola frase en español y hasta 25 palabras",
+        "Conserva martes y jueves, de 16 a 20",
+        "Conserva gratuidad y reserva por teléfono sin añadir datos"
+      ]
+    },
+    "area": "espanol"
+  },
+  {
+    "id": "b20",
+    "scorer": "manual",
+    "score": {
+      "pass": null,
+      "status": "pending_manual",
+      "rubric": [
+        "Dos frases en español y hasta 55 palabras",
+        "Copiar conserva el original y crea otra copia",
+        "Mover cambia su ubicación y no conserva el original en la ubicación anterior"
+      ]
+    },
+    "area": "espanol"
+  },
+  {
+    "id": "b21",
+    "scorer": "manual",
+    "score": {
+      "pass": null,
+      "status": "pending_manual",
+      "rubric": [
+        "Dos frases, tono formal, hasta 45 palabras",
+        "Comunica mañana, cierre a las 17 y mantenimiento",
+        "Pide devolución antes de las 17 sin inventar datos ni otras instrucciones"
+      ]
+    },
+    "area": "instrucciones"
+  },
+  {
+    "id": "b22",
+    "scorer": "manual",
+    "score": {
+      "pass": null,
+      "status": "pending_manual",
+      "rubric": [
+        "Una frase en español y hasta 30 palabras",
+        "Identifica 80% y 80 de cada 100 tareas completadas",
+        "No deduce tiempo restante ni dificultad"
+      ]
+    },
+    "area": "espanol"
+  }
+]

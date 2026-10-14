@@ -1,0 +1,355 @@
+{
+  "sustained": null,
+  "request_errors": 1,
+  "client_request_seconds_sum": 191.6284204,
+  "compatibility": [
+    {
+      "logprobs_observed": true,
+      "client_total_seconds": 51.4720082,
+      "ttft_seconds": 50.6908885,
+      "final": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-10-14T18:00:50.5945997Z",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 51462513200,
+        "load_duration": 48332695300,
+        "prompt_eval_count": 17,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2332560000,
+        "eval_count": 3,
+        "eval_duration": 792111000
+      },
+      "error": null
+    }
+  ],
+  "truncations": 0,
+  "performance": [
+    {
+      "total_seconds": {
+        "p95": 3.9684337,
+        "min": 3.9684337,
+        "n": 1,
+        "p50": 3.9684337,
+        "max": 3.9684337
+      },
+      "id": "input-long",
+      "n_planned": 6,
+      "n_requested": 2,
+      "generation_tokens_per_second": {
+        "p95": 4.791647200599914,
+        "min": 4.791647200599914,
+        "n": 1,
+        "p50": 4.791647200599914,
+        "max": 4.791647200599914
+      },
+      "n_valid": 1,
+      "not_attempted": 4,
+      "failures": 1,
+      "ttft_seconds": {
+        "p95": 3.1207836,
+        "min": 3.1207836,
+        "n": 1,
+        "p50": 3.1207836,
+        "max": 3.1207836
+      },
+      "samples": [
+        {
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "free_ram_KiB": 1772344,
+            "distance_seconds": 0.1627234,
+            "at_utc": "2026-10-14T18:03:05.535003Z",
+            "gpu_temperature_C": "56"
+          },
+          "id": "input-long-001",
+          "response_exact": true,
+          "cached_tokens": 7,
+          "output_tokens": 4,
+          "error": null,
+          "generation_tokens_per_second": 4.791647200599914,
+          "total_seconds": 3.9684337,
+          "uncached_prompt_tokens_per_second": 177.40467357366816,
+          "done_reason": "stop",
+          "ttft_seconds": 3.1207836,
+          "input_tokens": 519
+        },
+        {
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "free_ram_KiB": 1585076,
+            "distance_seconds": 0.1527777,
+            "at_utc": "2026-10-14T18:03:09.587923Z",
+            "gpu_temperature_C": "57"
+          },
+          "id": "input-long-002",
+          "response_exact": null,
+          "cached_tokens": null,
+          "output_tokens": null,
+          "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+          "generation_tokens_per_second": null,
+          "total_seconds": 2.8341987,
+          "uncached_prompt_tokens_per_second": null,
+          "done_reason": null,
+          "ttft_seconds": null,
+          "input_tokens": null
+        }
+      ]
+    },
+    {
+      "total_seconds": {
+        "p95": 2.9419919,
+        "min": 2.9419919,
+        "n": 1,
+        "p50": 2.9419919,
+        "max": 2.9419919
+      },
+      "id": "input-short",
+      "n_planned": 6,
+      "n_requested": 1,
+      "generation_tokens_per_second": {
+        "p95": 5.045625064647071,
+        "min": 5.045625064647071,
+        "n": 1,
+        "p50": 5.045625064647071,
+        "max": 5.045625064647071
+      },
+      "n_valid": 1,
+      "not_attempted": 5,
+      "failures": 0,
+      "ttft_seconds": {
+        "p95": 2.1817652,
+        "min": 2.1817652,
+        "n": 1,
+        "p50": 2.1817652,
+        "max": 2.1817652
+      },
+      "samples": [
+        {
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "free_ram_KiB": 1835716,
+            "distance_seconds": 0.1084118,
+            "at_utc": "2026-10-14T18:03:02.5166445Z",
+            "gpu_temperature_C": "53"
+          },
+          "id": "input-short-001",
+          "response_exact": true,
+          "cached_tokens": 7,
+          "output_tokens": 4,
+          "error": null,
+          "generation_tokens_per_second": 5.045625064647071,
+          "total_seconds": 2.9419919,
+          "uncached_prompt_tokens_per_second": 65.76408880001603,
+          "done_reason": "stop",
+          "ttft_seconds": 2.1817652,
+          "input_tokens": 135
+        }
+      ]
+    }
+  ],
+  "telemetry": {
+    "gpu_vram_MiB": {
+      "p95": 11386.0,
+      "min": 1706.0,
+      "n": 191,
+      "p50": 11372.0,
+      "max": 11391.0
+    },
+    "system_free_RAM_KiB": {
+      "p95": 9628404,
+      "min": 1431832,
+      "n": 191,
+      "p50": 5279264,
+      "max": 18612756
+    },
+    "unavailable": [
+      "paginación",
+      "temperatura CPU",
+      "throttling",
+      "energía del PC",
+      "respuesta interactiva"
+    ],
+    "tree_cpu_percent_of_all_logical_processors": {
+      "p95": 58.82586728111727,
+      "min": 0.3857406363404661,
+      "n": 190,
+      "p50": 35.75452938685839,
+      "max": 67.82767076522865
+    },
+    "energy_scope": "GPU completa, potencia integrada por trapecios, sin restar reposo; no energía del PC",
+    "samples": 191,
+    "gpu_power_W": {
+      "p95": 71.29,
+      "min": 20.94,
+      "n": 191,
+      "p50": 43.11,
+      "max": 107.74
+    },
+    "tree_working_set_bytes": {
+      "p95": 18477580288.0,
+      "min": 84389888.0,
+      "n": 191,
+      "p50": 14108151808.0,
+      "max": 19002585088.0
+    },
+    "error_samples": 0,
+    "errors": [],
+    "interval_seconds": {
+      "p95": 1.0351985,
+      "min": 1.0003084,
+      "n": 190,
+      "p50": 1.0117641,
+      "max": 1.2679003
+    },
+    "collection_seconds": {
+      "p95": 1.0286158,
+      "min": 0.3034565,
+      "n": 191,
+      "p50": 0.5829592,
+      "max": 1.2666649
+    },
+    "gpu_temperature_C": {
+      "p95": 62.0,
+      "min": 50.0,
+      "n": 191,
+      "p50": 57.0,
+      "max": 64.0
+    },
+    "last_utc": "2026-10-14T18:03:11.6156876Z",
+    "gpu_energy_Wh": 2.498945573895556,
+    "gpu_utilization_percent": {
+      "p95": 89.0,
+      "min": 1.0,
+      "n": 191,
+      "p50": 5.0,
+      "max": 100.0
+    },
+    "tree_private_committed_bytes": {
+      "p95": 30207447040.0,
+      "min": 105562112.0,
+      "n": 191,
+      "p50": 25817337856.0,
+      "max": 30733426688.0
+    },
+    "energy_coverage_seconds": 193.1265562999999,
+    "first_utc": "2026-10-14T17:59:58.4891313Z"
+  },
+  "fatal_error": "Petición fallida: input-long-002. No se continúa automáticamente.",
+  "output_tokens_sum": 335.0,
+  "run_complete": false,
+  "run_id": "reduced-20261014-reference-v1",
+  "requests": 28,
+  "quality": {
+    "split": "reduced-reference-v1; nueva respecto a desarrollo fase1/2A; expuesta tras esta ejecución",
+    "manual_review": {
+      "criteria_total": 12,
+      "reviewer": "Codex, lectura asistida de esta sesión; no revisión humana independiente",
+      "human_validation_pending": true,
+      "tasks": [
+        {
+          "id": "b19",
+          "criteria": [
+            {
+              "evidence": "Una frase, 17 palabras",
+              "criterion": "Una sola frase en español y hasta 25 palabras",
+              "pass": true
+            },
+            {
+              "evidence": "Abre martes y jueves de 16 a 20",
+              "criterion": "Conserva martes y jueves, de 16 a 20",
+              "pass": true
+            },
+            {
+              "evidence": "entrada gratuita ... reserva previa por teléfono",
+              "criterion": "Conserva gratuidad y reserva por teléfono sin añadir datos",
+              "pass": true
+            }
+          ],
+          "word_count": 17,
+          "response_sha256": "a2e2bab5bbfb1118f61190eb01ea33a69dc06f39e6ce654184063c9325ea276d"
+        },
+        {
+          "id": "b20",
+          "criteria": [
+            {
+              "evidence": "Dos frases, 33 palabras",
+              "criterion": "Dos frases en español y hasta 55 palabras",
+              "pass": true
+            },
+            {
+              "evidence": "réplica independiente ... original permanece intacto",
+              "criterion": "Copiar conserva el original y crea otra copia",
+              "pass": true
+            },
+            {
+              "evidence": "original desaparece del sitio anterior",
+              "criterion": "Mover cambia su ubicación y no conserva el original en la ubicación anterior",
+              "pass": true
+            }
+          ],
+          "word_count": 33,
+          "response_sha256": "07f299686e0fae39b1e6b169ddee8d1f28191e9607dd6013597fe8b3b8fea46e"
+        },
+        {
+          "id": "b21",
+          "criteria": [
+            {
+              "evidence": "Dos frases formales, 26 palabras",
+              "criterion": "Dos frases, tono formal, hasta 45 palabras",
+              "pass": true
+            },
+            {
+              "evidence": "mañana a las 17:00 ... mantenimiento",
+              "criterion": "Comunica mañana, cierre a las 17 y mantenimiento",
+              "pass": true
+            },
+            {
+              "evidence": "Pide devolución antes de dicha hora; añade para evitar inconvenientes, justificación no proporcionada",
+              "criterion": "Pide devolución antes de las 17 sin inventar datos ni otras instrucciones",
+              "pass": false
+            }
+          ],
+          "word_count": 26,
+          "response_sha256": "def57b198822a64ef440c142d7652a0c8584180a9769267094b999149dcdb3c8"
+        },
+        {
+          "id": "b22",
+          "criteria": [
+            {
+              "evidence": "Una frase, 25 palabras",
+              "criterion": "Una frase en español y hasta 30 palabras",
+              "pass": true
+            },
+            {
+              "evidence": "Dice ochenta por ciento, pero no expresa 80 de cada 100 tareas completadas como exige la rúbrica",
+              "criterion": "Identifica 80% y 80 de cada 100 tareas completadas",
+              "pass": false
+            },
+            {
+              "evidence": "No afirma tiempo restante ni dificultad",
+              "criterion": "No deduce tiempo restante ni dificultad",
+              "pass": true
+            }
+          ],
+          "word_count": 25,
+          "response_sha256": "2ba968d21e541d3ab62c22f0b2dbb5b0cd3a2aaf7195fe4b53f01adb70cfa3b1"
+        }
+      ],
+      "method": "Rúbricas previas, criterio conservador para adiciones y explicitud; no LLM juez externo",
+      "reviewed_at": "2026-10-14T18:05:21.889031Z",
+      "criteria_pass": 10
+    },
+    "automatic_invalid": 0,
+    "manual_tasks": 4,
+    "note": "Muestra heterogénea personal, sin inferencia de calidad poblacional ni puntuación oficial",
+    "automatic_pass": 15,
+    "automatic_tasks": 18
+  },
+  "generated_at": "2026-10-14T18:05:22.3121532Z",
+  "incomplete_or_empty": 1
+}

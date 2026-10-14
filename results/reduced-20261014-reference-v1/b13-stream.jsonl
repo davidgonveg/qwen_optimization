@@ -1,0 +1,10 @@
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:37.9972092Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"\"},\"done\":false}","client_elapsed_seconds":1.8838665}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:38.8120104Z\",\"message\":{\"role\":\"assistant\",\"content\":\"fruta\"},\"done\":false}","client_elapsed_seconds":2.7014925}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:39.6762127Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\\\":\\\"\"},\"done\":false}","client_elapsed_seconds":3.569293}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:39.6762127Z\",\"message\":{\"role\":\"assistant\",\"content\":\"pera\"},\"done\":false}","client_elapsed_seconds":3.5697454}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:39.6762127Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\\\",\\\"\"},\"done\":false}","client_elapsed_seconds":3.5701969}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:39.6762127Z\",\"message\":{\"role\":\"assistant\",\"content\":\"cantidad\"},\"done\":false}","client_elapsed_seconds":3.5704301}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:39.6772137Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\\\":\"},\"done\":false}","client_elapsed_seconds":3.5707804}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:40.5345271Z\",\"message\":{\"role\":\"assistant\",\"content\":\"7\"},\"done\":false}","client_elapsed_seconds":4.4201392}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:40.5345271Z\",\"message\":{\"role\":\"assistant\",\"content\":\"}\"},\"done\":false}","client_elapsed_seconds":4.4207451}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:40.5352111Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":4419547700,\"load_duration\":18214200,\"prompt_eval_count\":54,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":1693316000,\"eval_count\":10,\"eval_duration\":2536855000}","client_elapsed_seconds":4.4210044}

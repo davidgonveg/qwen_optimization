@@ -4,7 +4,7 @@ Actualizado: 14 de octubre de 2026.
 
 ## Hito actual
 
-**Fase 2A completada:** protocolo, runner y piloto de calidad/rendimiento ejecutados y comprobados. Referencia y fase 1 preservadas. **Fase 2 sigue abierta: el piloto de desarrollo no constituye referencia final ni hay optimizaciones.** Diez tareas de calidad, dos calentamientos, diez mediciones de rendimiento y una prueba de compatibilidad/carga; 23 finales completos, cero errores/truncamientos.
+**Fase 2B incompleta por parada de seguridad de RAM.** Runner/validación generalizados y 22 tareas nuevas terminadas: 15/18 estrictas y 10/12 criterios mediante lectura asistida. 28 peticiones intentadas, 27 completas y una cancelada; entradas reales 135/519 tokens, solo una medición válida por longitud. Faltan repeticiones y carga sostenida. **Fase 2 abierta, sin optimización.** Referencia, fase 1 y piloto 2A preservados íntegramente.
 
 ## Evidencias
 
@@ -23,17 +23,31 @@ Actualizado: 14 de octubre de 2026.
 
 - La fase 1 cierra puesta en marcha, no aprobación de calidad para uso diario. No inferir calidad general a partir de una respuesta ni atribuir el fallo a Q4_K_M o a no-thinking sin comparación.
 - Conservar la referencia y el comportamiento heredado del runtime. No ajustar MTP, contexto o reparto GPU antes de medir la referencia de fase 2.
-- Fase 2A validó el procedimiento; continuar con **fase 2B: referencia reducida**. Mantener muestras de fases 1/2A como desarrollo, crear nuevas y no relajar retrospectivamente criterios. Evaluación amplia y optimización requieren alcance posterior.
-- Próximo modelo recomendado: **GPT-6.1 Sol (`gpt-6.1-sol`), razonamiento medium**, para integrar métricas, telemetría y evaluación generativa. Nombre/esfuerzo corroborados con ficha oficial y catálogo de la sesión. No se cambia automáticamente el modelo.
+- Fase 2A validó el procedimiento; fase 2B produjo calidad completa pero referencia de rendimiento incompleta. Mantener muestras de fases 1/2A como desarrollo y reduced-v1 como referencia personal expuesta; no relajar criterios. Evaluación amplia y optimización requieren alcance posterior.
+- Mantener los umbrales previos de fase 2B: RAM libre 1,5 GiB, VRAM libre 384 MiB, GPU 80 °C y máximo dos errores consecutivos de sensores. La parada por RAM es evidencia de viabilidad insuficiente del protocolo monolítico, no autorización para modificar caché/runtime ni repetir silenciosamente.
+- Próximo modelo recomendado: **GPT-6.1 Sol (`gpt-6.1-sol`), razonamiento medium**, para diagnosticar acumulación de memoria y recuperar mediciones mediante sesiones/cache explícitas sin cambiar la referencia. Nombre/esfuerzo reconsultados en ficha oficial y catálogo de sesión el 14 de octubre. No se cambia automáticamente el modelo.
 - Git: seguir `main` y upstream `origin/main`, remoto `git@github.com:davidgonveg/qwen_optimization.git`. Excluir `models`, `runtime`, cachés y entornos; versionar evidencia pequeña pertinente.
 
 ## Próximo paso y pendientes
 
-Ejecutar `NEXT_PROMPT.md`, fase 2B: generalizar runner/validación, suite reducida de 20–24 tareas nuevas, dos longitudes de entrada dentro de 2048 tokens, orden equilibrado y prueba sostenida acotada. Registrar temperatura, memoria y coste; sin optimización. Revisión humana de rúbricas asistidas pendiente. Logprobs generados comprobados, loglikelihood arbitraria no demostrado: no usar MMLU estándar sin backend/protocolo adecuados.
+Ejecutar `NEXT_PROMPT.md`, **continuación de fase 2B**, priorizando diagnóstico de RAM y protocolo de recuperación. Calidad de 22 tareas ya conservada; faltan >=5 medidas válidas por longitud (perfil v1 exige 6) y carga sostenida 180..210 s. Estudiar sesiones separadas para rendimiento/sostenido con mismas opciones y estado de caché/temperatura explícito, sin optimizar ni bajar límites. No repetir inferencia sin protocolo previo y margen justificado. Si precisa parámetros distintos, pedir cambio de alcance antes de aplicarlos.
 
-Pendiente medir calidad con más muestras, rendimiento estable, variación entre repeticiones, contexto efectivo, coste de repetir la suite y fiabilidad. Visión, modo de razonamiento, aislamiento para ejecutar código y optimización siguen fuera de lo realizado. No hay bloqueos de puesta en marcha pendientes.
+Revisión humana independiente de las rúbricas 2A/2B pendiente; los resultados de Codex son asistidos. Logprobs generados comprobados, loglikelihood arbitraria no demostrado. Rendimiento estable, variación, coste de suite completa y fiabilidad prolongada pendientes. Visión, thinking, aislamiento de código y optimización fuera de alcance. Puesta en marcha sigue resuelta; bloqueo actual de fase 2B: presión de RAM acumulada.
 
 ## Registro de continuidad y Git
+
+### Fase 2B — Parcial por presión de RAM
+
+- Definiciones nuevas fijadas antes de inferencia: `benchmarks/reduced-v1.json`, `configs/reduced-v1.json`, `benchmarks/PROTOCOL-2B.md`. 22 tareas originales CC0/zero-shot, sin datasets externos, instalaciones ni ejecución de código.
+- Evidencia: `results/reduced-20261014-reference-v1`; informe: `reports/phase2b-20261014.md`. Protocolo v1: carga +22 tareas +2 calentamientos +12 medidas alternadas, luego 180 s sostenidos con límite 210 s.
+- 27 finales completos y una cancelación en `input-long-002`, sin reintentos. 22 scores: 15/18 estrictos, errores de resto/cambio/tilde; lectura asistida 10/12 criterios, dos juicios conservadores pendientes de revisión humana.
+- Entradas reales 135/519; ambos calentamientos completos y una medida válida por longitud, caché 7 tokens y salida 4; ambas responden Oviedo. N=1 no aporta percentiles útiles. Nueve medidas no intentadas, una incompleta; sostenido no iniciado y sin mediciones inventadas.
+- Parada a las 20:03:11,62 Madrid: RAM libre 1,366 GiB <1,5. 191 muestras sin errores: RAM residente árbol pico 17,698 GiB, privada comprometida ~28,623 GiB; VRAM pico 11.391 MiB, GPU 64 °C/107,74 W; energía GPU 2,499 Wh/193,127 s. Sin paginación/energía PC/throttling medidos.
+- Log: cache RAM de prompts límite 8192 MiB, hasta 25 prompts/8121,435 MiB; acumulación/checkpoints es hipótesis de contribución, no fuga ni causalidad aislada. Diagnóstico crudo en memory-diagnosis.json. No se cambió caché/MTP/contexto/runtime.
+- Tiempo de peticiones 191,628 s (3,194 min), 335 tokens conocidos. Repetición completa estimada condicional 7–9 min, sin viabilidad probada. Instancia PID 31280 detenida, puerto 11435 libre, 11434/modelos habituales intactos.
+- Scorer, schedule/umbral/cancelación y ensayo del monitor con umbral sintético comprobados. ThreadJob no conservaba PSScriptRoot para auxiliar: corregido/probado antes de inferencia pasando ruta explícita.
+- Regresión del piloto sin inferencia y sin escribir en su directorio: streams/scores válidos, resumen numérico/telemetría/percentiles idénticos. Preservación comprobada por Git diff. Actual: `validation.json` dice `partial_integrity_pass`, `phase_complete=false`; validador normal rechaza cierre. Cambios posteriores solo resumen/validador para parciales, hashes finales registrados.
+- Revisión/diff/comprobaciones y commit/push normal en main/origin/main al cierre. Hash/resultado definitivos en el mensaje final; si falla se registrará recuperación. Pesos/runtime/cachés excluidos.
 
 ### Fase 2A
 

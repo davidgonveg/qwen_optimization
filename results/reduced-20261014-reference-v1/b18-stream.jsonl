@@ -1,0 +1,10 @@
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:01:59.8131167Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Nos\"},\"done\":false}","client_elapsed_seconds":1.8070829}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:00.6797057Z\",\"message\":{\"role\":\"assistant\",\"content\":\"otros\"},\"done\":false}","client_elapsed_seconds":2.6546256}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:00.6797057Z\",\"message\":{\"role\":\"assistant\",\"content\":\" cam\"},\"done\":false}","client_elapsed_seconds":2.6551349}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:00.6797057Z\",\"message\":{\"role\":\"assistant\",\"content\":\"in\"},\"done\":false}","client_elapsed_seconds":2.6554736}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:00.6797057Z\",\"message\":{\"role\":\"assistant\",\"content\":\"ábamos\"},\"done\":false}","client_elapsed_seconds":2.6559854}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:01.5403739Z\",\"message\":{\"role\":\"assistant\",\"content\":\" por\"},\"done\":false}","client_elapsed_seconds":3.5163181}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:01.5403739Z\",\"message\":{\"role\":\"assistant\",\"content\":\" el\"},\"done\":false}","client_elapsed_seconds":3.5171837}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:01.5403739Z\",\"message\":{\"role\":\"assistant\",\"content\":\" parque\"},\"done\":false}","client_elapsed_seconds":3.5175132}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:01.5411067Z\",\"message\":{\"role\":\"assistant\",\"content\":\".\"},\"done\":false}","client_elapsed_seconds":3.5177445}
+{"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-14T18:02:01.5411067Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":3511933900,\"load_duration\":11331600,\"prompt_eval_count\":39,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":1646159000,\"eval_count\":10,\"eval_duration\":1724667000}","client_elapsed_seconds":3.5180138}

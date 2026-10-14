@@ -1,0 +1,1 @@
+{"por_persona": 6, "resto": 2}

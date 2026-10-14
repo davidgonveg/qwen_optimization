@@ -1,0 +1,2634 @@
+[
+  {
+    "first_content_seconds": 50.6908885,
+    "tokens_per_second": 3.787347985320239,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:00:50.5945997Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 51462513200,
+      "load_duration": 48332695300,
+      "prompt_eval_count": 17,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2332560000,
+      "eval_count": 3,
+      "eval_duration": 792111000
+    },
+    "started_at": "2026-10-14T17:59:59.1270568Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:50.5956847+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 50.6908885,
+    "client_total_seconds": 51.4720082,
+    "first_chunk_seconds": 50.6908885,
+    "content_characters": 5,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 7.288129780155709,
+    "sample": {
+      "id": "compatibility-nonresident",
+      "prompt": "Responde únicamente: listo",
+      "condition": "nonresident-disk-cache-uncontrolled",
+      "logprobs": true,
+      "kind": "compatibility"
+    },
+    "ps_before": {
+      "models": []
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:00:50.6257280Z",
+    "logprobs_observed": true
+  },
+  {
+    "first_content_seconds": 1.667725,
+    "tokens_per_second": 4.179063310719626,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:00:55.6690684Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5016470600,
+      "load_duration": 9989000,
+      "prompt_eval_count": 56,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1548142000,
+      "eval_count": 14,
+      "eval_duration": 3350033000
+    },
+    "started_at": "2026-10-14T18:00:50.6519656Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:55.6695757+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.667725,
+    "client_total_seconds": 5.0311083,
+    "first_chunk_seconds": 1.667725,
+    "content_characters": 30,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 36.172392454955684,
+    "sample": {
+      "id": "b01",
+      "prompt": "Hay 53 fichas. Se retiran 8 y las restantes se reparten entre 7 personas por igual. Devuelve solo JSON válido sin Markdown, con claves por_persona y resto, ambas enteras.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b01",
+        "area": "calculo",
+        "prompt": "Hay 53 fichas. Se retiran 8 y las restantes se reparten entre 7 personas por igual. Devuelve solo JSON válido sin Markdown, con claves por_persona y resto, ambas enteras.",
+        "scorer": "json_exact",
+        "expected": {
+          "por_persona": 6,
+          "resto": 3
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:50.5956847+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:00:55.6845956Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.7612312,
+    "tokens_per_second": 3.630093474906979,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:00:58.3945477Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2586956200,
+      "load_duration": 17103400,
+      "prompt_eval_count": 52,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1595269000,
+      "eval_count": 3,
+      "eval_duration": 826425000
+    },
+    "started_at": "2026-10-14T18:00:55.8074215Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:58.3950546+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.7612312,
+    "client_total_seconds": 2.5927839,
+    "first_chunk_seconds": 1.7612312,
+    "content_characters": 2,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 32.5963834312583,
+    "sample": {
+      "id": "b02",
+      "prompt": "Un producto vale 120 euros. Descuenta el 25% y suma 9 euros de envío. Devuelve solo el importe final como número entero, sin unidad ni explicación.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b02",
+        "area": "calculo",
+        "prompt": "Un producto vale 120 euros. Descuenta el 25% y suma 9 euros de envío. Devuelve solo el importe final como número entero, sin unidad ni explicación.",
+        "scorer": "exact",
+        "expected": "99"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:55.6695757+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:00:58.4093607Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.9185993,
+    "tokens_per_second": 3.7365437717420145,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:02.0114118Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3516111800,
+      "load_duration": 25297200,
+      "prompt_eval_count": 52,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1717463000,
+      "eval_count": 6,
+      "eval_duration": 1605762000
+    },
+    "started_at": "2026-10-14T18:00:58.4900636Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:02.0120217+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.9185993,
+    "client_total_seconds": 3.5345573,
+    "first_chunk_seconds": 1.9185993,
+    "content_characters": 5,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 30.27721703466101,
+    "sample": {
+      "id": "b03",
+      "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b03",
+        "area": "calculo",
+        "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+        "scorer": "exact",
+        "expected": "01:15"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:05:58.3950546+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:02.0285431Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8133954,
+    "tokens_per_second": 4.936699174830733,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:04.7021947Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2622608300,
+      "load_duration": 11247800,
+      "prompt_eval_count": 51,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1644966000,
+      "eval_count": 4,
+      "eval_duration": 810258000
+    },
+    "started_at": "2026-10-14T18:01:02.0776964Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:04.7115226+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8133954,
+    "client_total_seconds": 2.6346554,
+    "first_chunk_seconds": 1.8133954,
+    "content_characters": 3,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 31.003680319228483,
+    "sample": {
+      "id": "b04",
+      "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b04",
+        "area": "calculo",
+        "prompt": "Una receta para 4 personas usa 300 gramos de arroz. ¿Cuántos gramos necesita para 6 personas manteniendo la proporción? Responde solo con un entero.",
+        "scorer": "exact",
+        "expected": "450"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:02.0120217+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:04.7142916Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8774786,
+    "tokens_per_second": 4.679667954160313,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:08.3924138Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3585827500,
+      "load_duration": 16159700,
+      "prompt_eval_count": 57,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1709404000,
+      "eval_count": 8,
+      "eval_duration": 1709523000
+    },
+    "started_at": "2026-10-14T18:01:04.8063120Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:08.3924138+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8774786,
+    "client_total_seconds": 3.5867619,
+    "first_chunk_seconds": 1.8774786,
+    "content_characters": 13,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 33.344955317759876,
+    "sample": {
+      "id": "b05",
+      "prompt": "Compras 3 cuadernos de 4 euros y 2 bolígrafos de 3 euros. Pagas con 25 euros. Devuelve solo JSON válido sin Markdown con la clave cambio y valor entero.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b05",
+        "area": "calculo",
+        "prompt": "Compras 3 cuadernos de 4 euros y 2 bolígrafos de 3 euros. Pagas con 25 euros. Devuelve solo JSON válido sin Markdown con la clave cambio y valor entero.",
+        "scorer": "json_exact",
+        "expected": {
+          "cambio": 7
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:04.7115226+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:08.3944929Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8647401,
+    "tokens_per_second": 2.6211117445464494,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:11.0622187Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2627109300,
+      "load_duration": 13971900,
+      "prompt_eval_count": 60,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1727453000,
+      "eval_count": 2,
+      "eval_duration": 763035000
+    },
+    "started_at": "2026-10-14T18:01:08.4352083Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:11.062725+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8647401,
+    "client_total_seconds": 2.6279357,
+    "first_chunk_seconds": 1.8647401,
+    "content_characters": 2,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 34.73321705424113,
+    "sample": {
+      "id": "b06",
+      "prompt": "Todos los tulipanes del jardín son amarillos. La flor Z es amarilla y está en ese jardín. ¿Se deduce necesariamente que Z es un tulipán? Responde únicamente no o sí en minúsculas.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b06",
+        "area": "logica",
+        "prompt": "Todos los tulipanes del jardín son amarillos. La flor Z es amarilla y está en ese jardín. ¿Se deduce necesariamente que Z es un tulipán? Responde únicamente no o sí en minúsculas.",
+        "scorer": "exact",
+        "expected": "no"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:08.3924138+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:11.0647343Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.7871016,
+    "tokens_per_second": 2.7163357716974112,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:13.6044896Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2523285300,
+      "load_duration": 10396800,
+      "prompt_eval_count": 51,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1629529000,
+      "eval_count": 2,
+      "eval_duration": 736286000
+    },
+    "started_at": "2026-10-14T18:01:11.0812798Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:13.6066307+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.7871016,
+    "client_total_seconds": 2.524088,
+    "first_chunk_seconds": 1.7871016,
+    "content_characters": 2,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 31.297387159111622,
+    "sample": {
+      "id": "b07",
+      "prompt": "Si una tarjeta está activa, puede abrir la puerta. La tarjeta K está activa. ¿Puede abrir la puerta según estas reglas? Responde solo sí o no en minúsculas.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b07",
+        "area": "logica",
+        "prompt": "Si una tarjeta está activa, puede abrir la puerta. La tarjeta K está activa. ¿Puede abrir la puerta según estas reglas? Responde solo sí o no en minúsculas.",
+        "scorer": "exact",
+        "expected": "sí"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:11.062725+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:13.6103605Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8419733,
+    "tokens_per_second": 4.585173611867346,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:17.2137447Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3584037600,
+      "load_duration": 10973500,
+      "prompt_eval_count": 49,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1680786000,
+      "eval_count": 8,
+      "eval_duration": 1744754000
+    },
+    "started_at": "2026-10-14T18:01:13.6299901Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:17.2144764+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8419733,
+    "client_total_seconds": 3.58577,
+    "first_chunk_seconds": 1.8419733,
+    "content_characters": 13,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 29.153027214648386,
+    "sample": {
+      "id": "b08",
+      "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b08",
+        "area": "logica",
+        "prompt": "En una fila, Eva está antes que Raúl y Raúl antes que Sara. No hay nadie más. Devuelve solo los nombres en orden, separados por comas y sin espacios.",
+        "scorer": "exact",
+        "expected": "Eva,Raúl,Sara"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:13.6066307+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:17.2170229Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.888808,
+    "tokens_per_second": 2.43673623548619,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:19.9386525Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2689951800,
+      "load_duration": 10514400,
+      "prompt_eval_count": 47,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1713181000,
+      "eval_count": 2,
+      "eval_duration": 820770000
+    },
+    "started_at": "2026-10-14T18:01:17.2481312Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:19.9391593+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.888808,
+    "client_total_seconds": 2.6917206,
+    "first_chunk_seconds": 1.888808,
+    "content_characters": 2,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 27.43434581634982,
+    "sample": {
+      "id": "b09",
+      "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b09",
+        "area": "logica",
+        "prompt": "Todas las cajas azules están vacías. La caja H contiene una pelota. ¿Puede ser azul según esas dos afirmaciones? Responde solo no o sí.",
+        "scorer": "exact",
+        "expected": "no"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:17.2144764+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:19.9410519Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.9028925,
+    "tokens_per_second": 5.59443689195464,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:25.2696664Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5301975300,
+      "load_duration": 12340600,
+      "prompt_eval_count": 62,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1748616000,
+      "eval_count": 19,
+      "eval_duration": 3396231000
+    },
+    "started_at": "2026-10-14T18:01:19.9677934Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:25.2840513+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.9028925,
+    "client_total_seconds": 5.3173009,
+    "first_chunk_seconds": 1.9028925,
+    "content_characters": 35,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 35.456612543863265,
+    "sample": {
+      "id": "b10",
+      "prompt": "Pedidos: código A, 12 euros, pendiente; código B, 19 euros, enviado; código C, 8 euros, enviado. Devuelve solo JSON válido sin Markdown con codigo e importe del pedido enviado de menor importe.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b10",
+        "area": "extraccion",
+        "prompt": "Pedidos: código A, 12 euros, pendiente; código B, 19 euros, enviado; código C, 8 euros, enviado. Devuelve solo JSON válido sin Markdown con codigo e importe del pedido enviado de menor importe.",
+        "scorer": "json_exact",
+        "expected": {
+          "codigo": "C",
+          "importe": 8
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:19.9391593+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:25.2875608Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8559645,
+    "tokens_per_second": 6.04996057442359,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:30.7411193Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5322026900,
+      "load_duration": 16776800,
+      "prompt_eval_count": 62,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1661325000,
+      "eval_count": 21,
+      "eval_duration": 3471097000
+    },
+    "started_at": "2026-10-14T18:01:25.4150476Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:30.7411193+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8559645,
+    "client_total_seconds": 5.3271139,
+    "first_chunk_seconds": 1.8559645,
+    "content_characters": 34,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 37.31960934796022,
+    "sample": {
+      "id": "b11",
+      "prompt": "Agenda: lunes, pintura, sala 2; martes, música, sala 5; jueves, teatro, sala 3. Devuelve solo JSON válido sin Markdown con dia y sala de la actividad de música; sala debe ser un número.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b11",
+        "area": "extraccion",
+        "prompt": "Agenda: lunes, pintura, sala 2; martes, música, sala 5; jueves, teatro, sala 3. Devuelve solo JSON válido sin Markdown con dia y sala de la actividad de música; sala debe ser un número.",
+        "scorer": "json_exact",
+        "expected": {
+          "dia": "martes",
+          "sala": 5
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:25.2840513+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:30.7434907Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.817246,
+    "tokens_per_second": 5.670113399283715,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:35.9586699Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5168448600,
+      "load_duration": 15726100,
+      "prompt_eval_count": 66,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1678397000,
+      "eval_count": 19,
+      "eval_duration": 3350903000
+    },
+    "started_at": "2026-10-14T18:01:30.7903475Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:35.9614162+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.817246,
+    "client_total_seconds": 5.2093127,
+    "first_chunk_seconds": 1.817246,
+    "content_characters": 40,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 39.32323520597332,
+    "sample": {
+      "id": "b12",
+      "prompt": "Texto: La estación Norte abrió en 1987. La estación Sur abrió en 1994. No se menciona cuándo abrió la estación Este. Devuelve solo JSON válido sin Markdown con estacion igual a Este y anio igual a null.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b12",
+        "area": "extraccion",
+        "prompt": "Texto: La estación Norte abrió en 1987. La estación Sur abrió en 1994. No se menciona cuándo abrió la estación Este. Devuelve solo JSON válido sin Markdown con estacion igual a Este y anio igual a null.",
+        "scorer": "json_exact",
+        "expected": {
+          "estacion": "Este",
+          "anio": null
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:30.7411193+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:36.0014813Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8838665,
+    "tokens_per_second": 3.9418886771218693,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:40.5352111Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4419547700,
+      "load_duration": 18214200,
+      "prompt_eval_count": 54,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1693316000,
+      "eval_count": 10,
+      "eval_duration": 2536855000
+    },
+    "started_at": "2026-10-14T18:01:36.1150261Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:40.5357441+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8838665,
+    "client_total_seconds": 4.4212059,
+    "first_chunk_seconds": 1.8838665,
+    "content_characters": 29,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 31.89009021352187,
+    "sample": {
+      "id": "b13",
+      "prompt": "Inventario: pera 4, manzana 7, pera 3. Suma las cantidades de pera. Devuelve solo JSON válido sin Markdown con fruta igual a pera y cantidad igual al total entero.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b13",
+        "area": "extraccion",
+        "prompt": "Inventario: pera 4, manzana 7, pera 3. Suma las cantidades de pera. Devuelve solo JSON válido sin Markdown con fruta igual a pera y cantidad igual al total entero.",
+        "scorer": "json_exact",
+        "expected": {
+          "fruta": "pera",
+          "cantidad": 7
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:35.9614162+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:40.5377552Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8302371,
+    "tokens_per_second": 3.7269326164371392,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:43.9984916Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3432126400,
+      "load_duration": 17794100,
+      "prompt_eval_count": 52,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1668904000,
+      "eval_count": 6,
+      "eval_duration": 1609903000
+    },
+    "started_at": "2026-10-14T18:01:40.5657932Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:44.0018311+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8302371,
+    "client_total_seconds": 3.4360323,
+    "first_chunk_seconds": 1.8302371,
+    "content_characters": 5,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 31.158173268204763,
+    "sample": {
+      "id": "b14",
+      "prompt": "De la lista 9,2,9,5,2 conserva la primera aparición de cada número, sin ordenar. Responde solo con números separados por punto y coma, sin espacios.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b14",
+        "area": "instrucciones",
+        "prompt": "De la lista 9,2,9,5,2 conserva la primera aparición de cada número, sin ordenar. Responde solo con números separados por punto y coma, sin espacios.",
+        "scorer": "exact",
+        "expected": "9;2;5"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:40.5357441+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:44.0031133Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8908657,
+    "tokens_per_second": 5.6197226686241395,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:51.0948457Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 7051386100,
+      "load_duration": 14138700,
+      "prompt_eval_count": 45,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1718684000,
+      "eval_count": 29,
+      "eval_duration": 5160397000
+    },
+    "started_at": "2026-10-14T18:01:44.0437104Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:51.0948457+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8908657,
+    "client_total_seconds": 7.0516038,
+    "first_chunk_seconds": 1.8908657,
+    "content_characters": 56,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 26.182823602244508,
+    "sample": {
+      "id": "b15",
+      "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b15",
+        "area": "instrucciones",
+        "prompt": "Devuelve solo JSON válido sin Markdown con exactamente estas claves: activo con valor booleano false, etiqueta con valor vacío y ids con la lista [5,1].",
+        "scorer": "json_exact",
+        "expected": {
+          "activo": false,
+          "etiqueta": "",
+          "ids": [
+            5,
+            1
+          ]
+        }
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:44.0018311+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:51.0964952Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.7307972,
+    "tokens_per_second": 3.723045153091617,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:54.4704756Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3343007100,
+      "load_duration": 15787100,
+      "prompt_eval_count": 48,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1632890000,
+      "eval_count": 6,
+      "eval_duration": 1611584000
+    },
+    "started_at": "2026-10-14T18:01:51.1282015Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:54.4709965+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.7307972,
+    "client_total_seconds": 3.3437537,
+    "first_chunk_seconds": 1.7307972,
+    "content_characters": 11,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 29.395733944111363,
+    "sample": {
+      "id": "b16",
+      "prompt": "Escribe exactamente tres líneas: en la primera sol, en la segunda mar y en la tercera pan. Todo en minúsculas, sin signos, listas ni explicación.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b16",
+        "area": "instrucciones",
+        "prompt": "Escribe exactamente tres líneas: en la primera sol, en la segunda mar y en la tercera pan. Todo en minúsculas, sin signos, listas ni explicación.",
+        "scorer": "exact",
+        "expected": "sol\nmar\npan"
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:51.0948457+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:54.4733333Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8790282,
+    "tokens_per_second": 4.36781221901708,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:01:57.9575683Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3460677200,
+      "load_duration": 11910400,
+      "prompt_eval_count": 51,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1718002000,
+      "eval_count": 7,
+      "eval_duration": 1602633000
+    },
+    "started_at": "2026-10-14T18:01:54.4968470Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:57.9580946+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8790282,
+    "client_total_seconds": 3.4620311,
+    "first_chunk_seconds": 1.8790282,
+    "content_characters": 26,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 29.685646466069304,
+    "sample": {
+      "id": "b17",
+      "prompt": "Corrige solo la concordancia de esta oración: Las niña pequeños juega. Devuelve únicamente la oración corregida, manteniendo el sustantivo en femenino plural y el punto final.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b17",
+        "area": "espanol",
+        "prompt": "Corrige solo la concordancia de esta oración: Las niña pequeños juega. Devuelve únicamente la oración corregida, manteniendo el sustantivo en femenino plural y el punto final.",
+        "scorer": "exact",
+        "expected": "Las niñas pequeñas juegan."
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:54.4709965+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:01:57.9604555Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8070829,
+    "tokens_per_second": 5.798220757978207,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:01.5411067Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3511933900,
+      "load_duration": 11331600,
+      "prompt_eval_count": 39,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1646159000,
+      "eval_count": 10,
+      "eval_duration": 1724667000
+    },
+    "started_at": "2026-10-14T18:01:58.0255483Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:01.5569549+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8070829,
+    "client_total_seconds": 3.5181626,
+    "first_chunk_seconds": 1.8070829,
+    "content_characters": 35,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 23.691514610678556,
+    "sample": {
+      "id": "b18",
+      "prompt": "Transforma al pasado imperfecto: Nosotros caminamos por el parque. Devuelve solo la oración resultante con punto final.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b18",
+        "area": "espanol",
+        "prompt": "Transforma al pasado imperfecto: Nosotros caminamos por el parque. Devuelve solo la oración resultante con punto final.",
+        "scorer": "exact",
+        "expected": "Nosotros caminábamos por el parque."
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:06:57.9580946+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:01.5464677Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.8006373,
+    "tokens_per_second": 4.253861613033696,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:09.2841537Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 7676891000,
+      "load_duration": 11026400,
+      "prompt_eval_count": 61,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1634520000,
+      "eval_count": 25,
+      "eval_duration": 5877013000
+    },
+    "started_at": "2026-10-14T18:02:01.6069500Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:09.2946239+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.8006373,
+    "client_total_seconds": 7.6782798,
+    "first_chunk_seconds": 1.8006373,
+    "content_characters": 95,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 37.31982478036365,
+    "sample": {
+      "id": "b19",
+      "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b19",
+        "area": "espanol",
+        "prompt": "Resume en una sola frase de hasta 25 palabras: El museo abre los martes y jueves de 16 a 20. La entrada es gratuita. Hace falta reservar por teléfono. Conserva días, horario, precio y reserva.",
+        "scorer": "manual",
+        "rubric": [
+          "Una sola frase en español y hasta 25 palabras",
+          "Conserva martes y jueves, de 16 a 20",
+          "Conserva gratuidad y reserva por teléfono sin añadir datos"
+        ]
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:01.5569549+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:09.2865051Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.9084196,
+    "tokens_per_second": 2.5370141913808495,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:28.9896915Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 19612047300,
+      "load_duration": 15642600,
+      "prompt_eval_count": 51,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1723919000,
+      "eval_count": 45,
+      "eval_duration": 17737386000
+    },
+    "started_at": "2026-10-14T18:02:09.3779616Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:28.9901978+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.9084196,
+    "client_total_seconds": 19.6126735,
+    "first_chunk_seconds": 1.9084196,
+    "content_characters": 212,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 29.583756545406136,
+    "sample": {
+      "id": "b20",
+      "prompt": "Explica a una persona principiante la diferencia entre copiar un archivo y moverlo, en dos frases y hasta 55 palabras. Indica qué ocurre con el original en cada caso.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b20",
+        "area": "espanol",
+        "prompt": "Explica a una persona principiante la diferencia entre copiar un archivo y moverlo, en dos frases y hasta 55 palabras. Indica qué ocurre con el original en cada caso.",
+        "scorer": "manual",
+        "rubric": [
+          "Dos frases en español y hasta 55 palabras",
+          "Copiar conserva el original y crea otra copia",
+          "Mover cambia su ubicación y no conserva el original en la ubicación anterior"
+        ]
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:09.2946239+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:28.9924804Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.7372912,
+    "tokens_per_second": 3.700085499725685,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:41.5577819Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 12547833800,
+      "load_duration": 9110400,
+      "prompt_eval_count": 64,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1627624000,
+      "eval_count": 40,
+      "eval_duration": 10810561000
+    },
+    "started_at": "2026-10-14T18:02:29.0103391Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:41.5587896+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.7372912,
+    "client_total_seconds": 12.5486826,
+    "first_chunk_seconds": 1.7372912,
+    "content_characters": 163,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 39.32112084854979,
+    "sample": {
+      "id": "b21",
+      "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b21",
+        "area": "instrucciones",
+        "prompt": "Escribe un aviso formal de dos frases y hasta 45 palabras: mañana la sala de lectura cerrará a las 17 por mantenimiento. Pide devolver los libros antes de esa hora. No añadas fechas, disculpas ni otras instrucciones.",
+        "scorer": "manual",
+        "rubric": [
+          "Dos frases, tono formal, hasta 45 palabras",
+          "Comunica mañana, cierre a las 17 y mantenimiento",
+          "Pide devolución antes de las 17 sin inventar datos ni otras instrucciones"
+        ]
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:28.9901978+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:41.5610615Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 1.838906,
+    "tokens_per_second": 2.743417991554662,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:54.3649355Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 12773718400,
+      "load_duration": 12555000,
+      "prompt_eval_count": 62,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1716224000,
+      "eval_count": 30,
+      "eval_duration": 10935264000
+    },
+    "started_at": "2026-10-14T18:02:41.5906529Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:54.3654411+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 1.838906,
+    "client_total_seconds": 12.785194,
+    "first_chunk_seconds": 1.838906,
+    "content_characters": 155,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 36.12582040572792,
+    "sample": {
+      "id": "b22",
+      "prompt": "Un panel muestra 100 tareas: 80 completadas y 20 pendientes. Explica en una frase de hasta 30 palabras qué significa el porcentaje completado, sin afirmar cuánto tiempo falta ni si las tareas son fáciles.",
+      "condition": "resident-quality",
+      "task": {
+        "id": "b22",
+        "area": "espanol",
+        "prompt": "Un panel muestra 100 tareas: 80 completadas y 20 pendientes. Explica en una frase de hasta 30 palabras qué significa el porcentaje completado, sin afirmar cuánto tiempo falta ni si las tareas son fáciles.",
+        "scorer": "manual",
+        "rubric": [
+          "Una frase en español y hasta 30 palabras",
+          "Identifica 80% y 80 de cada 100 tareas completadas",
+          "No deduce tiempo restante ni dificultad"
+        ]
+      },
+      "kind": "quality"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:41.5587896+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:54.3771741Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 2.1659563,
+    "tokens_per_second": 5.0872268636101765,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:02:57.3926214Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2956550200,
+      "load_duration": 21203300,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2017325000,
+      "eval_count": 4,
+      "eval_duration": 786283000
+    },
+    "started_at": "2026-10-14T18:02:54.4348124Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:54.3654411+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 2.1659563,
+    "client_total_seconds": 2.9674639,
+    "first_chunk_seconds": 2.1659563,
+    "content_characters": 6,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 66.92030287633376,
+    "sample": {
+      "condition": "input-short",
+      "kind": "warmup",
+      "prompt": "Identificador de medición: input-short-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "nonce": "input-short-000",
+      "repetition": 0,
+      "id": "input-short-000"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:54.3654411+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:02:57.4035359Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 4.105541,
+    "tokens_per_second": 4.876562023773239,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:03:02.3843629Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4920441700,
+      "load_duration": 26093800,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 3936250000,
+      "eval_count": 4,
+      "eval_duration": 820250000
+    },
+    "started_at": "2026-10-14T18:02:57.4638836Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:02.3843629+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 4.105541,
+    "client_total_seconds": 4.9235961,
+    "first_chunk_seconds": 4.105541,
+    "content_characters": 6,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 131.85138139091777,
+    "sample": {
+      "condition": "input-long",
+      "kind": "warmup",
+      "prompt": "Identificador de medición: input-long-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "nonce": "input-long-000",
+      "repetition": 0,
+      "id": "input-long-000"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:07:57.4178682+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:03:02.3889860Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 2.1817652,
+    "tokens_per_second": 5.045625064647071,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:03:05.348389Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2939996700,
+      "load_duration": 10806100,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1946351000,
+      "eval_count": 4,
+      "eval_duration": 792766000
+    },
+    "started_at": "2026-10-14T18:03:02.4082327Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:05.3489591+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 2.1817652,
+    "client_total_seconds": 2.9419919,
+    "first_chunk_seconds": 2.1817652,
+    "content_characters": 6,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 65.76408880001603,
+    "sample": {
+      "condition": "input-short",
+      "kind": "performance",
+      "prompt": "Identificador de medición: input-short-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "nonce": "input-short-001",
+      "repetition": 1,
+      "id": "input-short-001"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:02.3843629+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:03:05.3517326Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": 3.1207836,
+    "tokens_per_second": 4.791647200599914,
+    "error": null,
+    "ps_after_error": null,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-14T18:03:09.333985Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3961887300,
+      "load_duration": 13755900,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2886057000,
+      "eval_count": 4,
+      "eval_duration": 834786000
+    },
+    "started_at": "2026-10-14T18:03:05.3722796Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:09.3346889+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": 3.1207836,
+    "client_total_seconds": 3.9684337,
+    "first_chunk_seconds": 3.1207836,
+    "content_characters": 6,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": 177.40467357366816,
+    "sample": {
+      "condition": "input-long",
+      "kind": "performance",
+      "prompt": "Identificador de medición: input-long-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "nonce": "input-long-001",
+      "repetition": 1,
+      "id": "input-long-001"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:05.3489591+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:03:09.3417563Z",
+    "logprobs_observed": false
+  },
+  {
+    "first_content_seconds": null,
+    "tokens_per_second": null,
+    "error": "Exception calling \"GetResult\" with \"0\" argument(s): \"The operation was canceled.\"",
+    "ps_after_error": null,
+    "final": null,
+    "started_at": "2026-10-14T18:03:09.4351453Z",
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:12.2632941+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "ttft_seconds": null,
+    "client_total_seconds": 2.8341987,
+    "first_chunk_seconds": null,
+    "content_characters": 0,
+    "first_thinking_seconds": null,
+    "uncached_prompt_tokens_per_second": null,
+    "sample": {
+      "condition": "input-long",
+      "kind": "performance",
+      "prompt": "Identificador de medición: input-long-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "nonce": "input-long-002",
+      "repetition": 2,
+      "id": "input-long-002"
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-14T20:08:09.3346889+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "thinking_characters": 0,
+    "ended_at": "2026-10-14T18:03:12.2727629Z",
+    "logprobs_observed": false
+  }
+]

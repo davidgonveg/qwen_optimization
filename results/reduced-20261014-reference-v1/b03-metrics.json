@@ -1,0 +1,95 @@
+{
+  "first_content_seconds": 1.9185993,
+  "tokens_per_second": 3.7365437717420145,
+  "error": null,
+  "ps_after_error": null,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T18:01:02.0114118Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 3516111800,
+    "load_duration": 25297200,
+    "prompt_eval_count": 52,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1717463000,
+    "eval_count": 6,
+    "eval_duration": 1605762000
+  },
+  "started_at": "2026-10-14T18:00:58.4900636Z",
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:06:02.0120217+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ttft_seconds": 1.9185993,
+  "client_total_seconds": 3.5345573,
+  "first_chunk_seconds": 1.9185993,
+  "content_characters": 5,
+  "first_thinking_seconds": null,
+  "uncached_prompt_tokens_per_second": 30.27721703466101,
+  "sample": {
+    "id": "b03",
+    "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+    "condition": "resident-quality",
+    "task": {
+      "id": "b03",
+      "area": "calculo",
+      "prompt": "Una visita empieza a las 22:45 y dura 2 horas y 30 minutos. Devuelve únicamente la hora de fin en formato HH:MM de 24 horas.",
+      "scorer": "exact",
+      "expected": "01:15"
+    },
+    "kind": "quality"
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T20:05:58.3950546+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "thinking_characters": 0,
+  "ended_at": "2026-10-14T18:01:02.0285431Z",
+  "logprobs_observed": false
+}
