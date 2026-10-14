@@ -13,6 +13,14 @@ Lee `PROJECT_GUIDE.md`, `PROJECT_STATUS.md` y `NEXT_PROMPT.md` antes de actuar. 
 - Hacer un commit con mensaje descriptivo y push normal, nunca forzado. Comprobar el resultado e informar rama, hash y éxito o fallo. Si falla autenticación o hay divergencia, preservar el trabajo, informar el motivo y registrar la recuperación pendiente sin sobrescribir el remoto.
 - Si no hay cambios, no crear commits vacíos. Entregar siempre el enlace a `NEXT_PROMPT.md` y el prompt listo para copiar. El informe final indicará tareas completadas, pendientes y resultado de Git.
 
+## Recomendación de modelo para cada conversación
+
+- Cada prompt nuevo y su entrega al usuario deben indicar familia y versión recomendadas (Luna, Sol o Astra), esfuerzo de razonamiento y una justificación breve vinculada a las tareas concretas. Incluir esta recomendación dentro de `NEXT_PROMPT.md`; no dejarla solo en el chat.
+- Elegir el modelo más eficiente que previsiblemente cumpla la calidad requerida: Luna para tareas acotadas y rutinarias; Sol para implementación, integración y diagnóstico con varias dependencias; Astra para investigación difícil, problemas ambiguos o decisiones metodológicas complejas. No recomendar siempre el más potente por defecto.
+- Reconsiderar la elección en cada cierre según el siguiente encargo. Verificar nombres y disponibilidad con fuentes oficiales y el catálogo de la sesión cuando proceda; no inventar costes ni asegurar acceso a un modelo.
+- La recomendación no cambia automáticamente el modelo de la conversación. Si aparecen bloqueos que exigen mayor capacidad, explicar el motivo y proponer el modelo para continuar.
+- Para la próxima fase 1: **GPT-6.1 Sol (`gpt-6.1-sol`), razonamiento medium**. Requiere integrar Ollama, almacenamiento local y diagnóstico de memoria/compatibilidad; es una elección equilibrada para este alcance.
+
 ## Alcance y orden
 
 - El encargo inicial consiste únicamente en preparar la documentación. No inicia descargas, instalación ni experimentos.

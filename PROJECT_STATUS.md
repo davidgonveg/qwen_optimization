@@ -15,6 +15,8 @@ Fase 0 completada: documentación y flujo de continuidad preparados. Modelo conf
 
 ## Decisiones
 
+- Cada prompt incluirá modelo de OpenAI recomendado, versión, razonamiento y motivo. Para la fase 1: GPT-6.1 Sol, razonamiento medium. Usar Luna para tareas rutinarias y acotadas, Sol para integración e implementación y Astra cuando la complejidad lo justifique.
+
 - Trabajar por conversaciones con alcance definido: leer guía y estado, ejecutar el prompt, actualizar documentación y generar el prompt siguiente, revisar cambios, commit y push.
 - Primera tarea operativa: descargar una variante viable y verificar ejecución local. Los benchmarks extensos y la optimización quedan para conversaciones posteriores.
 - Conservar modelos existentes y una referencia reproducible; almacenar los recursos nuevos dentro del proyecto.

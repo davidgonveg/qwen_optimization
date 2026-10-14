@@ -106,6 +106,12 @@ Esta fase queda fuera del encargo actual y no se inicia automáticamente. Compar
 
 Para cada experimento guardar hipótesis, única variable principal, configuración, coste, resultados y decisión. Mantener una tabla de compromisos o frontera de Pareto: una variante se descarta si otra mejora sus métricas relevantes sin empeorar las demás. Acordar tras la referencia objetivos prácticos de TTFT, velocidad, contexto y caída de calidad aceptable; no inventar ahora cifras de éxito.
 
+## Modelo de OpenAI para la siguiente conversación
+
+Cada cierre debe recomendar en `NEXT_PROMPT.md` un modelo, su versión y esfuerzo de razonamiento, con una razón relacionada con el encargo. Priorizar eficiencia sin sacrificar la calidad necesaria: Luna para tareas acotadas, Sol para implementación e integración y Astra para investigación o diagnóstico especialmente difíciles. Revisar la recomendación en cada conversación; no asignar un modelo fijo a todas las fases.
+
+Para la fase 1 se recomienda **GPT-6.1 Sol con razonamiento medium**. Es una decisión práctica para integrar Ollama y diagnosticar compatibilidad y memoria, no un resultado de evaluación propia de los modelos de OpenAI. Referencia: [guía oficial de selección de modelos](https://developers.openai.com/api/docs/guides/model-selection), consultada el 14 de octubre de 2026.
+
 ## Organización prevista
 
 Crear estas carpetas cuando hagan falta, no por adelantado:
