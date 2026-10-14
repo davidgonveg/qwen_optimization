@@ -1,0 +1,23 @@
+{
+  "keep_alive": "5m",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "model": "qwen3.8:27b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ana tiene 3 cajas con 12 lápices cada una. Regala 7 lápices y reparte los restantes entre 5 niños por igual. ¿Cuántos recibe cada niño y cuántos sobran? Explica el cálculo en una frase breve."
+    }
+  ],
+  "think": false,
+  "stream": true
+}

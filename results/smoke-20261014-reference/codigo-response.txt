@@ -1,0 +1,2 @@
+def suma_pares(numeros):
+    return sum(x for x in numeros if isinstance(x, int) and not isinstance(x, bool) and x % 2 == 0)

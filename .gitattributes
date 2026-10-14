@@ -1,0 +1,4 @@
+# Conservar los bytes de la evidencia, incluidas respuestas y manifiestos.
+results/** -text whitespace=cr-at-eol
+# Los logs del runtime se conservan con sus espacios originales.
+results/**/*.log whitespace=cr-at-eol,-blank-at-eol

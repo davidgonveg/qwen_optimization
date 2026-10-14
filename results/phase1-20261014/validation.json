@@ -1,0 +1,14 @@
+{
+  "runtime_complete_responses": "4/4",
+  "date": "2026-10-14T16:57:16.6294096Z",
+  "later_metadata_change": "El runner añade estado Git/hashes para futuras ejecuciones; los resultados iniciales no se reescriben.",
+  "stop_script": "Parada propia verificada; repetición con proceso detenido no hace cambios.",
+  "first_content_consistency": "4/4",
+  "powershell_syntax": "ok",
+  "digest_verification": "Registro verification-20261014; digest de API normalizado, blob original y capas coinciden.",
+  "instruction_json": "ok",
+  "stream_response_consistency": "4/4",
+  "json_files": "ok",
+  "arithmetic_review": "Incorrecta; referencia conservada: esperado 5 y resto 4, observado 9 y resto 2.",
+  "generated_code_executed": false
+}

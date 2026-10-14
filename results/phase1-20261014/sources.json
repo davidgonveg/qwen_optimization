@@ -1,0 +1,16 @@
+{
+  "consulted_date": "2026-10-14",
+  "sources": [
+    {"url":"https://ollama.com/library/qwen3.8:27b","purpose":"Etiqueta, variante Q4_K_M y arquitectura compartida qwen35; la página también anuncia una variante MLX distinta."},
+    {"url":"https://registry.ollama.ai/v2/library/qwen3.8/manifests/27b","purpose":"Manifiesto GGUF concreto negociado con Accept application/vnd.docker.distribution.manifest.v2+json; bytes conservados y SHA256 calculado antes de descargar."},
+    {"url":"https://huggingface.co/Qwen/Qwen3.8-27B","purpose":"Identidad oficial, licencia Apache-2.0, arquitectura, capacidades y recomendaciones de muestreo no-thinking."},
+    {"url":"https://huggingface.co/api/models/Qwen/Qwen3.8-27B","purpose":"Revisión fuente consultada, sin atribuirla automáticamente al GGUF de Ollama."},
+    {"url":"https://github.com/ollama/ollama/releases/tag/v0.40.3","purpose":"Versión del runtime existente y fecha de publicación."},
+    {"url":"https://docs.ollama.com/faq","purpose":"OLLAMA_HOST, OLLAMA_MODELS y alcance de memoria."},
+    {"url":"https://docs.ollama.com/api/chat","purpose":"Streaming, think, opciones, duraciones y contadores; logprobs documentados, aún sin verificar para protocolos de loglikelihood."},
+    {"url":"https://docs.ollama.com/api/pull","purpose":"Descarga por API y registro de progreso."},
+    {"url":"https://raw.githubusercontent.com/ollama/ollama/v0.40.3/envconfig/config.go","purpose":"Variables del servidor fijado."},
+    {"url":"https://raw.githubusercontent.com/ollama/ollama/v0.40.3/server/images.go","purpose":"Comprobación de versión requires antes de descargar capas por Ollama."},
+    {"url":"https://developers.openai.com/api/docs/models/gpt-6.1-sol","purpose":"Nombre y razonamiento medium del modelo recomendado, corroborado con el catálogo de esta sesión."}
+  ]
+}

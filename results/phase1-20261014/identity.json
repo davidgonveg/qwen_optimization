@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-14T15:26:51.0189040Z",
+  "format": "gguf",
+  "license": "apache-2.0",
+  "registry_url": "https://registry.ollama.ai/v2/library/qwen3.8/manifests/27b",
+  "manifest_bytes": 986,
+  "digest": "sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+  "hf_repository": "Qwen/Qwen3.8-27B",
+  "release_published": "2026-10-11T01:39:04Z",
+  "hf_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "download_bytes": 17741872154.0,
+  "runner": "llamacpp",
+  "ollama_release": "v0.40.3",
+  "variant": "Q4_K_M",
+  "note": "La revisión de Hugging Face identifica el repositorio fuente consultado; no demuestra el commit exacto usado por el cuantizador de Ollama."
+}

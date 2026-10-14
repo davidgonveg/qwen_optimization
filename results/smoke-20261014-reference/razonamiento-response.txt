@@ -1,0 +1,3 @@
+Cada niño recibe **9** lápices y sobran **2**.
+
+**Explicación:** Ana tenía $3 \times 12 = 36$ lápices; tras regalar 7, le quedan 29, que al dividirse entre 5 niños ($29 \div 5$) dan un cociente de 9 y un residuo de 2.

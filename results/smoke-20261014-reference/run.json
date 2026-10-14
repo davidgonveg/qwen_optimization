@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-10-14T16:44:57.6962820Z",
+  "working_tree": "Implementación nueva aún sin commit; scripts versionados en el commit de cierre.",
+  "tags": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "modified_at": "2026-10-14T17:32:10.3462575+02:00",
+        "size": 17741872154,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "qwen3.8:27b-q4_K_M",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 5120,
+          "runner": "llamacpp"
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "powershell": "7.6.5",
+  "ps_before": {
+    "models": []
+  },
+  "server": {
+    "executable": "C:\\Users\\gonza\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+    "start_time": "2026-10-14T15:26:54.9790267Z",
+    "pid": 28964,
+    "settings": {
+      "OLLAMA_HOST": "127.0.0.1:11435",
+      "OLLAMA_KEEP_ALIVE": "5m",
+      "OLLAMA_NO_CLOUD": "1",
+      "OLLAMA_MODELS": "E:\\Documents\\qwen_optimization\\models\\ollama",
+      "OLLAMA_MAX_LOADED_MODELS": "1",
+      "OLLAMA_NUM_PARALLEL": "1",
+      "OLLAMA_CONTEXT_LENGTH": "2048"
+    }
+  },
+  "code_revision": "6e40315875922c5d9a9345607c9d657ef632480a",
+  "notes": "Pruebas de funcionamiento, una muestra por área; sin ejecución del código generado. TTFT medido hasta primer fragmento no vacío, no token individual. CPU acumulada: unidades de 100 ns de Win32_Process. RAM del sistema: KiB. GPU: alcance total del dispositivo."
+}

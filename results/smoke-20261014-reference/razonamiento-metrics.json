@@ -1,0 +1,53 @@
+{
+  "client_total_seconds": 22.863401,
+  "first_thinking_seconds": null,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-14T18:53:08.4835029+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "prompt_tokens_per_second": 41.41953533557041,
+  "first_chunk_seconds": 1.7121675,
+  "id": "razonamiento",
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-14T16:48:08.4829965Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 22861727000,
+    "load_duration": 11020100,
+    "prompt_eval_count": 66,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1593451000,
+    "eval_count": 83,
+    "eval_duration": 21150955000
+  },
+  "content_characters": 217,
+  "first_content_seconds": 1.7121675,
+  "thinking_characters": 0,
+  "tokens_per_second": 3.9241726910203347,
+  "error": null
+}

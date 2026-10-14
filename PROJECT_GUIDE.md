@@ -8,7 +8,11 @@ No se busca una infraestructura empresarial ni una promesa de mejorar todas las 
 
 ## Modelo confirmado
 
-El usuario ha confirmado **Qwen3.8-27B**, disponible como `Qwen/Qwen3.8-27B` y `qwen3.8:27b` en Ollama. La ficha de Ollama consultada muestra aproximadamente 18 GB de descarga para la etiqueta de 27B; verificar tamaño, cuantización y digest al empezar. En este contexto, 27B significa aproximadamente **27.000 millones de parámetros**, no 27 billones en la escala larga española.
+El usuario ha confirmado **Qwen3.8-27B**, disponible como `Qwen/Qwen3.8-27B` y `qwen3.8:27b` en Ollama. En la fase 1 se descargaron **17.741.872.154 bytes** de la variante **GGUF Q4_K_M**, con digest `sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813`. El runtime comunica 27.3B para el modelo de lenguaje, y se incluye un proyector visual BF16 de 931.146.016 bytes. En este contexto, 27B significa aproximadamente **27.000 millones de parámetros**, no 27 billones en la escala larga española.
+
+La arquitectura se identifica como `qwen35` / `Qwen3_5ForConditionalGeneration`: Qwen3.8 comparte la base arquitectónica de Qwen3.5, según la ficha oficial; esto no sustituye el modelo elegido. Es multimodal, pero las comprobaciones iniciales usan solo texto. La licencia es Apache-2.0. Revisión del repositorio oficial consultada: `1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0`; no se dispone de evidencia del commit exacto utilizado para convertir el GGUF. El digest de Ollama fija el artefacto realmente ejecutado.
+
+La ficha de Ollama ofrece también un artefacto MLX/safetensors con otro digest. La referencia de Windows es exclusivamente GGUF/llamacpp. Ollama 0.40.3 conserva el manifiesto original como blob y añade capas de procedencia al archivo de manifiesto local: verificar el digest de la API, el blob original y las capas originales, en lugar de exigir que el archivo local reescrito tenga el mismo hash.
 
 No asumir que todos los modelos Qwen comparten arquitectura ni copiar recomendaciones de otras variantes sin comprobarlas. Priorizar evaluación de texto inicialmente; si se confirma un modelo multimodal, documentar su alcance y proponer una suite de visión separada.
 
@@ -26,13 +30,13 @@ No asumir que todos los modelos Qwen comparten arquitectura ni copiar recomendac
 | Directorio de trabajo | `E:\Documents\qwen_optimization` |
 | Espacio libre observado en E: | Aproximadamente 1,43 TB decimales |
 
-El modelo objetivo no figura entre los modelos instalados. Revalidar este inventario al empezar; no considerar la versión instalada prueba suficiente de compatibilidad con el modelo.
+En el inventario inicial el modelo objetivo no figuraba entre los instalados. Tras la fase 1 está en el almacén separado del proyecto; la lista de los modelos del servicio habitual se conserva. El campo `requires` del artefacto GGUF exige Ollama 0.32.12 y la instalación 0.40.3 supera ese requisito. La compatibilidad práctica se comprueba además mediante inferencia; una versión instalada por sí sola no es evidencia suficiente.
 
 Una estimación elemental para 27B es 54 GB de pesos a 16 bits o 13,5 GB a 4 bits, antes de escalas, metadatos y memoria de ejecución. Es una estimación, no una medición. Por ello no se presupone que una variante de 4 bits quepa completamente en esta GPU. El contexto, las cachés y el reparto CPU/GPU también cuentan. Descargar un modelo cuantizado para poder arrancar será una decisión de viabilidad de la referencia; todavía no demuestra una mejora propia.
 
 ## Fase 0 — Preparación documental
 
-Resultado actual: esta guía, las instrucciones permanentes y el prompt de inicio. No descargar modelos ni crear entornos en esta fase.
+Resultado conservado: esta guía, las instrucciones permanentes y el prompt de inicio. La fase 0 no incluyó descargas ni creación de entornos.
 
 ## Fase 1 — Descargar y comprobar que funciona
 
@@ -44,6 +48,18 @@ Resultado actual: esta guía, las instrucciones permanentes y el prompt de inici
 6. Documentar una configuración de referencia que complete inferencia sin errores y permita continuar. Si resulta lenta, conservar ese dato y explicar el cuello de botella.
 
 **Criterio de cierre:** identidad resuelta, pesos disponibles, ejecución local verificada y comando/configuración reproducibles. Una prueba de arranque no permite afirmar todavía que el modelo funciona bien para uso diario.
+
+### Referencia operativa comprobada el 14 de octubre de 2026
+
+- Configuración: `configs/reference.json`; Ollama 0.40.3, modelo/digest anteriores, contexto 2.048, máximo 256 tokens de salida, concurrencia 1, semilla 42, `think=false` y muestreo no-thinking recomendado por Qwen: temperatura 0,7, top_p 0,8, top_k 20, min_p 0, presence_penalty 1,5 y repeat_penalty 1.
+- Instancia: `127.0.0.1:11435`, almacén `models/ollama`, variables solo del proceso, sin cambios de entorno del usuario. Scripts de arranque/parada propios; se comprueba el propietario del puerto y la identidad del proceso antes de detenerlo. No hace falta `.venv` en esta fase.
+- Reparto CPU/GPU automático del runtime, sin ajuste de optimización. El artefacto trae `draft_num_predict=4` y activa MTP por defecto; debe conservarse y registrarse al repetir la referencia. El runtime resuelve 6 hilos y Flash Attention habilitada; consultar el informe y las evidencias de ejecución para buffers y contexto efectivos.
+- Las pruebas fijas de `configs/smoke-prompts.json` cubren español, instrucciones, cálculo sencillo y código guardado como texto. El runner usa streaming y un reloj monotónico; guarda peticiones, fragmentos, respuestas, métricas de la API y telemetría. Cada repetición exige un RunId nuevo.
+- El muestreo nominal cada segundo registra la GPU completa y el árbol de procesos de la instancia, RAM de Windows y CPU acumulada. No mide temperatura CPU, consumo del PC completo ni fallos de página; no confundir memoria virtual comprometida con paginación efectivamente medida. Los errores de sensores se guardan como tales.
+- La primera petición incluye la carga de un modelo no residente; no se ha vaciado la caché de archivos del sistema. Las siguientes reutilizan el modelo y pueden reutilizar prefijos. Estas condiciones aún no forman un benchmark controlado.
+- Las cuatro peticiones completaron inferencia; la respuesta de cálculo fue incorrecta (29 entre 5: 5 y resto 4; respondió 9 y 2). Esto no impide cerrar la puesta en marcha, pero exige evaluar calidad en la fase 2 sin atribuir el fallo a la cuantización o al modo de razonamiento sin comparación.
+
+Comandos de reproducción e informe: `README.md` y `reports/phase1-20261014.md`. Evidencias de identidad: `results/phase1-20261014`; pruebas y telemetría: `results/smoke-20261014-reference`.
 
 ## Fase 2 — Construir la referencia de evaluación
 
@@ -110,7 +126,7 @@ Para cada experimento guardar hipótesis, única variable principal, configuraci
 
 Cada cierre debe recomendar en `NEXT_PROMPT.md` un modelo, su versión y esfuerzo de razonamiento, con una razón relacionada con el encargo. Priorizar eficiencia sin sacrificar la calidad necesaria: Luna para tareas acotadas, Sol para implementación e integración y Astra para investigación o diagnóstico especialmente difíciles. Revisar la recomendación en cada conversación; no asignar un modelo fijo a todas las fases.
 
-Para la fase 1 se recomienda **GPT-6.1 Sol con razonamiento medium**. Es una decisión práctica para integrar Ollama y diagnosticar compatibilidad y memoria, no un resultado de evaluación propia de los modelos de OpenAI. Referencia: [guía oficial de selección de modelos](https://developers.openai.com/api/docs/guides/model-selection), consultada el 14 de octubre de 2026.
+Para la siguiente conversación (fase 2A: runner y piloto) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere integrar streaming, telemetría, evaluación generativa y control de caché. El catálogo de esta sesión incluye esa versión y esfuerzo, y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), consultada el 14 de octubre de 2026, confirma el nombre y `medium`. Es una recomendación práctica, no una evaluación propia ni una garantía de acceso en otras cuentas.
 
 ## Organización prevista
 

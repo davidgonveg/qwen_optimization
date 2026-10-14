@@ -1,0 +1,6 @@
+[
+  {"id":"espanol","prompt":"Explica en español qué diferencia hay entre RAM y VRAM. Usa dos frases breves y una analogía cotidiana."},
+  {"id":"instrucciones","prompt":"Devuelve únicamente un objeto JSON válido, sin markdown ni explicación, con exactamente estas claves y valores: idioma igual a español, pares igual a la lista de números 2, 4 y 6."},
+  {"id":"razonamiento","prompt":"Ana tiene 3 cajas con 12 lápices cada una. Regala 7 lápices y reparte los restantes entre 5 niños por igual. ¿Cuántos recibe cada niño y cuántos sobran? Explica el cálculo en una frase breve."},
+  {"id":"codigo","prompt":"Escribe una función Python llamada suma_pares(numeros) que sume los enteros pares de una lista sin modificarla. Devuelve solo el código, sin markdown ni explicaciones. No uses imports ni acceso a archivos."}
+]

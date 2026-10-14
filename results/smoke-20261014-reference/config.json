@@ -1,0 +1,27 @@
+{
+  "reference_id": "qwen38-27b-q4km-ollama0403-ctx2048-nothink",
+  "base_url": "http://127.0.0.1:11435",
+  "model": "qwen3.8:27b",
+  "expected_digest": "sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+  "ollama_version": "0.40.3",
+  "format": "gguf",
+  "quantization": "Q4_K_M",
+  "stream": true,
+  "think": false,
+  "keep_alive": "5m",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "concurrency": 1,
+  "gpu_offload": "automatic",
+  "telemetry_interval_seconds": 1,
+  "request_timeout_seconds": 600
+}

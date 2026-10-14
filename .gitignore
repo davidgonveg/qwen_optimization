@@ -1,0 +1,11 @@
+models/
+cache/
+.venv/
+runtime/
+__pycache__/
+*.pyc
+.env
+*.safetensors
+*.gguf
+*.bin
+*.part

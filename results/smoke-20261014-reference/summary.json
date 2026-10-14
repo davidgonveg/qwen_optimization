@@ -1,0 +1,64 @@
+{
+  "system_free_RAM_min_GiB": 8.02798843383789,
+  "gpu_peak_MiB": 11381.0,
+  "process_tree_working_set_peak_GiB": 10.556678771972656,
+  "process_tree_CPU_peak_percent_of_12_logical_processors": 61.595599941329375,
+  "cpu_method": "Diferencias de KernelModeTime+UserModeTime entre procesos presentes en dos muestras consecutivas, unidades 100 ns, divididas por tiempo real y 12 CPUs lógicas; no mide utilización CPU del sistema completo.",
+  "sensor_error_samples": 0,
+  "samples": 199,
+  "process_tree_private_commit_peak_GiB": 21.395732879638672,
+  "gpu_temperature_peak_C": 59.0,
+  "metrics": [
+    {
+      "prompt_tokens": 37,
+      "output_tokens": 69,
+      "total_s": 161.3976332,
+      "generation_tokens_s": 2.2289311254467634,
+      "done_reason": "stop",
+      "cached_prompt_tokens": 0,
+      "error": null,
+      "load_s": 94.7905301,
+      "id": "espanol",
+      "first_content_s": 130.4532439
+    },
+    {
+      "prompt_tokens": 54,
+      "output_tokens": 29,
+      "total_s": 6.3334672,
+      "generation_tokens_s": 6.323011707165193,
+      "done_reason": "stop",
+      "cached_prompt_tokens": 0,
+      "error": null,
+      "load_s": 0.0109168,
+      "id": "instrucciones",
+      "first_content_s": 1.7478664
+    },
+    {
+      "prompt_tokens": 66,
+      "output_tokens": 83,
+      "total_s": 22.863401,
+      "generation_tokens_s": 3.9241726910203347,
+      "done_reason": "stop",
+      "cached_prompt_tokens": 0,
+      "error": null,
+      "load_s": 0.0110201,
+      "id": "razonamiento",
+      "first_content_s": 1.7121675
+    },
+    {
+      "prompt_tokens": 59,
+      "output_tokens": 40,
+      "total_s": 9.5709003,
+      "generation_tokens_s": 5.1448784921184325,
+      "done_reason": "stop",
+      "cached_prompt_tokens": 0,
+      "error": null,
+      "load_s": 0.0144072,
+      "id": "codigo",
+      "first_content_s": 1.7948472
+    }
+  ],
+  "gpu_power_peak_W": 70.61,
+  "last_sample_utc": "2026-10-14T16:48:17.8982756Z",
+  "first_sample_utc": "2026-10-14T16:44:57.8556606Z"
+}

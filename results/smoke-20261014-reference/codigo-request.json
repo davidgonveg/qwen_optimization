@@ -1,0 +1,23 @@
+{
+  "keep_alive": "5m",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "model": "qwen3.8:27b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Escribe una función Python llamada suma_pares(numeros) que sume los enteros pares de una lista sin modificarla. Devuelve solo el código, sin markdown ni explicaciones. No uses imports ni acceso a archivos."
+    }
+  ],
+  "think": false,
+  "stream": true
+}

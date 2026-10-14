@@ -1,0 +1,23 @@
+{
+  "keep_alive": "5m",
+  "options": {
+    "num_ctx": 2048,
+    "num_predict": 256,
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "presence_penalty": 1.5
+  },
+  "model": "qwen3.8:27b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explica en español qué diferencia hay entre RAM y VRAM. Usa dos frases breves y una analogía cotidiana."
+    }
+  ],
+  "think": false,
+  "stream": true
+}

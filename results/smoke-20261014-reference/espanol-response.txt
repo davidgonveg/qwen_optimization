@@ -1,0 +1,1 @@
+La RAM es la memoria de trabajo general del sistema, mientras que la VRAM es la memoria dedicada exclusivamente a la tarjeta gráfica. Piensa en la RAM como el escritorio amplio donde organizas todos tus documentos diarios, y en la VRAM como la pequeña bandeja específica donde colocas solo los elementos visuales que estás viendo ahora mismo.
