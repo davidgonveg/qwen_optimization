@@ -4,7 +4,7 @@ Actualizado: 15 de octubre de 2026.
 
 ## Hito actual
 
-**Fase 2B completa mediante tres fuentes de evidencia separadas.** Calidad del run parcial del 14 de octubre preservada (22 tareas, 15/18 estrictas, 10/12 criterios asistidos), más sesiones nuevas de rendimiento (seis medidas por longitud) y sostenido (188,598 s, siete peticiones). Validación agregada satisfactoria; el run monolítico original sigue incompleto. **Fase 2 abierta, sin optimización**, pendiente decisión de alcance y revisión humana. Referencia y 352 archivos históricos comprobados por hash, sin modificaciones.
+**Fase 2B completa mediante tres fuentes de evidencia separadas.** Calidad del run parcial del 14 de octubre preservada (22 tareas, 15/18 estrictas, 10/12 criterios asistidos), más sesiones nuevas de rendimiento (seis medidas por longitud) y sostenido (188,598 s, siete peticiones). Validación agregada satisfactoria; el run monolítico original sigue incompleto. Ficha consolidada en `reports/phase2-reference-20261015.md`; paquete con las siete rúbricas, respuestas literales y hashes en `reports/human-review-rubrics-20261015.md`. **Fase 2 abierta, sin optimización**, pendiente decisión de alcance y decisiones humanas. Referencia y 352 archivos históricos comprobados por hash, sin modificaciones.
 
 ## Evidencias
 
@@ -22,23 +22,32 @@ Actualizado: 15 de octubre de 2026.
 - Rendimiento: n=6 por condición, 135/519 tokens, caché 7/salida 4, doce respuestas Oviedo. TTFT p50/p95 corta 2,141/2,243 s; larga 3,053/3,367 s. Total p50/p95 2,989/3,106 y 3,901/4,219 s; generación p50 4,567/4,456 tokens/s. p95 máximo orientativo. RAM libre mínimo 2,637 GiB; caché pico 6301,787 MiB, VRAM 11467 MiB y GPU 67 °C. 98 muestras sin errores, intervalo máximo 2,070 s.
 - Sostenido: siete peticiones/493 tokens en 188,598 s dentro del límite 210; sin error/truncamiento/parada. RAM libre mínimo 6,482 GiB, caché pico 2466,715 MiB, VRAM 11504 MiB, GPU 55 °C. 275 muestras sin errores. Generación p50 primeras/últimas ventanas 60 s: 2,934 (n=3) y 2,395 (n=2), caída descriptiva 18,4%, sin demostrar causa térmica ni estabilidad prolongada. No se midió paginación.
 - Coste nuevo: 24 peticiones/637 tokens, 381,202 s de tiempo cliente (~6,35 min); energía GPU por sesión 1,524 Wh/104,522 s y 2,956 Wh/278,718 s, incluye cargas y otros procesos. No energía del PC. PIDs propios 228/32928 detenidos, 11435 libre y tres modelos/digests habituales preservados; RAM libre final inventariada 18,701 GiB.
+- Ficha breve consolidada: `reports/phase2-reference-20261015.md`. Resume calidad, latencia, recursos, coste y límites con enlaces a las evidencias crudas; diferencia observaciones de estimaciones y evita sumar suites o sesiones incompatibles.
+- Revisión humana preparada pero no recibida: `reports/human-review-rubrics-20261015.md` contiene q08/q09/q10 y b19/b20/b21/b22 con prompt, respuesta literal, rúbrica fijada antes de inferencia y SHA-256 comprobado contra el archivo de respuesta. Casillas vacías. No se ejecutó q10; revisiones asistidas originales intactas.
 
 ## Decisiones
 
 - La fase 1 cierra puesta en marcha, no aprobación de calidad para uso diario. No inferir calidad general a partir de una respuesta ni atribuir el fallo a Q4_K_M o a no-thinking sin comparación.
 - Conservar la referencia y el comportamiento heredado del runtime. No ajustar MTP, contexto o reparto GPU antes de medir la referencia de fase 2.
 - Fase 2A validó el procedimiento; fase 2B reúne ahora calidad preservada y rendimiento/sostenido completos en sesiones separadas. No equiparar el agregado a una sesión continua ni mezclar latencias históricas. Mantener fases 1/2A como desarrollo y reduced-v1 como referencia personal expuesta; no relajar criterios. Evaluación amplia y optimización requieren alcance posterior.
+- La referencia consolidada acredita únicamente una referencia personal reducida de texto, con el alcance y limitaciones detallados en `reports/phase2-reference-20261015.md`. Se presentó al usuario la decisión: (A) aceptar el cierre técnico con revisión humana aún explícitamente pendiente, o (B) autorizar una ampliación concreta propuesta con GSM8K generativo. No se ha elegido; no marcar fase 2 completa ni iniciar ampliación/fase 3 hasta decisión explícita.
 - Mantener los umbrales previos de fase 2B: RAM libre 1,5 GiB, VRAM libre 384 MiB, GPU 80 °C y máximo dos errores consecutivos de sensores. La parada por RAM es evidencia de viabilidad insuficiente del protocolo monolítico, no autorización para modificar caché/runtime ni repetir silenciosamente.
 - Próximo modelo recomendado: **GPT-6 Luna (`gpt-6-luna`), razonamiento medium**, para consolidar evidencia existente, preparar revisión humana y explicar límites, sin nueva implementación/inferencia. Tarea acotada tras resolver la recuperación; nombres/esfuerzo comprobados en [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6-luna) y catálogo de sesión el 15 de octubre. No cambia automáticamente el modelo ni garantiza acceso. Si aparece diagnóstico nuevo, reconsiderar Sol.
 - Git: seguir `main` y upstream `origin/main`, remoto `git@github.com:davidgonveg/qwen_optimization.git`. Excluir `models`, `runtime`, cachés y entornos; versionar evidencia pequeña pertinente.
 
 ## Próximo paso y pendientes
 
-Ejecutar `NEXT_PROMPT.md`: consolidar la referencia reducida, preparar una revisión humana trazable de las siete rúbricas 2A/2B y presentar al usuario la decisión de alcance pendiente para fase 2. No repetir inferencia ni iniciar optimización. La revisión humana solo se registra al recibir decisiones reales del usuario; otra lectura de Codex sigue siendo asistida.
+Ejecutar `NEXT_PROMPT.md`: recibir las decisiones de la revisión humana si el usuario las aporta y registrar la elección explícita de alcance de fase 2. Si autoriza ampliación, acordar protocolo y ejecutar solo el alcance autorizado; no inferir autorización de una respuesta incompleta. No repetir trabajo documental ya consolidado, ni repetir inferencia ni iniciar optimización sin autorización. La revisión humana solo se registra al recibir decisiones reales del usuario; otra lectura de Codex sigue siendo asistida.
 
 Logprobs generados comprobados, loglikelihood arbitraria no demostrado. El sostenido acotado terminó, con deriva de velocidad descriptiva pendiente de explicación si se autoriza investigarla. No acredita rendimiento constante ni fiabilidad prolongada. Visión, thinking, benchmarks oficiales, aislamiento de código y optimización fuera de alcance. El protocolo monolítico sigue sin viabilidad demostrada; la referencia recuperada requiere sesiones separadas. No declarar fase 2 completa sin decisión explícita del usuario.
 
 ## Registro de continuidad y Git
+
+### Consolidación y revisión humana — 15 de octubre
+
+- Se creó `reports/phase2-reference-20261015.md` con resultados por fuente/sesión, costes, recursos, límites y decisión de alcance. Recuentos y medidas se tomaron de informes y resúmenes existentes; no se repitió inferencia ni se alteraron resultados.
+- Se creó `reports/human-review-rubrics-20261015.md` con las siete tareas manuales, prompts/respuestas originales, criterios y hashes SHA-256 que coinciden con los metadatos de revisión y archivos de respuesta. No contiene juicios humanos; q10 queda expresamente estático y sin ejecución.
+- Decisión de alcance aún pendiente: aceptar el cierre técnico de fase 2 como referencia reducida de texto, manteniendo revisión humana pendiente, o autorizar la ampliación propuesta GSM8K con protocolo generativo fijado antes de inferencia. Fase 2 no se declara completa y fase 3 no se inicia.
 
 ### Recuperación fase 2B — 15 de octubre
 
