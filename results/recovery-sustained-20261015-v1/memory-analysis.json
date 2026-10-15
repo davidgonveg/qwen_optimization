@@ -1,0 +1,179 @@
+{
+  "not_measured": [
+    "paging",
+    "memory leak",
+    "causal throttling",
+    "CPU temperature",
+    "PC energy"
+  ],
+  "request_end_nearest_telemetry": [
+    {
+      "distance_seconds": 0.2143908,
+      "request_end": "2026-10-15T07:17:50.065525Z",
+      "kind": "compatibility",
+      "output_tokens": 3,
+      "id": "compatibility-nonresident",
+      "input_tokens": 17,
+      "private_committed_tree_GiB": 20.505809783935547,
+      "sample_at": "2026-10-15T07:17:50.2799158Z",
+      "working_set_tree_GiB": 9.662818908691406,
+      "cached_tokens": 0,
+      "free_ram_GiB": 8.379276275634766
+    },
+    {
+      "distance_seconds": 0.0676848,
+      "request_end": "2026-10-15T07:18:23.9331987Z",
+      "kind": "warmup-sustained",
+      "output_tokens": 82,
+      "id": "sustained-warmup",
+      "input_tokens": 76,
+      "private_committed_tree_GiB": 20.83087921142578,
+      "sample_at": "2026-10-15T07:18:23.8655139Z",
+      "working_set_tree_GiB": 9.976409912109375,
+      "cached_tokens": 0,
+      "free_ram_GiB": 8.569877624511719
+    },
+    {
+      "distance_seconds": 0.2838827,
+      "request_end": "2026-10-15T07:18:49.6516488Z",
+      "kind": "sustained",
+      "output_tokens": 70,
+      "id": "sustained-001",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 21.140239715576172,
+      "sample_at": "2026-10-15T07:18:49.3677661Z",
+      "working_set_tree_GiB": 10.143054962158203,
+      "cached_tokens": 0,
+      "free_ram_GiB": 8.45229721069336
+    },
+    {
+      "distance_seconds": 0.1766115,
+      "request_end": "2026-10-15T07:19:15.8724362Z",
+      "kind": "sustained",
+      "output_tokens": 69,
+      "id": "sustained-002",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 21.590232849121094,
+      "sample_at": "2026-10-15T07:19:15.6958247Z",
+      "working_set_tree_GiB": 10.733135223388672,
+      "cached_tokens": 0,
+      "free_ram_GiB": 8.18310546875
+    },
+    {
+      "distance_seconds": 0.0699125,
+      "request_end": "2026-10-15T07:19:42.3470489Z",
+      "kind": "sustained",
+      "output_tokens": 72,
+      "id": "sustained-003",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 21.74388885498047,
+      "sample_at": "2026-10-15T07:19:42.2771364Z",
+      "working_set_tree_GiB": 10.886627197265625,
+      "cached_tokens": 0,
+      "free_ram_GiB": 7.621269226074219
+    },
+    {
+      "distance_seconds": 0.0880077,
+      "request_end": "2026-10-15T07:20:08.5401832Z",
+      "kind": "sustained",
+      "output_tokens": 72,
+      "id": "sustained-004",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 22.0462646484375,
+      "sample_at": "2026-10-15T07:20:08.6281909Z",
+      "working_set_tree_GiB": 11.188377380371094,
+      "cached_tokens": 0,
+      "free_ram_GiB": 7.431385040283203
+    },
+    {
+      "distance_seconds": 0.0517046,
+      "request_end": "2026-10-15T07:20:35.0605991Z",
+      "kind": "sustained",
+      "output_tokens": 72,
+      "id": "sustained-005",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 22.349163055419922,
+      "sample_at": "2026-10-15T07:20:35.0088945Z",
+      "working_set_tree_GiB": 11.490585327148438,
+      "cached_tokens": 0,
+      "free_ram_GiB": 6.975070953369141
+    },
+    {
+      "distance_seconds": 0.3014736,
+      "request_end": "2026-10-15T07:21:03.0793809Z",
+      "kind": "sustained",
+      "output_tokens": 72,
+      "id": "sustained-006",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 22.652252197265625,
+      "sample_at": "2026-10-15T07:21:03.3808545Z",
+      "working_set_tree_GiB": 11.793132781982422,
+      "cached_tokens": 0,
+      "free_ram_GiB": 6.869861602783203
+    },
+    {
+      "distance_seconds": 0.560904,
+      "request_end": "2026-10-15T07:21:32.5366358Z",
+      "kind": "sustained",
+      "output_tokens": 66,
+      "id": "sustained-007",
+      "input_tokens": 77,
+      "private_committed_tree_GiB": 22.801410675048828,
+      "sample_at": "2026-10-15T07:21:31.9757318Z",
+      "working_set_tree_GiB": 11.942123413085938,
+      "cached_tokens": 0,
+      "free_ram_GiB": 6.764289855957031
+    }
+  ],
+  "run_id": "recovery-sustained-20261015-v1",
+  "interpretation": "New process avoids inherited prompts; cache grows within session. Temporal association does not isolate all allocations or external processes. Private committed is not physical RAM/paging.",
+  "cache_limit_MiB": 8192,
+  "cache_peak_MiB": 2466.715,
+  "cache_states": [
+    {
+      "prompts": 0,
+      "line": 376,
+      "cache_MiB": 0.0
+    },
+    {
+      "prompts": 1,
+      "line": 406,
+      "cache_MiB": 300.566
+    },
+    {
+      "prompts": 2,
+      "line": 441,
+      "cache_MiB": 610.535
+    },
+    {
+      "prompts": 3,
+      "line": 478,
+      "cache_MiB": 919.777
+    },
+    {
+      "prompts": 4,
+      "line": 517,
+      "cache_MiB": 1228.952
+    },
+    {
+      "prompts": 5,
+      "line": 558,
+      "cache_MiB": 1538.393
+    },
+    {
+      "prompts": 6,
+      "line": 601,
+      "cache_MiB": 1847.833
+    },
+    {
+      "prompts": 7,
+      "line": 646,
+      "cache_MiB": 2157.274
+    },
+    {
+      "prompts": 8,
+      "line": 693,
+      "cache_MiB": 2466.715
+    }
+  ]
+}

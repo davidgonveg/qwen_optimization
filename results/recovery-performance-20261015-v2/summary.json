@@ -1,0 +1,438 @@
+{
+  "run_complete": true,
+  "performance": [
+    {
+      "n_valid": 6,
+      "n_requested": 6,
+      "n_planned": 6,
+      "ttft_seconds": {
+        "min": 2.9492998,
+        "n": 6,
+        "p50": 3.0526267,
+        "p95": 3.3665725,
+        "max": 3.3665725
+      },
+      "total_seconds": {
+        "min": 3.7962751,
+        "n": 6,
+        "p50": 3.9005094,
+        "p95": 4.2194104,
+        "max": 4.2194104
+      },
+      "samples": [
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.750024046996738,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 2.9492998,
+          "uncached_prompt_tokens_per_second": 186.72188577434514,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "56",
+            "free_ram_KiB": 7488972,
+            "distance_seconds": 0.2087754,
+            "at_utc": "2026-10-15T07:15:48.3576098Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-001",
+          "error": null,
+          "total_seconds": 3.7962751
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 5.365634452738822,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 3.0526267,
+          "uncached_prompt_tokens_per_second": 179.08140334063765,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "57",
+            "free_ram_KiB": 7014404,
+            "distance_seconds": 0.0203634,
+            "at_utc": "2026-10-15T07:15:52.4150967Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-002",
+          "error": null,
+          "total_seconds": 3.7989301
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.3367391191215505,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 3.3481327,
+          "uncached_prompt_tokens_per_second": 171.26965001448434,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "55",
+            "free_ram_KiB": 4856116,
+            "distance_seconds": 0.4318048,
+            "at_utc": "2026-10-15T07:16:02.8710864Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-003",
+          "error": null,
+          "total_seconds": 4.2194104
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.415045149355459,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 3.3665725,
+          "uncached_prompt_tokens_per_second": 168.760572256553,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "58",
+            "free_ram_KiB": 3708104,
+            "distance_seconds": 0.0490835,
+            "at_utc": "2026-10-15T07:16:06.8409771Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-004",
+          "error": null,
+          "total_seconds": 4.2089264
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.71738722790995,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 3.0647758,
+          "uncached_prompt_tokens_per_second": 180.30397418835918,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "57",
+            "free_ram_KiB": 2801628,
+            "distance_seconds": 0.3111216,
+            "at_utc": "2026-10-15T07:16:17.1219292Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-005",
+          "error": null,
+          "total_seconds": 3.9005094
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.455518884159851,
+          "response_exact": true,
+          "input_tokens": 519,
+          "done_reason": "stop",
+          "ttft_seconds": 3.0365606,
+          "uncached_prompt_tokens_per_second": 179.49570121818684,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "59",
+            "free_ram_KiB": 3863092,
+            "distance_seconds": 0.1938642,
+            "at_utc": "2026-10-15T07:16:21.165812Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-long-006",
+          "error": null,
+          "total_seconds": 3.9471516
+        }
+      ],
+      "not_attempted": 0,
+      "failures": 0,
+      "generation_tokens_per_second": {
+        "min": 4.3367391191215505,
+        "n": 6,
+        "p50": 4.455518884159851,
+        "p95": 5.365634452738822,
+        "max": 5.365634452738822
+      },
+      "id": "input-long"
+    },
+    {
+      "n_valid": 6,
+      "n_requested": 6,
+      "n_planned": 6,
+      "ttft_seconds": {
+        "min": 2.0425621,
+        "n": 6,
+        "p50": 2.1411203,
+        "p95": 2.2432735,
+        "max": 2.2432735
+      },
+      "total_seconds": {
+        "min": 2.9006905,
+        "n": 6,
+        "p50": 2.9892428,
+        "p95": 3.1058621,
+        "max": 3.1058621
+      },
+      "samples": [
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.574246307153778,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.0686203,
+          "uncached_prompt_tokens_per_second": 68.17355068623603,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "57",
+            "free_ram_KiB": 8180000,
+            "distance_seconds": 0.3084682,
+            "at_utc": "2026-10-15T07:15:45.2306323Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-001",
+          "error": null,
+          "total_seconds": 2.9425222
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.701706131612509,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.0425621,
+          "uncached_prompt_tokens_per_second": 68.20122985999033,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "60",
+            "free_ram_KiB": 6478272,
+            "distance_seconds": 0.2365059,
+            "at_utc": "2026-10-15T07:15:56.4829495Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-002",
+          "error": null,
+          "total_seconds": 2.9006905
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.567252797442339,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.2432735,
+          "uncached_prompt_tokens_per_second": 62.865189040043646,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "58",
+            "free_ram_KiB": 5983092,
+            "distance_seconds": 0.3398054,
+            "at_utc": "2026-10-15T07:15:59.5445115Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-003",
+          "error": null,
+          "total_seconds": 3.0974277
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.550133944567993,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.2253665,
+          "uncached_prompt_tokens_per_second": 65.23113991926627,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "56",
+            "free_ram_KiB": 2970720,
+            "distance_seconds": 0.1917304,
+            "at_utc": "2026-10-15T07:16:11.2709804Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-004",
+          "error": null,
+          "total_seconds": 3.0351943
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.357815906245949,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.1819681,
+          "uncached_prompt_tokens_per_second": 64.95242995666963,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "57",
+            "free_ram_KiB": 2764792,
+            "distance_seconds": 0.076052,
+            "at_utc": "2026-10-15T07:16:14.0868929Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-005",
+          "error": null,
+          "total_seconds": 3.1058621
+        },
+        {
+          "output_tokens": 4,
+          "generation_tokens_per_second": 4.705594481278792,
+          "response_exact": true,
+          "input_tokens": 135,
+          "done_reason": "stop",
+          "ttft_seconds": 2.1411203,
+          "uncached_prompt_tokens_per_second": 66.5565017902659,
+          "expected_response": "Oviedo",
+          "initial_telemetry": {
+            "gpu_temperature_C": "58",
+            "free_ram_KiB": 3122432,
+            "distance_seconds": 0.2539084,
+            "at_utc": "2026-10-15T07:16:25.217171Z"
+          },
+          "cached_tokens": 7,
+          "id": "input-short-006",
+          "error": null,
+          "total_seconds": 2.9892428
+        }
+      ],
+      "not_attempted": 0,
+      "failures": 0,
+      "generation_tokens_per_second": {
+        "min": 4.357815906245949,
+        "n": 6,
+        "p50": 4.567252797442339,
+        "p95": 4.705594481278792,
+        "max": 4.705594481278792
+      },
+      "id": "input-short"
+    }
+  ],
+  "quality": {
+    "note": "Muestra heterogénea personal, sin inferencia de calidad poblacional ni puntuación oficial",
+    "automatic_tasks": 0,
+    "manual_tasks": 0,
+    "automatic_pass": 0,
+    "automatic_invalid": 0,
+    "split": "reduced-reference-v1; nueva respecto a desarrollo fase1/2A; expuesta tras esta ejecución",
+    "manual_review": null
+  },
+  "requests": 15,
+  "sustained": null,
+  "run_id": "recovery-performance-20261015-v2",
+  "generated_at": "2026-10-15T07:16:54.9639332Z",
+  "request_errors": 0,
+  "compatibility": [
+    {
+      "logprobs_observed": true,
+      "client_total_seconds": 53.6083275,
+      "ttft_seconds": 52.7728397,
+      "final": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-10-15T07:15:37.7520084Z",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 53593497800,
+        "load_duration": 50020669800,
+        "prompt_eval_count": 17,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2698424000,
+        "eval_count": 3,
+        "eval_duration": 845863000
+      },
+      "error": null
+    }
+  ],
+  "fatal_error": null,
+  "incomplete_or_empty": 0,
+  "client_request_seconds_sum": 103.19481780000001,
+  "truncations": 0,
+  "output_tokens_sum": 59.0,
+  "telemetry": {
+    "unavailable": [
+      "paginación",
+      "temperatura CPU",
+      "throttling",
+      "energía del PC",
+      "respuesta interactiva"
+    ],
+    "error_samples": 0,
+    "gpu_vram_MiB": {
+      "min": 1502.0,
+      "n": 98,
+      "p50": 11061.0,
+      "p95": 11449.0,
+      "max": 11467.0
+    },
+    "interval_seconds": {
+      "min": 0.9995494,
+      "n": 97,
+      "p50": 1.0122652,
+      "p95": 1.8135964,
+      "max": 2.0698858
+    },
+    "gpu_temperature_C": {
+      "min": 52.0,
+      "n": 98,
+      "p50": 57.0,
+      "p95": 62.0,
+      "max": 67.0
+    },
+    "last_utc": "2026-10-15T07:16:28.2553833Z",
+    "samples": 98,
+    "tree_cpu_percent_of_all_logical_processors": {
+      "min": 0.342337711242196,
+      "n": 97,
+      "p50": 15.049767032693467,
+      "p95": 50.65878265009457,
+      "max": 62.62703683102952
+    },
+    "first_utc": "2026-10-15T07:14:43.7338546Z",
+    "energy_scope": "GPU completa, potencia integrada por trapecios, sin restar reposo; no energía del PC",
+    "tree_private_committed_bytes": {
+      "min": 104886272.0,
+      "n": 98,
+      "p50": 21402939392.0,
+      "p95": 28282093568.0,
+      "max": 28789309440.0
+    },
+    "gpu_utilization_percent": {
+      "min": 0.0,
+      "n": 98,
+      "p50": 11.0,
+      "p95": 91.0,
+      "max": 95.0
+    },
+    "gpu_energy_Wh": 1.5243940425627776,
+    "errors": [],
+    "collection_seconds": {
+      "min": 0.2626146,
+      "n": 98,
+      "p50": 0.5095349,
+      "p95": 1.8124829,
+      "max": 2.0683946
+    },
+    "gpu_power_W": {
+      "min": 21.39,
+      "n": 98,
+      "p50": 44.74,
+      "p95": 109.65,
+      "max": 130.6
+    },
+    "system_free_RAM_KiB": {
+      "min": 2764792,
+      "n": 98,
+      "p50": 9247352,
+      "p95": 20412296,
+      "max": 20779320
+    },
+    "tree_working_set_bytes": {
+      "min": 61583360.0,
+      "n": 98,
+      "p50": 10011070464.0,
+      "p95": 16544759808.0,
+      "max": 17051090944.0
+    },
+    "energy_coverage_seconds": 104.5215287
+  }
+}

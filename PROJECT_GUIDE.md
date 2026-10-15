@@ -130,6 +130,18 @@ La memoria de la sesión incluye caché de prompts/checkpoints persistentes: log
 
 Paradas conservadoras fijadas por perfil antes de ejecutar, monitor listo y cancelación enlazada al cliente; detener solo instancia propia. Una parada conserva evidencia y pendientes prioritarios. No bajar umbrales después de observar presión ni inferir OOM/paginación/throttling a partir de memoria comprometida.
 
+### Recuperación de fase 2B comprobada el 15 de octubre de 2026
+
+**Fase 2B completa por agregación de sesiones distintas; fase 2 permanece abierta.** Calidad íntegra del run parcial original (15/18 estrictas, 10/12 criterios asistidos) más dos procesos nuevos fijados antes de inferencia en `benchmarks/PROTOCOL-2B-RECOVERY.md`. Rendimiento: seis medidas por longitud, 135/519 tokens; TTFT p50 2,141/3,053 s. Sostenido: siete peticiones en 188,598 s, sin errores/truncamientos/paradas. Informe `reports/phase2b-recovery-20261015.md`, validación agregada `results/recovery-checks-20261015/aggregate-validation.json`. Referencia y 352 archivos históricos intactos por hash. El run monolítico original sigue incompleto; no sumar sus medidas a las nuevas.
+
+Procesos nuevos evitan heredar prompts de calidad, pero la caché crece durante cada sesión: máximos observados 6301,787 y 2466,715 MiB. RAM libre mínima 2,637 y 6,482 GiB. Se mantiene caché 8192 MiB, MTP 4, 31/66 capas GPU, 6 hilos, contexto/salida/muestreo y umbrales originales. Requisitos previos adicionales de cada sesión: >=18 GiB RAM libre, >=10240 MiB VRAM libre, GPU <=60 °C. Son una condición de inicio para este protocolo, no una garantía de seguridad ni una reducción de los límites de parada.
+
+La instalación global se observó en 0.40.4 y se rechazó antes de inferir. Se recuperó **el mismo runtime de referencia 0.40.3** mediante ZIP portátil oficial en `runtime/ollama-v0.40.3`, aislado del servicio habitual; procedencia/tamaño/SHA-256 y hashes de binarios en los resultados. No instalar ni actualizar el global para reproducir. Usar `Start-ProjectOllama.ps1 -ExecutablePath ...` o el wrapper de recuperación. `ollama --version` puede mostrar la versión del servidor habitual: comprobar versión cliente con host propio y versión API tras arrancar. Fuente Ollama eab97e9/pin llama.cpp b11351=631109b, helper portátil coherente. Sin hashes binarios históricos, no afirmar igualdad byte a byte con la instalación de ayer.
+
+El sostenido mostró generación p50 de 2,934 a 2,395 tokens/s en ventanas inicial/final de 60 s (n=3/2, −18,4%). No confundir finalización dentro de umbrales con velocidad constante; no atribuir la deriva a temperatura o paginación sin medida. Tres minutos no acreditan estabilidad prolongada. Temperatura, caché de archivos Windows y procesos externos no se igualaron entre sesiones. Coste medido de recuperación ~6,35 min de peticiones, separado de descarga/preparación. No repetir calidad para reconstruir artificialmente un run continuo.
+
+La revisión de siete rúbricas 2A/2B sigue pendiente de una persona. El siguiente hito es consolidar la evidencia y acordar el alcance de cierre de fase 2; no inicia fase 3. La auditoría agregada requiere el conjunto completo; una validación individual solo acredita su sesión.
+
 ## Fase 3 — Optimizar, más adelante
 
 Esta fase queda fuera del encargo actual y no se inicia automáticamente. Comparar cada variante con la referencia conservada:
@@ -146,7 +158,7 @@ Para cada experimento guardar hipótesis, única variable principal, configuraci
 
 Cada cierre debe recomendar en `NEXT_PROMPT.md` un modelo, su versión y esfuerzo de razonamiento, con una razón relacionada con el encargo. Priorizar eficiencia sin sacrificar la calidad necesaria: Luna para tareas acotadas, Sol para implementación e integración y Astra para investigación o diagnóstico especialmente difíciles. Revisar la recomendación en cada conversación; no asignar un modelo fijo a todas las fases.
 
-Para la siguiente conversación (continuación fase 2B: diagnóstico y recuperación) se recomienda **GPT-6.1 Sol (`gpt-6.1-sol`) con razonamiento medium**: requiere investigar memoria/cache y preparar sesiones controladas sin alterar pesos/runtime. Luna bastaría para un cierre documental rutinario, pero ahora hay un bloqueo técnico con varias dependencias. El catálogo de sesión incluye esa versión/esfuerzo y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6.1-sol), reconsultada el 14 de octubre, confirma nombre y medium. Sin cambio automático ni garantía de acceso.
+Para la siguiente conversación (consolidación y preparación de revisión humana, sin nueva inferencia) se recomienda **GPT-6 Luna (`gpt-6-luna`) con razonamiento medium**: el trabajo queda acotado a resultados existentes, material de revisión y límites de la referencia. El catálogo de sesión incluye esa versión/esfuerzo y la [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6-luna), consultada el 15 de octubre, confirma nombre y medium. Si aparece un diagnóstico nuevo con varias dependencias, reconsiderar Sol. Sin cambio automático ni garantía de acceso.
 
 ## Organización prevista
 

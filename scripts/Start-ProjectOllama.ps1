@@ -1,6 +1,6 @@
 #requires -Version 7.4
 [CmdletBinding()]
-param()
+param([string]$ExecutablePath='')
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $runtime = Join-Path $root 'runtime'
@@ -8,9 +8,15 @@ $port = 11435
 if (Get-NetTCPConnection -State Listen -LocalPort $port -ErrorAction SilentlyContinue) {
     throw "El puerto $port ya está ocupado; no se reutiliza ni interrumpe su propietario."
 }
-$exe = (Get-Command ollama -CommandType Application).Source
-$version = (& $exe --version | Out-String).Trim()
-if ($version -notmatch '^ollama version is 0\.40\.3$') { throw "Runtime distinto de la referencia 0.40.3: $version" }
+$exe = if ($ExecutablePath) { (Get-Item -LiteralPath $ExecutablePath).FullName } else { (Get-Command ollama -CommandType Application).Source }
+# --version consulta el servicio: dirigirlo al puerto propio aún libre para
+# comprobar la versión cliente, sin confundirla con la del servicio habitual.
+$versionHost=[Environment]::GetEnvironmentVariable('OLLAMA_HOST','Process')
+try {
+    [Environment]::SetEnvironmentVariable('OLLAMA_HOST','127.0.0.1:11435','Process')
+    $version = (& $exe --version 2>&1 | Out-String).Trim()
+} finally { [Environment]::SetEnvironmentVariable('OLLAMA_HOST',$versionHost,'Process') }
+if ($version -notmatch '(?m)^(?:ollama version is|Warning: client version is) 0\.40\.3\s*$') { throw "Runtime distinto de la referencia 0.40.3: $version" }
 New-Item -ItemType Directory -Force -Path $runtime, (Join-Path $root 'models/ollama') | Out-Null
 $settings = @{
     OLLAMA_HOST = '127.0.0.1:11435'

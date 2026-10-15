@@ -1,0 +1,68 @@
+{
+  "content_characters": 5,
+  "ttft_seconds": 55.1542378,
+  "ps_after_error": null,
+  "ended_at": "2026-10-15T07:17:50.0655250Z",
+  "sample": {
+    "logprobs": true,
+    "kind": "compatibility",
+    "condition": "nonresident-disk-cache-uncontrolled",
+    "prompt": "Responde únicamente: listo",
+    "id": "compatibility-nonresident"
+  },
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-15T09:22:49.9993643+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-15T07:17:49.9988434Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 55996411400,
+    "load_duration": 52317796000,
+    "prompt_eval_count": 17,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 2782948000,
+    "eval_count": 3,
+    "eval_duration": 875157000
+  },
+  "error": null,
+  "logprobs_observed": true,
+  "first_content_seconds": 55.1542378,
+  "thinking_characters": 0,
+  "tokens_per_second": 3.427956355259685,
+  "first_thinking_seconds": null,
+  "started_at": "2026-10-15T07:16:53.9923108Z",
+  "uncached_prompt_tokens_per_second": 6.1086301289136555,
+  "client_total_seconds": 56.0295369,
+  "ps_before": {
+    "models": []
+  },
+  "first_chunk_seconds": 55.1542378
+}

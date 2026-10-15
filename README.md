@@ -74,3 +74,24 @@ El runner configurable conserva el comando original de fase 2A. El perfil 2B env
 El monitor cancela ante RAM libre <1,5 GiB, VRAM libre <384 MiB, GPU >=80 °C o dos errores consecutivos de sensores. Las cancelaciones y fallos conservan parciales; no hay reintentos ni adaptación de parámetros. El wrapper descarga/detiene exclusivamente la instancia propia y comprueba servicio/modelos habituales. Un resumen o validación existente no se sobrescribe; indicar una nueva ruta `-ValidationPath` para una nueva comprobación.
 
 Ejecución del 14 de octubre: [informe de fase 2B](reports/phase2b-20261014.md), evidencia `results/reduced-20261014-reference-v1`. **Incompleta por parada de RAM**, con las 22 tareas de calidad terminadas; faltan repeticiones y carga sostenida. Para auditar parciales usar `Test-BenchmarkArtifacts.ps1 -AllowPartial` y ruta nueva: informa integridad parcial y nunca cierre. Los datos no observados siguen en null; no usar una única medición por longitud como percentiles de referencia. El siguiente prompt prioriza recuperación sin ajustar parámetros.
+
+## Recuperación de fase 2B con sesiones separadas
+
+[Protocolo previo](benchmarks/PROTOCOL-2B-RECOVERY.md) e [informe del 15 de octubre](reports/phase2b-recovery-20261015.md). Se conserva calidad del run original y se miden rendimiento/sostenido en dos procesos nuevos. No agrupar sus latencias con las de la sesión monolítica. Cada sesión exige margen previo y mantiene todas las opciones y paradas de seguridad.
+
+La instalación habitual pasó a 0.40.4 fuera del ensayo. La referencia usa el ZIP portátil oficial **0.40.3** en `runtime/ollama-v0.40.3`, sin modificar el servicio habitual. Procedencia, digest del ZIP y hashes de archivos en `results/recovery-checks-20261015/portable-runtime-verified.json`. Para recuperarlo si falta, descargar [el ZIP oficial v0.40.3](https://github.com/ollama/ollama/releases/download/v0.40.3/ollama-windows-amd64.zip), comprobar tamaño 1468053171 y SHA-256 `e5ecff02dfc7cae8ddf6d6b7a7ac5f727ffeedf4491f44ae75ff5b0820dbbbd5` antes de extraerlo a esa ruta. No usar el instalador global ni cambiar el runtime de la referencia.
+
+```powershell
+./scripts/Test-RecoveryProtocol.ps1
+# Solo cuando se autorice otra repetición; RunIds nuevos en cada sesión.
+./scripts/Invoke-RecoverySession.ps1 -RunId recovery-performance-NUEVO -Block performance
+./scripts/Summarize-BenchmarkPilot.ps1 -RunId recovery-performance-NUEVO -ExpectedPerformanceResponse Oviedo
+./scripts/Test-BenchmarkArtifacts.ps1 -RunId recovery-performance-NUEVO
+./scripts/Invoke-RecoverySession.ps1 -RunId recovery-sustained-NUEVO -Block sustained
+./scripts/Summarize-BenchmarkPilot.ps1 -RunId recovery-sustained-NUEVO
+./scripts/Test-BenchmarkArtifacts.ps1 -RunId recovery-sustained-NUEVO
+```
+
+`Analyze-RecoveryMemory.ps1 -RunId ...` extrae caché del log y alinea RAM con fin de petición; no mide paginación. `Test-RecoveryArtifacts.ps1` audita el conjunto específico del 15 de octubre, incluidos hashes históricos, calidad reutilizada, configuración, scripts, runtime, umbrales y servicio habitual; produce el cierre **agregado** de fase 2B. Una validación individual de sesión nunca cierra la fase. Preparación/fuentes y auditoría del 15 de octubre usan rutas de evidencia fijas: no sobrescribirlas al repetir; utilizar rutas nuevas para futuras auditorías.
+
+Para arranque manual del runtime fijado: `./scripts/Start-ProjectOllama.ps1 -ExecutablePath ./runtime/ollama-v0.40.3/ollama.exe`. La parada protege identidad/puerto y detiene solo la instancia del proyecto.

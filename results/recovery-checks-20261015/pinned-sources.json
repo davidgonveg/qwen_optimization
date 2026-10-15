@@ -1,0 +1,83 @@
+{
+  "helper_version": "version: 0.6.0-dev (build 1, commit b42b7e6d3)\r\nbuilt with Clang 18.1.8 for Windows AMD64\r\n",
+  "sources": [
+    {
+      "relevant_lines": [],
+      "lines": 2,
+      "sha256_utf8_content": "be2946d00aea665ae90747eb7fa26e6cd699f4b0a3f8346f9650b6fe692170ec",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21/LLAMA_CPP_VERSION",
+      "checked_at": "2026-10-15T07:12:17.9525257Z"
+    },
+    {
+      "relevant_lines": [
+        115,
+        116,
+        184
+      ],
+      "lines": 668,
+      "sha256_utf8_content": "af9397603247c2e09011939bd7e9209f61c3905f0f080009b2e518933efa3d4b",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21/llama/server/CMakeLists.txt",
+      "checked_at": "2026-10-15T07:12:17.9725953Z"
+    },
+    {
+      "relevant_lines": [],
+      "lines": 2978,
+      "sha256_utf8_content": "8ce37fcd02f921ebd90ab51244e5f0a7f3ec52e3db1f9902a7c5be4853c034c1",
+      "url": "https://raw.githubusercontent.com/ollama/ollama/eab97e9f92b9a25c2d52d2cc6c1b1c99bd9fae21/llm/llama_server.go",
+      "checked_at": "2026-10-15T07:12:18.0052166Z"
+    },
+    {
+      "relevant_lines": [
+        634
+      ],
+      "lines": 1290,
+      "sha256_utf8_content": "4527a2549570fbbfd33ac657e68a8afbef136ad749340caf03cdac563cf6599e",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/631109b34da437a3c4a5ebd75091d677671392e3/common/common.h",
+      "checked_at": "2026-10-15T07:12:18.2618906Z"
+    },
+    {
+      "relevant_lines": [
+        258,
+        1359,
+        1647,
+        2441
+      ],
+      "lines": 5579,
+      "sha256_utf8_content": "6e2d2d1015b785cf77677b4c73c8c2dd6e74de747d8c6d534b152517f8156e81",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/631109b34da437a3c4a5ebd75091d677671392e3/tools/server/server-context.cpp",
+      "checked_at": "2026-10-15T07:12:18.2903597Z"
+    },
+    {
+      "relevant_lines": [
+        640
+      ],
+      "lines": 1313,
+      "sha256_utf8_content": "2cb5b7f7e6244375b4eb45fab38ba42e41f512b0dd7c46e1b57f76dedadf5cf6",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/b42b7e6d3059503dd4bed6ca5dcf342bb6379f67/common/common.h",
+      "checked_at": "2026-10-15T07:12:18.5548411Z"
+    },
+    {
+      "relevant_lines": [
+        308,
+        1492,
+        1780,
+        2784
+      ],
+      "lines": 6178,
+      "sha256_utf8_content": "ed89eee1b5eeee82953e3d422cc640e686f674210609154291ec9a151dc2a06d",
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/b42b7e6d3059503dd4bed6ca5dcf342bb6379f67/tools/server/server-context.cpp",
+      "checked_at": "2026-10-15T07:12:18.8080153Z"
+    }
+  ],
+  "binary": [
+    {
+      "Path": "C:\\Users\\gonza\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+      "Hash": "96D1FD3377AB61340E18A7BE12860BAACE02DF965906461DFB9CDB66B3458824"
+    },
+    {
+      "Path": "C:\\Users\\gonza\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+      "Hash": "0480452923518B26EFCB897F3EC3D1BB4071A3DED551A89C98458BB708A3868F"
+    }
+  ],
+  "interpretation": "Distribution pin b11351 vs binary advertised b42b7e6d3; exact build provenance not established; both pinned sources inspected, runtime unchanged"
+}

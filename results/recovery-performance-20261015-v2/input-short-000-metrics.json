@@ -1,0 +1,90 @@
+{
+  "started_at": "2026-10-15T07:15:37.8607155Z",
+  "first_thinking_seconds": null,
+  "ttft_seconds": 2.0572712,
+  "ended_at": "2026-10-15T07:15:40.7734546Z",
+  "tokens_per_second": 4.680607074737594,
+  "ps_after_error": null,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-15T09:20:40.771094+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "client_total_seconds": 2.9116415,
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-15T07:15:40.771094Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2908815600,
+    "load_duration": 14917800,
+    "prompt_eval_count": 135,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1931244000,
+    "eval_count": 4,
+    "eval_duration": 854590000
+  },
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-15T09:20:37.754834+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "first_content_seconds": 2.0572712,
+  "content_characters": 6,
+  "sample": {
+    "repetition": 0,
+    "kind": "warmup",
+    "condition": "input-short",
+    "prompt": "Identificador de medición: input-short-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+    "id": "input-short-000",
+    "nonce": "input-short-000"
+  },
+  "thinking_characters": 0,
+  "truncated": false,
+  "uncached_prompt_tokens_per_second": 69.90312979613141,
+  "error": null,
+  "first_chunk_seconds": 2.0572712,
+  "logprobs_observed": false
+}

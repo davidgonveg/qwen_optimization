@@ -1,0 +1,4 @@
+{"client_elapsed_seconds":3.9846577,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-15T07:15:44.7695661Z\",\"message\":{\"role\":\"assistant\",\"content\":\"O\"},\"done\":false}"}
+{"client_elapsed_seconds":4.7314955,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-15T07:15:45.52117Z\",\"message\":{\"role\":\"assistant\",\"content\":\"v\"},\"done\":false}"}
+{"client_elapsed_seconds":4.7320949,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-15T07:15:45.52117Z\",\"message\":{\"role\":\"assistant\",\"content\":\"iedo\"},\"done\":false}"}
+{"client_elapsed_seconds":4.7323635,"raw":"{\"model\":\"qwen3.8:27b\",\"created_at\":\"2026-10-15T07:15:45.5221769Z\",\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":4732383100,\"load_duration\":9790200,\"prompt_eval_count\":519,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":3875409000,\"eval_count\":4,\"eval_duration\":759513000}"}

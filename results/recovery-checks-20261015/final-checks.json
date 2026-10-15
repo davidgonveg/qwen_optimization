@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-15T07:27:12.4296275Z",
+  "schedule_and_safety": "pass",
+  "recovery_protocol": "pass",
+  "own_listener": [],
+  "global_ps": {
+    "models": []
+  },
+  "powershell_syntax": "pass",
+  "scorer_cases": 12,
+  "json_parse": "pass",
+  "portable_runtime_bytes": 1941752691.0,
+  "rejection": "Runtime distinto de la referencia 0.40.3: Warning: could not connect to a running Ollama instance\r\nWarning: client version is 0.40.4",
+  "new_evidence_bytes_before_this_file": 1240302.0,
+  "global_version": {
+    "version": "0.40.4"
+  },
+  "effective_environment_host_restored": true,
+  "zip_bytes": 1468053171,
+  "default_updated_runtime_rejected": true,
+  "environment_test_note": "Initial strict test distinguished null from empty and regex did not span newlines; corrected test compares effective empty host and multiline diagnostic; no server/inference started"
+}

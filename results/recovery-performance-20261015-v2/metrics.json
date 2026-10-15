@@ -1,0 +1,1330 @@
+[
+  {
+    "started_at": "2026-10-15T07:14:44.1544287Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 52.7728397,
+    "ended_at": "2026-10-15T07:15:37.8195524Z",
+    "tokens_per_second": 3.546673633909983,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:37.754834+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 53.6083275,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:37.7520084Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 53593497800,
+      "load_duration": 50020669800,
+      "prompt_eval_count": 17,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2698424000,
+      "eval_count": 3,
+      "eval_duration": 845863000
+    },
+    "ps_before": {
+      "models": []
+    },
+    "first_content_seconds": 52.7728397,
+    "content_characters": 5,
+    "sample": {
+      "logprobs": true,
+      "prompt": "Responde únicamente: listo",
+      "kind": "compatibility",
+      "condition": "nonresident-disk-cache-uncontrolled",
+      "id": "compatibility-nonresident"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 6.299973614228157,
+    "error": null,
+    "first_chunk_seconds": 52.7728397,
+    "logprobs_observed": true
+  },
+  {
+    "started_at": "2026-10-15T07:15:37.8607155Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.0572712,
+    "ended_at": "2026-10-15T07:15:40.7734546Z",
+    "tokens_per_second": 4.680607074737594,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:40.771094+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 2.9116415,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:40.771094Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2908815600,
+      "load_duration": 14917800,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1931244000,
+      "eval_count": 4,
+      "eval_duration": 854590000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:37.754834+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.0572712,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 0,
+      "kind": "warmup",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-000",
+      "nonce": "input-short-000"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 69.90312979613141,
+    "error": null,
+    "first_chunk_seconds": 2.0572712,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:40.7907167Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.9846577,
+    "ended_at": "2026-10-15T07:15:45.5266011Z",
+    "tokens_per_second": 5.266532633411146,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:45.522683+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 4.7327062,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:45.5221769Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4732383100,
+      "load_duration": 9790200,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 3875409000,
+      "eval_count": 4,
+      "eval_duration": 759513000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:40.771094+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.9846577,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 0,
+      "kind": "warmup",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-000. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-000",
+      "nonce": "input-long-000"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 133.92134868861584,
+    "error": null,
+    "first_chunk_seconds": 3.9846577,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:45.5391005Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.0686203,
+    "ended_at": "2026-10-15T07:15:48.4835339Z",
+    "tokens_per_second": 4.574246307153778,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:48.473724+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 2.9425222,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:48.473724Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2934480000,
+      "load_duration": 14855400,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1877561000,
+      "eval_count": 4,
+      "eval_duration": 874461000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:45.522683+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.0686203,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 1,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-001",
+      "nonce": "input-short-001"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 68.17355068623603,
+    "error": null,
+    "first_chunk_seconds": 2.0686203,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:48.5663852Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.9492998,
+    "ended_at": "2026-10-15T07:15:52.3642351Z",
+    "tokens_per_second": 4.750024046996738,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:52.3583485+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.7962751,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:52.3577987Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3791753800,
+      "load_duration": 18268900,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2742046000,
+      "eval_count": 4,
+      "eval_duration": 842101000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:48.473724+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.9492998,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 1,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-001. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-001",
+      "nonce": "input-long-001"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 186.72188577434514,
+    "error": null,
+    "first_chunk_seconds": 2.9492998,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:52.4354601Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.0526267,
+    "ended_at": "2026-10-15T07:15:56.2357145Z",
+    "tokens_per_second": 5.365634452738822,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:56.232705+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.7989301,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:56.232705Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3797555500,
+      "load_duration": 13077200,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2859035000,
+      "eval_count": 4,
+      "eval_duration": 745485000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:52.3583485+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.0526267,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 2,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-002",
+      "nonce": "input-long-002"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 179.08140334063765,
+    "error": null,
+    "first_chunk_seconds": 3.0526267,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:56.2464436Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.0425621,
+    "ended_at": "2026-10-15T07:15:59.1576186Z",
+    "tokens_per_second": 4.701706131612509,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:59.138542+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 2.9006905,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:15:59.1380184Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2891617500,
+      "load_duration": 8974200,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1876799000,
+      "eval_count": 4,
+      "eval_duration": 850755000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:56.232705+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.0425621,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 2,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-002. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-002",
+      "nonce": "input-short-002"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 68.20122985999033,
+    "error": null,
+    "first_chunk_seconds": 2.0425621,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:15:59.2047061Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.2432735,
+    "ended_at": "2026-10-15T07:16:02.3089538Z",
+    "tokens_per_second": 4.567252797442339,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:02.2856529+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.0974277,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:02.285146Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3080383500,
+      "load_duration": 12959600,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2036103000,
+      "eval_count": 4,
+      "eval_duration": 875800000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:20:59.138542+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.2432735,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 3,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-003. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-003",
+      "nonce": "input-short-003"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 62.865189040043646,
+    "error": null,
+    "first_chunk_seconds": 2.2432735,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:02.4392816Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.3481327,
+    "ended_at": "2026-10-15T07:16:06.6623858Z",
+    "tokens_per_second": 4.3367391191215505,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:06.6469715+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 4.2194104,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:06.646465Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4207121100,
+      "load_duration": 31000300,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2989438000,
+      "eval_count": 4,
+      "eval_duration": 922352000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:02.2856529+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.3481327,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 3,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-003. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-003",
+      "nonce": "input-long-003"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 171.26965001448434,
+    "error": null,
+    "first_chunk_seconds": 3.3481327,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:06.7918936Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.3665725,
+    "ended_at": "2026-10-15T07:16:11.0049999Z",
+    "tokens_per_second": 4.415045149355459,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:10.9649073+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 4.2089264,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:10.9642555Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4172275000,
+      "load_duration": 16792700,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 3033884000,
+      "eval_count": 4,
+      "eval_duration": 905993000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:06.6469715+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.3665725,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 4,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-004. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-004",
+      "nonce": "input-long-004"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 168.760572256553,
+    "error": null,
+    "first_chunk_seconds": 3.3665725,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:11.0792500Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.2253665,
+    "ended_at": "2026-10-15T07:16:14.1169159Z",
+    "tokens_per_second": 4.550133944567993,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:14.1134535+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.0351943,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:14.1123409Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3031544700,
+      "load_duration": 15713200,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1962253000,
+      "eval_count": 4,
+      "eval_duration": 879095000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:10.9649073+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.2253665,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 4,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-004. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-004",
+      "nonce": "input-short-004"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 65.23113991926627,
+    "error": null,
+    "first_chunk_seconds": 2.2253665,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:14.1629449Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.1819681,
+    "ended_at": "2026-10-15T07:16:17.2702010Z",
+    "tokens_per_second": 4.357815906245949,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:17.268171+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.1058621,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:17.2622216Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3098163400,
+      "load_duration": 21094100,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1970673000,
+      "eval_count": 4,
+      "eval_duration": 917891000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:14.1134535+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.1819681,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 5,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-005. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-005",
+      "nonce": "input-short-005"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 64.95242995666963,
+    "error": null,
+    "first_chunk_seconds": 2.1819681,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:17.4330508Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.0647758,
+    "ended_at": "2026-10-15T07:16:21.3347254Z",
+    "tokens_per_second": 4.71738722790995,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:21.3325117+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.9005094,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:21.3310038Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3898367300,
+      "load_duration": 26487300,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2839649000,
+      "eval_count": 4,
+      "eval_duration": 847927000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:17.268171+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.0647758,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 5,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-005. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-005",
+      "nonce": "input-long-005"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 180.30397418835918,
+    "error": null,
+    "first_chunk_seconds": 3.0647758,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:21.3596762Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 3.0365606,
+    "ended_at": "2026-10-15T07:16:25.3089091Z",
+    "tokens_per_second": 4.455518884159851,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:25.2941558+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 3.9471516,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:25.2936852Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 3929913700,
+      "load_duration": 37097500,
+      "prompt_eval_count": 519,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 2852436000,
+      "eval_count": 4,
+      "eval_duration": 897763000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:21.3325117+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 3.0365606,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 6,
+      "kind": "performance",
+      "condition": "input-long",
+      "prompt": "Identificador de medición: input-long-006. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-long-006",
+      "nonce": "input-long-006"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 179.49570121818684,
+    "error": null,
+    "first_chunk_seconds": 3.0365606,
+    "logprobs_observed": false
+  },
+  {
+    "started_at": "2026-10-15T07:16:25.4710794Z",
+    "first_thinking_seconds": null,
+    "ttft_seconds": 2.1411203,
+    "ended_at": "2026-10-15T07:16:28.4701874Z",
+    "tokens_per_second": 4.705594481278792,
+    "ps_after_error": null,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:28.4628817+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "client_total_seconds": 2.9892428,
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:16:28.4588765Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2982076900,
+      "load_duration": 55437500,
+      "prompt_eval_count": 135,
+      "prompt_eval_cached_count": 7,
+      "prompt_eval_duration": 1923178000,
+      "eval_count": 4,
+      "eval_duration": 850052000
+    },
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:21:25.2941558+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_content_seconds": 2.1411203,
+    "content_characters": 6,
+    "sample": {
+      "repetition": 6,
+      "kind": "performance",
+      "condition": "input-short",
+      "prompt": "Identificador de medición: input-short-006. Ignora este identificador.\nNotas auxiliares que debes ignorar: dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato dato \nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+      "id": "input-short-006",
+      "nonce": "input-short-006"
+    },
+    "thinking_characters": 0,
+    "truncated": false,
+    "uncached_prompt_tokens_per_second": 66.5565017902659,
+    "error": null,
+    "first_chunk_seconds": 2.1411203,
+    "logprobs_observed": false
+  }
+]

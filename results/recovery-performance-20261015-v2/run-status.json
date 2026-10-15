@@ -1,0 +1,11 @@
+{
+  "telemetry_state": "Completed",
+  "expected_requests": 15,
+  "complete": true,
+  "finished_at": "2026-10-15T07:16:29.2905109Z",
+  "safety_cancelled": false,
+  "fatal_error": null,
+  "fixed_requests": 15,
+  "requests_completed": 15,
+  "sustained": null
+}

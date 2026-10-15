@@ -1,0 +1,10 @@
+{
+  "target_seconds": 180,
+  "requests": 7,
+  "complete": true,
+  "ended_at": "2026-10-15T07:21:32.5583826Z",
+  "elapsed_seconds": 188.5983621,
+  "hard_limit_seconds": 210,
+  "started_at": "2026-10-15T07:18:23.9600269Z",
+  "stop_reason": "target_reached"
+}

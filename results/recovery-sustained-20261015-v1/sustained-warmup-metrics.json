@@ -1,0 +1,89 @@
+{
+  "content_characters": 456,
+  "ttft_seconds": 1.8539931,
+  "ps_after_error": null,
+  "ended_at": "2026-10-15T07:18:23.9331987Z",
+  "sample": {
+    "kind": "warmup-sustained",
+    "condition": "sustained-variable-prefix",
+    "nonce": "sustained-warmup",
+    "prompt": "Identificador de medición: sustained-warmup. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "id": "sustained-warmup"
+  },
+  "truncated": false,
+  "ps_after": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-15T09:23:23.9314004+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "final": {
+    "model": "qwen3.8:27b",
+    "created_at": "2026-10-15T07:18:23.9283987Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 33798868200,
+    "load_duration": 20797900,
+    "prompt_eval_count": 76,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 1727787000,
+    "eval_count": 82,
+    "eval_duration": 31941204000
+  },
+  "error": null,
+  "logprobs_observed": false,
+  "first_content_seconds": 1.8539931,
+  "thinking_characters": 0,
+  "tokens_per_second": 2.567216940225547,
+  "first_thinking_seconds": null,
+  "started_at": "2026-10-15T07:17:50.1293370Z",
+  "uncached_prompt_tokens_per_second": 43.986903478264395,
+  "client_total_seconds": 33.8024434,
+  "ps_before": {
+    "models": [
+      {
+        "name": "qwen3.8:27b",
+        "model": "qwen3.8:27b",
+        "size": 18100109963,
+        "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "27.3B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-15T09:22:49.9993643+02:00",
+        "size_vram": 8753407588,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "first_chunk_seconds": 1.8539931
+}

@@ -1,0 +1,789 @@
+[
+  {
+    "content_characters": 5,
+    "ttft_seconds": 55.1542378,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:17:50.0655250Z",
+    "sample": {
+      "logprobs": true,
+      "kind": "compatibility",
+      "condition": "nonresident-disk-cache-uncontrolled",
+      "prompt": "Responde únicamente: listo",
+      "id": "compatibility-nonresident"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:22:49.9993643+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:17:49.9988434Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 55996411400,
+      "load_duration": 52317796000,
+      "prompt_eval_count": 17,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 2782948000,
+      "eval_count": 3,
+      "eval_duration": 875157000
+    },
+    "error": null,
+    "logprobs_observed": true,
+    "first_content_seconds": 55.1542378,
+    "thinking_characters": 0,
+    "tokens_per_second": 3.427956355259685,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:16:53.9923108Z",
+    "uncached_prompt_tokens_per_second": 6.1086301289136555,
+    "client_total_seconds": 56.0295369,
+    "ps_before": {
+      "models": []
+    },
+    "first_chunk_seconds": 55.1542378
+  },
+  {
+    "content_characters": 456,
+    "ttft_seconds": 1.8539931,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:18:23.9331987Z",
+    "sample": {
+      "kind": "warmup-sustained",
+      "condition": "sustained-variable-prefix",
+      "nonce": "sustained-warmup",
+      "prompt": "Identificador de medición: sustained-warmup. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "id": "sustained-warmup"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:23:23.9314004+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:18:23.9283987Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 33798868200,
+      "load_duration": 20797900,
+      "prompt_eval_count": 76,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1727787000,
+      "eval_count": 82,
+      "eval_duration": 31941204000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.8539931,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.567216940225547,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:17:50.1293370Z",
+    "uncached_prompt_tokens_per_second": 43.986903478264395,
+    "client_total_seconds": 33.8024434,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:22:49.9993643+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.8539931
+  },
+  {
+    "content_characters": 424,
+    "ttft_seconds": 1.8191856,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:18:49.6516488Z",
+    "sample": {
+      "nonce": "sustained-001",
+      "id": "sustained-001",
+      "repetition": 1,
+      "prompt": "Identificador de medición: sustained-001. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:23:49.6460923+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:18:49.6455856Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 25590325400,
+      "load_duration": 20630000,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1693220000,
+      "eval_count": 70,
+      "eval_duration": 23772485000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.8191856,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.9445806780401798,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:18:24.0542509Z",
+    "uncached_prompt_tokens_per_second": 45.475484579676596,
+    "client_total_seconds": 25.5963194,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:23:23.9314004+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.8191856
+  },
+  {
+    "content_characters": 389,
+    "ttft_seconds": 1.9552526,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:19:15.8724362Z",
+    "sample": {
+      "nonce": "sustained-002",
+      "id": "sustained-002",
+      "repetition": 2,
+      "prompt": "Identificador de medición: sustained-002. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:24:15.8681468+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:19:15.8676395Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 26141648700,
+      "load_duration": 20304700,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1733399000,
+      "eval_count": 69,
+      "eval_duration": 24251702000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.9552526,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.8451611354947373,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:18:49.7259902Z",
+    "uncached_prompt_tokens_per_second": 44.42139403564904,
+    "client_total_seconds": 26.1435222,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:23:49.6460923+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.9552526
+  },
+  {
+    "content_characters": 403,
+    "ttft_seconds": 1.909629,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:19:42.3470489Z",
+    "sample": {
+      "nonce": "sustained-003",
+      "id": "sustained-003",
+      "repetition": 3,
+      "prompt": "Identificador de medición: sustained-003. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:24:42.3443111+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:19:42.3376695Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 26447438800,
+      "load_duration": 10951100,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1779361000,
+      "eval_count": 72,
+      "eval_duration": 24536708000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.909629,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.9343789721098688,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:19:15.8902203Z",
+    "uncached_prompt_tokens_per_second": 43.273961832365664,
+    "client_total_seconds": 26.454638,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:24:15.8681468+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.909629
+  },
+  {
+    "content_characters": 403,
+    "ttft_seconds": 1.8960886,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:20:08.5401832Z",
+    "sample": {
+      "nonce": "sustained-004",
+      "id": "sustained-004",
+      "repetition": 4,
+      "prompt": "Identificador de medición: sustained-004. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:25:08.5374783+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:20:08.5369709Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 26118006200,
+      "load_duration": 17835400,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1764717000,
+      "eval_count": 72,
+      "eval_duration": 24221931000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.8960886,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.972512802550713,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:19:42.4195232Z",
+    "uncached_prompt_tokens_per_second": 43.633058445065124,
+    "client_total_seconds": 26.1187017,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:24:42.3443111+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.8960886
+  },
+  {
+    "content_characters": 403,
+    "ttft_seconds": 1.8532175,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:20:35.0605991Z",
+    "sample": {
+      "nonce": "sustained-005",
+      "id": "sustained-005",
+      "repetition": 5,
+      "prompt": "Identificador de medición: sustained-005. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:25:35.0542632+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:20:35.0535408Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 26483232800,
+      "load_duration": 12781800,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1724341000,
+      "eval_count": 72,
+      "eval_duration": 24641700000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.8532175,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.9218763315842655,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:20:08.5695365Z",
+    "uncached_prompt_tokens_per_second": 44.6547405646563,
+    "client_total_seconds": 26.4885401,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:25:08.5374783+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.8532175
+  },
+  {
+    "content_characters": 420,
+    "ttft_seconds": 1.87538,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:21:03.0793809Z",
+    "sample": {
+      "nonce": "sustained-006",
+      "id": "sustained-006",
+      "repetition": 6,
+      "prompt": "Identificador de medición: sustained-006. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:26:03.0732263+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:21:03.0721341Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 27959961200,
+      "load_duration": 12691100,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1713687000,
+      "eval_count": 72,
+      "eval_duration": 26093357000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.87538,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.7593229955041814,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:20:35.1118952Z",
+    "uncached_prompt_tokens_per_second": 44.9323592931498,
+    "client_total_seconds": 27.9664224,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:25:35.0542632+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.87538
+  },
+  {
+    "content_characters": 397,
+    "ttft_seconds": 1.8452799,
+    "ps_after_error": null,
+    "ended_at": "2026-10-15T07:21:32.5366358Z",
+    "sample": {
+      "nonce": "sustained-007",
+      "id": "sustained-007",
+      "repetition": 7,
+      "prompt": "Identificador de medición: sustained-007. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+      "condition": "sustained-variable-prefix",
+      "kind": "sustained"
+    },
+    "truncated": false,
+    "ps_after": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:26:32.5264564+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "final": {
+      "model": "qwen3.8:27b",
+      "created_at": "2026-10-15T07:21:32.5264564Z",
+      "message": {
+        "role": "assistant",
+        "content": ""
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 29399762600,
+      "load_duration": 42208400,
+      "prompt_eval_count": 77,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1700353000,
+      "eval_count": 66,
+      "eval_duration": 27554827000
+    },
+    "error": null,
+    "logprobs_observed": false,
+    "first_content_seconds": 1.8452799,
+    "thinking_characters": 0,
+    "tokens_per_second": 2.395224618902525,
+    "first_thinking_seconds": null,
+    "started_at": "2026-10-15T07:21:03.1262779Z",
+    "uncached_prompt_tokens_per_second": 45.28471440930207,
+    "client_total_seconds": 29.4069779,
+    "ps_before": {
+      "models": [
+        {
+          "name": "qwen3.8:27b",
+          "model": "qwen3.8:27b",
+          "size": 18100109963,
+          "digest": "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "27.3B",
+            "quantization_level": "Q4_K_M"
+          },
+          "expires_at": "2026-10-15T09:26:03.0732263+02:00",
+          "size_vram": 8753407588,
+          "context_length": 2048,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "first_chunk_seconds": 1.8452799
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "global_api_version": {
+    "version": "0.40.4"
+  },
+  "installed_cli": "ollama version is 0.40.4\r\n",
+  "inference_started": false,
+  "at_utc": "2026-10-15T07:13:56.6898277Z",
+  "attempted_run_id": "recovery-performance-20261015-v1",
+  "own_server_started": false,
+  "failure": "Startup version guard: installed runtime 0.40.4, expected 0.40.3",
+  "resolution": "Recover official portable 0.40.3 within ignored project runtime; global service untouched; new RunId after protocol amendment"
+}

@@ -1,0 +1,341 @@
+{
+  "files": [
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\ollama.exe",
+      "Hash": "61B44CFB6D3AA2393A4A731AF33C9329BEDD58B1C454BDEBD185D4A607D0303D"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\CPP_HTTPLIB_LICENSE",
+      "Hash": "BB546EAE5924D8EE842E0E567E6D533C5824BDEBCCF605F99A5B3429034E6697"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\CUDNN_LICENSE.txt",
+      "Hash": "B6FE452605FE29245F0CBAFA724B42DF94A5E170BEDB9D45BC9CFAA4883AD907"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\CUTLASS_LICENSE.txt",
+      "Hash": "48EB34A9124AF8FDD2AD1858A64BE9827EBC42E5389C6DD4B5A93E411AC7E693"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\DLFCN_WIN32_COPYING",
+      "Hash": "4CC7AC997B9293DB5919BAF630100CC09B3508EFDFE6A6611C95511FB863B3C7"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\DLPACK_LICENSE",
+      "Hash": "9BDA2385FA325D1DF6DC39772EBA3CC6D07BDFAF2C656CD644CD29F7509514FD"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\FMT_LICENSE",
+      "Hash": "25B5DB04AA6070C12AC518B91CBD0A59725C050ECB091456E6EBC3D3EEB369CF"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-base.dll",
+      "Hash": "077806C667B84B26B6A076D22D34239C36A13D66D86C73B9DD0562E624115163"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-alderlake.dll",
+      "Hash": "B0F973139DDC96F48B0E4A4E27C84591C7C8C130F398C09D1DAF7A6A35F7BB8C"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-cannonlake.dll",
+      "Hash": "58B62607FC503D3888B884082D69279E25B80ABE45BC754641CC059765350B03"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-cascadelake.dll",
+      "Hash": "2135A4E3CBB32C8E844E53B40C18872E04B04A2EEAA8C99969B986701704ED8F"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-cooperlake.dll",
+      "Hash": "3EE016609EFC2081F1291B1DCF71B4EA0104FB4D607CE0A500104CE2888D1E23"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-haswell.dll",
+      "Hash": "592D6901E757D4D3668D3729F0565F92D287A995FCD3C3DB9A4D2126A2A48693"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-icelake.dll",
+      "Hash": "7F03BBCC1DFE43959A49543C58670722430AD62ED99E9D34AA28AED798602E39"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-ivybridge.dll",
+      "Hash": "20031721E10B1710D54CAA7C0BA1D3FA116DA10786B2793F779286515D512D7B"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-piledriver.dll",
+      "Hash": "4E5CEED61C09A439D31B71B4BCE85343679E94C1C17433A6B9CF6F457543255A"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-sandybridge.dll",
+      "Hash": "24299C72B755CF25BB625B36E0B2295DF7A4FFD60A0901ED0ECCDB05FBB0C6FD"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-sapphirerapids.dll",
+      "Hash": "8BA83F77B1ABBB8DAFEC758B1A1AA848956DC3E79B839C012E4794C7782AF088"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-skylakex.dll",
+      "Hash": "A65B77EAEE052E68178CD969C09A83EBF46067775808F831BFDBB92EC558EBC6"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-sse42.dll",
+      "Hash": "5AA176176DD07FC49D93980063BFCC0D25D07D84E01CEB76905BF5D0F1F9F280"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-x64.dll",
+      "Hash": "7CAA7909E4D5CD1148C9422F6F7B8CA0BFF8159EC9A82E41D60437D1777D71BB"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml-cpu-zen4.dll",
+      "Hash": "1D826F0D2A9C8456749EBBFE15DDEA569F0E0A15FCF28CCB6F8784D29F41351F"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\ggml.dll",
+      "Hash": "8F5DB3B47D204B6CCB5EEE7AB7821D72A299F966FC05E2B4F437806BB70B65F1"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\GO_LICENSE",
+      "Hash": "7FEE9B29A1541B5A9EC03C5D57E095AD280F67A824CF3818445BA6996F86FE85"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\JSON_LICENSE.MIT",
+      "Hash": "86B998C792894CCB911A1CB7994F7A9652894E7A094C0B5E45BE2F553F45CF14"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libc++.dll",
+      "Hash": "5FAB271586373D0A87B863D2FA584578566D8868677DE18C74BA6457600F6D27"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libllama-common.dll",
+      "Hash": "9A7FB6689E058BA421EB784521BDA8FAF5C626E96EE340C2D084E7A8EF36E836"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libllama-quantize-impl.dll",
+      "Hash": "D9490B36BBC138403F6F1C1D4CE4F8EBFE24C4B57DEF9ED3874710690F9BC6BD"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libllama-server-impl.dll",
+      "Hash": "3F5D10637E0B47F82E282F6EB4D439005FBE2A0B2B41EB023994EAE5F6E43B2D"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libllama.dll",
+      "Hash": "2D27F0EEEC81D6C40E621922CBEEC70E9867BE3445F95DA1CD30B0CA7945BA57"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libmtmd.dll",
+      "Hash": "E58D22CE57673277BB70F9F5569C87DFF42BF57BA05AB1A6E80F18A23A4F55BB"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libomp.dll",
+      "Hash": "E6F0E65C9FBDBD8D2C9E681C710A80D26906E3932CBBE1E5775446E89923EC9F"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libunwind.dll",
+      "Hash": "A13A088CA16E2F786B9AA11D3E2847B579CEE68ECD6794F97A4FB4988C630D80"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\libwinpthread-1.dll",
+      "Hash": "9FFBF12808C7120658B45DCB9B36F8876F9859D24695CDEBB8D31B64524C6DBA"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\LLAMA_CPP_LICENSE",
+      "Hash": "BCD8EC749126D45CB06737D0690295D73DF4B6E7E194205BCF91190368F27285"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\LLAMA_CPP_VENDORS_LICENSE",
+      "Hash": "7547AE6372A35E7382898DD9F5519EBC16E93095F69C2466B5B74B617C33D4DA"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\llama-quantize.exe",
+      "Hash": "65EB4708B9F64285DDF753E1AF0616960DF9F1710240579920F18BE11A1DFF16"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\llama-server.exe",
+      "Hash": "BBA0D7777785E8AD7A7D88885127BE00DFFF49D0016D1287D6F7075A8626200D"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\MLX_C_LICENSE",
+      "Hash": "D8D63C7FA57071D80D30116D014E4189C52EF4CB2D1671F6D848E78D9F6CFAD0"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\MLX_LICENSE",
+      "Hash": "E93675E97D080C4FCFEF6DD530448B9A6FD7C1AD43C736D593537079CD669D3D"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\NVTX3_LICENSE.txt",
+      "Hash": "C3B19BAA37CF18BAC07B65700824ACADCFA617316F02AF10D3852ED20F4F6AB8"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\PICOJSON_LICENSE",
+      "Hash": "02F4AEA46C66A0C110BB4FD995817DB2DC2AF0B57C18336B367E6BC9C27EB91F"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\XGRAMMAR_LICENSE",
+      "Hash": "1EB85FC97224598DAD1852B5D6483BBCF0AA8608790DCC657A5A2A761AE9C8C6"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\XGRAMMAR_NOTICE",
+      "Hash": "93971AD2B725C8398DF171DBD7C8145FC9D11BF016294AA69A8A783B55A40775"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\concrt140.dll",
+      "Hash": "B4DF10DABA97EE5E20F18E0A43F0C399BFAF462A04ACDF4EDD2D662887A38404"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\cublas64_12.dll",
+      "Hash": "C92ED1F48272B6B08123F00174C200F87DE10728D781E022D3955945223CCF2A"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\cublasLt64_12.dll",
+      "Hash": "04C8A6439AFE8FBD4806C6F22CC430CCCFB65BBAA9466DC77C0D0204B7B97044"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\cudart64_12.dll",
+      "Hash": "26767316A00753AB780862C84A249E9407DCB5D6D8684EC1C08072866DB38DC8"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\ggml-cuda.dll",
+      "Hash": "219635C567D2F63C37F59CB20F66FCED2C9148C4D8CF9D5AD692A985614126B6"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\msvcp140_1.dll",
+      "Hash": "1AD5E68FAD56F70A6C48E7A311D280F2A0B9EF4C1E0C3E268294263E480383AC"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\msvcp140_2.dll",
+      "Hash": "7255FADE0161A72771C1829C1B97750CCE6996EDF767E6FA17AE102E2E07C228"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\msvcp140_atomic_wait.dll",
+      "Hash": "CD3F877FDB13755879690C6988891864617F302CC2CAE6E3430417D17B8A8FB8"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\msvcp140_codecvt_ids.dll",
+      "Hash": "D110CAB2B48527B4F585C19E884C9A3D0736508D64EB1E97D3FB044A582EE2A5"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\msvcp140.dll",
+      "Hash": "63275EA3FD0857CCDCC13C65B8C76B6D32255BDAE29C46289CA9467F526527BB"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\vccorlib140.dll",
+      "Hash": "0B56A2E67E27AF0E527E3859C4072C138016EC07D2951C3C8A329246EBE6C269"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\vcruntime140_1.dll",
+      "Hash": "D17D72825F75243D5947E5B33CB692525E84925E190BD794118006BABA9F15FE"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\vcruntime140_threads.dll",
+      "Hash": "49D5735F8F4D542F95D9749CC86C361EA7B54141810E7258BC03AEB64A50F571"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v12\\vcruntime140.dll",
+      "Hash": "E82AEE022C0C5A22D33FB8CBE39F49A6B581B9E0CF26394F7AD5FC79BD204909"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\concrt140.dll",
+      "Hash": "057245775DEB4271A41FFFB70B5B201FE1B07A139F23E4A7E85B552A31F7E2DD"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\cublas64_13.dll",
+      "Hash": "7958FBF7577D4B686EE6D18339373E4D1F120AA8F3B76DA79C1B48EB76F76A57"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\cublasLt64_13.dll",
+      "Hash": "CF64E6F6EB7EA25F10BC35CF2D90605574D2D5A7DC68D25EF031500B10F49F4E"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\ggml-cuda.dll",
+      "Hash": "9F8B046A5E8E9BD11D6BC879958CAE17C056AC55074602C6E4D39A8B38B8F7DF"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\msvcp140_1.dll",
+      "Hash": "09AF8B0D17EF5C2F393E3930D9859880291CED7B9EE133C537688E243F5A7027"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\msvcp140_2.dll",
+      "Hash": "2CDACEFB4B9476F447B4E6503E421C92C9CE1D2B05D460E7BB111E003F39266B"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\msvcp140_atomic_wait.dll",
+      "Hash": "68332689251BA3E217A57AC1B339B02D0BD1A431887D5D6967A8422F6D5A98DD"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\msvcp140_codecvt_ids.dll",
+      "Hash": "E2817775FB263F788A8B6BD934E1AA6120908687A37E85022DCE1845207EB817"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\msvcp140.dll",
+      "Hash": "298F28371F1E0A0A6C9A0FAC59181FF982AA598F5F7D372CD1F7840F9E49B817"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\vccorlib140.dll",
+      "Hash": "6E88F2752B5A44BEC3B228D05EAE7370BEC94B3038AA0B4745C4114104008B93"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\vcruntime140_1.dll",
+      "Hash": "16226D3DAF3B194416016BED3731CBE2275555AE350C550E1086EDFCD80975F7"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\vcruntime140_threads.dll",
+      "Hash": "83A06A73C171D5CD4A77CE0054764A3D6468B7E34D00D7E49C07E3F2F8160CC7"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\cuda_v13\\vcruntime140.dll",
+      "Hash": "0E55446AD56DEF4679B1A58E7BD8E148B0AC1ABB39CFCEC3B9E4E2F21CBE5A66"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\concrt140.dll",
+      "Hash": "8DE6675330F5B85D1C89EF7071DBA70B073173140DA43F41FAF74AD51E07E657"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\ggml-vulkan.dll",
+      "Hash": "00B1554AF9E5592885AF877B3F49ECDF9EDD2F0BFCCB5B3C86B10DE46742867A"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\msvcp140_1.dll",
+      "Hash": "4BB6BBF49A27BE6DA2CA008953A73684624111348DB619DBEDC5C9BDF2222602"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\msvcp140_2.dll",
+      "Hash": "48D069A92DCF93E7C77BEBC0D16A6F4BAC019539A995B97B105BCFF4BB69C796"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\msvcp140_atomic_wait.dll",
+      "Hash": "F0F2936246101958ED6DE26231B2CCB794FB50D28F2FC444DADA95A8C516C811"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\msvcp140_codecvt_ids.dll",
+      "Hash": "DD12CD99EB3FB3D75C631A3CA7DCF376DBD69FE5ED18BF84627F33BF74693065"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\msvcp140.dll",
+      "Hash": "DA0D1EC1B3A166A71693C57157943E6495BD130401051B8ADCBC49192635F8EA"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\vccorlib140.dll",
+      "Hash": "64E79F255E1EEF196075DC974445C112004EEAFB70EC880572530D9173FBFE40"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\vcruntime140_1.dll",
+      "Hash": "4CC993BEE6B6BEFE7D01CE4A12567B79AE91D3F38BEFDB0ECDEE986126D77E9B"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\vcruntime140_threads.dll",
+      "Hash": "61ED953E0C1C69748642A313941D8BC610903B83EE705C17F7C248FC301E42C1"
+    },
+    {
+      "Path": "E:\\Documents\\qwen_optimization\\runtime\\ollama-v0.40.3\\lib\\ollama\\vulkan\\vcruntime140.dll",
+      "Hash": "BD99912B09D7ECE511986215862E578414CA841C0E7C350D15334CCA511AE1CB"
+    }
+  ],
+  "asset_url": "https://github.com/ollama/ollama/releases/download/v0.40.3/ollama-windows-amd64.zip",
+  "expected_digest": "sha256:e5ecff02dfc7cae8ddf6d6b7a7ac5f727ffeedf4491f44ae75ff5b0820dbbbd5",
+  "verified_at": "2026-10-15T07:14:15.8779237Z",
+  "helper_version": "version: 0.5.0-dev (build 1, commit 631109b34)\r\nbuilt with Clang 18.1.8 for Windows AMD64\r\n",
+  "size": 1468053171,
+  "sha256": "e5ecff02dfc7cae8ddf6d6b7a7ac5f727ffeedf4491f44ae75ff5b0820dbbbd5",
+  "installed_version": "0.40.4",
+  "exact_historical_binary_hashes_available": false,
+  "correction_to": "pinned-sources.json interpretation: its binary hashes/helper belong to current global 0.40.4, not yesterday 0.40.3"
+}

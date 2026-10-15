@@ -1,0 +1,6 @@
+{
+  "original_phase2a_differences": "Only later schema additions: n_planned/not_attempted/initial_telemetry/run_complete/quality.split and note wording; original numbers unchanged",
+  "checked_at": "2026-10-15T07:19:25.3580201Z",
+  "comparison": "against phase2B regenerated summary with same schema",
+  "identical_except_generated_at": true
+}

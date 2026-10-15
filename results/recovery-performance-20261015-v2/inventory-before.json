@@ -1,0 +1,139 @@
+{
+  "gpu": [
+    "name, driver_version, memory.total [MiB], memory.used [MiB], temperature.gpu, power.draw [W]",
+    "NVIDIA GeForce RTX 3060, 591.86, 12288 MiB, 1503 MiB, 60, 35.79 W"
+  ],
+  "gpu_processes": [
+    "pid, process_name, used_gpu_memory [MiB]",
+    "1652, [Insufficient Permissions], [N/A]",
+    "6008, [Insufficient Permissions], [N/A]",
+    "10864, C:\\Windows\\System32\\ShellHost.exe, [N/A]",
+    "11172, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe, [N/A]",
+    "11828, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe, [N/A]",
+    "1744, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe, [N/A]",
+    "10896, C:\\Windows\\explorer.exe, [N/A]",
+    "12944, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]",
+    "12848, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]",
+    "15200, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe, [N/A]",
+    "9392, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe, [N/A]",
+    "15892, [Insufficient Permissions], [N/A]",
+    "17472, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe, [N/A]",
+    "19044, [Insufficient Permissions], [N/A]",
+    "15868, C:\\Program Files\\NZXT CAM\\NZXT CAM.exe, [N/A]",
+    "4832, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe, [N/A]",
+    "21248, C:\\Program Files\\Docker\\Docker\\frontend\\Docker Desktop.exe, [N/A]",
+    "21460, C:\\Program Files\\GOG Galaxy\\GalaxyClient.exe, [N/A]",
+    "4, [Insufficient Permissions], [N/A]",
+    "24088, C:\\Program Files\\GOG Galaxy\\GOG Galaxy Notifications Renderer.exe, [N/A]",
+    "22460, C:\\Users\\gonza\\AppData\\Local\\Programs\\Warp\\warp.exe, [N/A]",
+    "11868, C:\\Program Files\\WindowsApps\\Microsoft.PowerAutomateDesktop_11.2609.183.0_x64__8wekyb3d8bbwe\\dotnet\\PAD.Console.Host.exe, [N/A]",
+    "25588, C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.304.258.0_x64__zpdnekdrzrea0\\Spotify.exe, [N/A]",
+    "16508, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.9446.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]",
+    "25768, C:\\Users\\gonza\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\a9ba6825a525118c\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe, [N/A]",
+    "8676, C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2640.100.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe, [N/A]",
+    "25316, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe, [N/A]",
+    "27952, C:\\Program Files\\WindowsApps\\Microsoft.Edge.GameAssist_1.0.4019.0_x64__8wekyb3d8bbwe\\EdgeGameAssist.exe, [N/A]",
+    "28260, C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe, [N/A]",
+    "30252, C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.304.258.0_x64__zpdnekdrzrea0\\SpotifyXboxGamebarWebView.exe, [N/A]",
+    "29480, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.45\\msedgewebview2.exe, [N/A]"
+  ],
+  "disk": {
+    "Used": 593398857728,
+    "Free": 1406982156288
+  },
+  "global_ps": {
+    "models": []
+  },
+  "global_tags": {
+    "models": [
+      {
+        "name": "qwen3-embedding:0.6b",
+        "model": "qwen3-embedding:0.6b",
+        "modified_at": "2026-08-01T12:17:11.4135765+02:00",
+        "size": 639150858,
+        "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+        "details": {
+          "parent_model": "/Users/ollama/.ollama/models/blobs/sha256-06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "595.78M",
+          "quantization_level": "Q8_0",
+          "context_length": 32768,
+          "embedding_length": 1024,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "tools",
+          "thinking",
+          "embedding"
+        ]
+      },
+      {
+        "name": "qwen3:8b",
+        "model": "qwen3:8b",
+        "modified_at": "2026-07-29T16:07:31.4702841+02:00",
+        "size": 5225388164,
+        "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "8.2B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "gemma4:12b",
+        "model": "gemma4:12b",
+        "modified_at": "2026-07-29T16:05:40.482697+02:00",
+        "size": 7556508396,
+        "digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "11.9B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 3840,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "audio",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "os": {
+    "Version": "10.0.26200",
+    "TotalVisibleMemorySize": 33419336,
+    "FreePhysicalMemory": 20787448
+  },
+  "captured_at": "2026-10-15T07:14:41.4216867Z",
+  "cpu": {
+    "Name": "AMD Ryzen 5 5500                               ",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  }
+}

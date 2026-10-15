@@ -1,0 +1,309 @@
+{
+  "requests": 9,
+  "output_tokens_sum": 578.0,
+  "compatibility": [
+    {
+      "logprobs_observed": true,
+      "client_total_seconds": 56.0295369,
+      "ttft_seconds": 55.1542378,
+      "final": {
+        "model": "qwen3.8:27b",
+        "created_at": "2026-10-15T07:17:49.9988434Z",
+        "message": {
+          "role": "assistant",
+          "content": ""
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 55996411400,
+        "load_duration": 52317796000,
+        "prompt_eval_count": 17,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2782948000,
+        "eval_count": 3,
+        "eval_duration": 875157000
+      },
+      "error": null
+    }
+  ],
+  "truncations": 0,
+  "run_id": "recovery-sustained-20261015-v1",
+  "request_errors": 0,
+  "fatal_error": null,
+  "incomplete_or_empty": 0,
+  "client_request_seconds_sum": 278.007102,
+  "quality": {
+    "split": "reduced-reference-v1; nueva respecto a desarrollo fase1/2A; expuesta tras esta ejecución",
+    "manual_tasks": 0,
+    "automatic_invalid": 0,
+    "automatic_pass": 0,
+    "automatic_tasks": 0,
+    "manual_review": null,
+    "note": "Muestra heterogénea personal, sin inferencia de calidad poblacional ni puntuación oficial"
+  },
+  "telemetry": {
+    "gpu_utilization_percent": {
+      "min": 0.0,
+      "p50": 1.0,
+      "max": 100.0,
+      "n": 275,
+      "p95": 84.0
+    },
+    "gpu_temperature_C": {
+      "min": 45.0,
+      "p50": 47.0,
+      "max": 55.0,
+      "n": 275,
+      "p95": 52.0
+    },
+    "gpu_vram_MiB": {
+      "min": 1741.0,
+      "p50": 11443.0,
+      "max": 11504.0,
+      "n": 275,
+      "p95": 11498.0
+    },
+    "system_free_RAM_KiB": {
+      "min": 6796712,
+      "p50": 8580608,
+      "max": 20165472,
+      "n": 275,
+      "p95": 10842896
+    },
+    "collection_seconds": {
+      "min": 0.359861,
+      "p50": 0.6496713,
+      "max": 1.3493927,
+      "n": 275,
+      "p95": 1.0137718
+    },
+    "interval_seconds": {
+      "min": 0.9998858,
+      "p50": 1.0127233,
+      "max": 1.3508698,
+      "n": 274,
+      "p95": 1.0360264
+    },
+    "energy_coverage_seconds": 278.7182655000001,
+    "last_utc": "2026-10-15T07:21:31.9757318Z",
+    "unavailable": [
+      "paginación",
+      "temperatura CPU",
+      "throttling",
+      "energía del PC",
+      "respuesta interactiva"
+    ],
+    "gpu_power_W": {
+      "min": 20.16,
+      "p50": 37.88,
+      "max": 69.4,
+      "n": 275,
+      "p95": 62.07
+    },
+    "gpu_energy_Wh": 2.956092496040279,
+    "samples": 275,
+    "tree_private_committed_bytes": {
+      "min": 104361984.0,
+      "p50": 22859497472.0,
+      "max": 24484900864.0,
+      "n": 275,
+      "p95": 24483414016.0
+    },
+    "error_samples": 0,
+    "errors": [],
+    "tree_cpu_percent_of_all_logical_processors": {
+      "min": 0.0,
+      "p50": 40.97311864428047,
+      "max": 70.55761354431944,
+      "n": 274,
+      "p95": 60.204415998065485
+    },
+    "first_utc": "2026-10-15T07:16:53.2574663Z",
+    "energy_scope": "GPU completa, potencia integrada por trapecios, sin restar reposo; no energía del PC",
+    "tree_working_set_bytes": {
+      "min": 61317120.0,
+      "p50": 11202441216.0,
+      "max": 12824805376.0,
+      "n": 275,
+      "p95": 12823220224.0
+    }
+  },
+  "generated_at": "2026-10-15T07:21:43.7087191Z",
+  "sustained": {
+    "samples": [
+      {
+        "error": null,
+        "ttft_seconds": 1.8191856,
+        "total_seconds": 25.5963194,
+        "output_tokens": 70,
+        "id": "sustained-001",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.9445806780401798,
+        "started_at": "2026-10-15T07:18:24.0542509Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.9552526,
+        "total_seconds": 26.1435222,
+        "output_tokens": 69,
+        "id": "sustained-002",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.8451611354947373,
+        "started_at": "2026-10-15T07:18:49.7259902Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.909629,
+        "total_seconds": 26.454638,
+        "output_tokens": 72,
+        "id": "sustained-003",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.9343789721098688,
+        "started_at": "2026-10-15T07:19:15.8902203Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.8960886,
+        "total_seconds": 26.1187017,
+        "output_tokens": 72,
+        "id": "sustained-004",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.972512802550713,
+        "started_at": "2026-10-15T07:19:42.4195232Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.8532175,
+        "total_seconds": 26.4885401,
+        "output_tokens": 72,
+        "id": "sustained-005",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.9218763315842655,
+        "started_at": "2026-10-15T07:20:08.5695365Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.87538,
+        "total_seconds": 27.9664224,
+        "output_tokens": 72,
+        "id": "sustained-006",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.7593229955041814,
+        "started_at": "2026-10-15T07:20:35.1118952Z"
+      },
+      {
+        "error": null,
+        "ttft_seconds": 1.8452799,
+        "total_seconds": 29.4069779,
+        "output_tokens": 66,
+        "id": "sustained-007",
+        "input_tokens": 77,
+        "done_reason": "stop",
+        "cached_tokens": 0,
+        "generation_tokens_per_second": 2.395224618902525,
+        "started_at": "2026-10-15T07:21:03.1262779Z"
+      }
+    ],
+    "last_60_seconds": {
+      "requests": 2,
+      "free_ram_KiB": {
+        "min": 6796712,
+        "p50": 7192584,
+        "max": 7689884,
+        "n": 59,
+        "p95": 7369012
+      },
+      "output_tokens": {
+        "min": 66,
+        "p50": 66,
+        "max": 72,
+        "n": 2,
+        "p95": 72
+      },
+      "generation_tokens_per_second": {
+        "min": 2.395224618902525,
+        "p50": 2.395224618902525,
+        "max": 2.7593229955041814,
+        "n": 2,
+        "p95": 2.7593229955041814
+      },
+      "ttft_seconds": {
+        "min": 1.8452799,
+        "p50": 1.8452799,
+        "max": 1.87538,
+        "n": 2,
+        "p95": 1.87538
+      },
+      "gpu_temperature_C": {
+        "min": 46.0,
+        "p50": 50.0,
+        "max": 55.0,
+        "n": 59,
+        "p95": 54.0
+      }
+    },
+    "note": "Ventanas por inicio de petición; tamaños y salida pueden diferir; no prueba causal de throttling",
+    "status": {
+      "target_seconds": 180,
+      "requests": 7,
+      "complete": true,
+      "ended_at": "2026-10-15T07:21:32.5583826Z",
+      "elapsed_seconds": 188.5983621,
+      "hard_limit_seconds": 210,
+      "started_at": "2026-10-15T07:18:23.9600269Z",
+      "stop_reason": "target_reached"
+    },
+    "first_60_seconds": {
+      "requests": 3,
+      "free_ram_KiB": {
+        "min": 8014300,
+        "p50": 8671720,
+        "max": 9239056,
+        "n": 59,
+        "p95": 9103852
+      },
+      "output_tokens": {
+        "min": 69,
+        "p50": 70,
+        "max": 72,
+        "n": 3,
+        "p95": 72
+      },
+      "generation_tokens_per_second": {
+        "min": 2.8451611354947373,
+        "p50": 2.9343789721098688,
+        "max": 2.9445806780401798,
+        "n": 3,
+        "p95": 2.9445806780401798
+      },
+      "ttft_seconds": {
+        "min": 1.8191856,
+        "p50": 1.909629,
+        "max": 1.9552526,
+        "n": 3,
+        "p95": 1.9552526
+      },
+      "gpu_temperature_C": {
+        "min": 47.0,
+        "p50": 47.0,
+        "max": 52.0,
+        "n": 59,
+        "p95": 50.0
+      }
+    }
+  },
+  "run_complete": true,
+  "performance": []
+}

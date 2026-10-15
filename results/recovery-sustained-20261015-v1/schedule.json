@@ -1,0 +1,16 @@
+[
+  {
+    "logprobs": true,
+    "kind": "compatibility",
+    "condition": "nonresident-disk-cache-uncontrolled",
+    "prompt": "Responde únicamente: listo",
+    "id": "compatibility-nonresident"
+  },
+  {
+    "kind": "warmup-sustained",
+    "condition": "sustained-variable-prefix",
+    "nonce": "sustained-warmup",
+    "prompt": "Identificador de medición: sustained-warmup. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "id": "sustained-warmup"
+  }
+]

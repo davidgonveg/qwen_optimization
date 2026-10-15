@@ -1,0 +1,1410 @@
+[
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\compatibility.json",
+    "Hash": "5A16B27928F286B0BD0A7268417D143F848EB0FCA65288AC143137708E293EA7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\global-tags-after-download.json",
+    "Hash": "23B4E5D9C4C205E7FB180D767EB3DD88B39C3A06F6616EC6CB912D0B9647E188"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\identity.json",
+    "Hash": "F2534AABCA52950754246BCA2BC30FEC003D884C354166E36EC014C00E9C0D16"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\inventory-after.json",
+    "Hash": "46235906376179E4EB10462D77565037D749B17308F9953CD1AF0D2B02390870"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\inventory-before.json",
+    "Hash": "85D59416F42B3544D3AA0C6985FA58E948AE6AE24A30C75AB5891A146822CAEC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\local-manifest.json",
+    "Hash": "B45285C1CC1FAFAF0272E840A7B799CB11E1B4597C2DC47A2DC58A61942F408C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\ollama-model-config.json",
+    "Hash": "492B2922D38E553CABC2D319345644ED482874FBF5E5C9E4495CBF8E17B0CF5F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\pull-progress.jsonl",
+    "Hash": "F30EA53533806CE9A679659442E7B6D1367106CF9620B462434B86CE36D06764"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\pull-request.json",
+    "Hash": "506A060886F97539730735367EB2F35AE9833CB0D3A2B88EB6FC2767BC101390"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\pull-result.json",
+    "Hash": "921802B64CCB66FAB99A99EC22C749B3A57637D48BF8F1D14CC39792E11EA90E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\remote-manifest.json",
+    "Hash": "AAEE06C39DCF2437CDE036998D960E1FC1494B8191BE7CC9657D01E509097813"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\show.json",
+    "Hash": "5912F0AC0DEA6F490D8D47ED530A6504ECC52739EDE4215201B7FE3B420A9B53"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\sources.json",
+    "Hash": "B4A89F8D23D42553B6409B2E19BF3463A3D8C8798409B50CAC9609F54E591CAB"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\tags.json",
+    "Hash": "CA97A06CB86B98BFAD5E1236D7F7A3E21701763A77D18ED34AC4566AEC4BF1DB"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\phase1-20261014\\validation.json",
+    "Hash": "5AAC10CB77DCBC82CA63E0C0D61B1F139B22393AB05AB2B0F96F1182C6F291BA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\codigo-metrics.json",
+    "Hash": "62EF65F069E52CEAB516420B61923AB5D55662C8A9EE5AC9E3F2510A06F31747"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\codigo-request.json",
+    "Hash": "B0C79D6DD5358618C9EB9030E8343546A74F60B2A51111E795D127F98F73D79E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\codigo-response.txt",
+    "Hash": "4B9B760CE285C79D0BF8794C1AD9348BAC42CACA06301B440DE75B980F2EEFFF"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\codigo-stream.jsonl",
+    "Hash": "8856215890244E5615E133125F1BD6CDCE28A4B5B0CEBDEE813C3E05D3D92E08"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\codigo-thinking.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\config.json",
+    "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\espanol-metrics.json",
+    "Hash": "371D9A6461D1F6F3F87F935913F1C3EC39CC13F0221EB103C4CEF5F900E3C966"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\espanol-request.json",
+    "Hash": "74EF55AF84AAE018E1FB3BD5CE897F52537B31511D0BEB9BAFCCAFFC86CDBEBE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\espanol-response.txt",
+    "Hash": "18DBAE9DEA25D54A800D050AA7A5AD60B425C7120F2B3EB5BC7E478C786EA07A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\espanol-stream.jsonl",
+    "Hash": "A4B8E7399232A882ADFDE3EC7E2015267679FD83C4B32D5398DA32F991C32168"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\espanol-thinking.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\instrucciones-metrics.json",
+    "Hash": "844957E4B3195E8768F79AFF77873F16AF9DAF1D7B106A00F2A37B2DDF7CFEB1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\instrucciones-request.json",
+    "Hash": "943515751A23A7D0A7638EE89F75C02F7757862FCF291CE00E7B3A206C2342F7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\instrucciones-response.txt",
+    "Hash": "E7C23C52AD18E8BE2B35303F0AA5AF9F1CEA1546B4239711CE18A7FF216DCF96"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\instrucciones-stream.jsonl",
+    "Hash": "3E7CB423F41E27B11152616D86C71901FBAC8AC481E9CCA8CDCB0EC471B9238A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\instrucciones-thinking.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\metrics.json",
+    "Hash": "878C3D8F9BFD7CBC2675A92597EEC8FD9348A5C6574B3AAF996A153F92FC906A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\prompts.json",
+    "Hash": "F7AA5D375F62281C172044F2E958C3AE7426F14436F457E8F3903884E2CF62F7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\razonamiento-metrics.json",
+    "Hash": "6096D57FCF0976306B05D4653428068456AA3A247FCD5826A9ECD8F16805C1E6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\razonamiento-request.json",
+    "Hash": "CDD2346EFF4865170911C8D45E166BC2BA52D27E0255C8344E215E30E9155294"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\razonamiento-response.txt",
+    "Hash": "DDEC43D8F4F28B286C783136C2EF0AD037C6CFDF471FD935889F5817BBE39D9E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\razonamiento-stream.jsonl",
+    "Hash": "D5EA017BF3BAD6099C29248217CF858852291D4FE276D776FCA9D1194BD62FC7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\razonamiento-thinking.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\run.json",
+    "Hash": "3E75E9DCD8C98B664CA65C469419A53E8606525C5349C19885F28AA1FB8A4968"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\runtime-inference.log",
+    "Hash": "0D7FFC41D4E57F684FE749A114B861BE4C9FF0992D8C5DE633B25752EB2B46B0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\show.json",
+    "Hash": "5912F0AC0DEA6F490D8D47ED530A6504ECC52739EDE4215201B7FE3B420A9B53"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\summary.json",
+    "Hash": "4CB9327A66877E03763A03F1809AF6FBEFFC7560621777C2BCB153E3D19DC8C7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\telemetry-job.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\telemetry.jsonl",
+    "Hash": "E60DEA76F9029575E9996050D93A2275B6C3B301884D5BCC80DCF22DE5DEE04D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\smoke-20261014-reference\\telemetry.stop",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\api-source-hash.json",
+    "Hash": "4503362AF66867056E3DC58F68DCB883DB203CB282BE0BC402F974DD695F12E5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\compatibility-nonresident-metrics.json",
+    "Hash": "6833B025DC4D8CE800EC6DCBBE2E5141F7EA1229DBBE79322094035DDF14064D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\compatibility-nonresident-request.json",
+    "Hash": "4C1DB7215FC2B81C30474677638297A5082A16819712C13E90120986DED8BA8A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\compatibility-nonresident-response.txt",
+    "Hash": "FEE981365E329CBF45BDAECC332777DF1AAE93CE69E21E223F1BD8B6868F4A95"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\compatibility-nonresident-stream.jsonl",
+    "Hash": "7CD20FF6A042BB33EC3904D24ED3F47D10C9F6CDDEDDF844F87BAF5C8DA699F9"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\compatibility-nonresident-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\config.json",
+    "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\final-script-hashes.json",
+    "Hash": "BDAE19532E9FB719142145B3DFA719711AC90129B297BB83488E27EA090E4AFA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\inventory-after-initial.json",
+    "Hash": "AC6E2998AC89E5FFA389F45219893B9F3AAD7713E6E2506DB90B510588B8F513"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\inventory-after.json",
+    "Hash": "738AD8590C2135C8A655B1DDAE085486749117C8FC679E50B58A8961F8B67B3A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\inventory-before.json",
+    "Hash": "06AE53EB2F5C42EB9FDE685D98833AE0FD793DC6415246160AFB032FB6498F11"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\manual-review.json",
+    "Hash": "684A4F5D401B5E05103304E989F1895088BBFE912E82E6965D6094B58A48040F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\metrics.json",
+    "Hash": "24B8F63ED87D7FD318FBD64F949B2FEDD5A91ECC6C2C06C5EFF31F27CB56E555"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\protocol.json",
+    "Hash": "CED160CCD33096219C4A6D0CE1D23E36FBB413474AA08263EB94122E0EF5C73B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\PROTOCOL.md",
+    "Hash": "DC38DB063361D22DCD1FF011C129BEECD55D530836745257CF563D9B3838ADDD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q01-metrics.json",
+    "Hash": "F907C38DD6336D77D9CC2FF35E0CF8E259C54901DB7E095032A6B776E6393859"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q01-request.json",
+    "Hash": "0E019608A738491D8B1CC80989DA9742890354E64929C0997BD6FFEF69DB1C5C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q01-response.txt",
+    "Hash": "46E1E6C08C84B806CA6CB15494130ECE08C354ABDAE78FBF54F12D90D034AC2C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q01-stream.jsonl",
+    "Hash": "1AEEC76269699412CB4E7C90CAFCC5854060312520502185BB651E4219BB0FC4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q01-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q02-metrics.json",
+    "Hash": "135DDC9C29C875D4F143F7C00C7EFFFA0BAE418164C5088DB4FEBFDBE6EB1E33"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q02-request.json",
+    "Hash": "99B54D0FE45FB523FFEB49A6A36652490B264FA65DEF2CFC316A764DF8EFE4E8"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q02-response.txt",
+    "Hash": "6A444ADD16D8322C139D4D4A07AE774753C23C2383E876357102DDA5729CF45B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q02-stream.jsonl",
+    "Hash": "B5FD4C4D750C6F2F0FD05D4F93CAAA785729D5B1579AB87D5CA3203A32A2C074"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q02-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q03-metrics.json",
+    "Hash": "72161E5DA2F485A0160878DE23BA361196183A40E703164B5D7E1C6F05A25B66"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q03-request.json",
+    "Hash": "5CE9B730F7433B5CD0BA52DC3EFFB16606D13D065F354D5C1DEFCB0E1903CD1F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q03-response.txt",
+    "Hash": "7C5FF7D4512B24F43D7175D50D0074F9F50DCA7EFA47674B8F27EE2F01909451"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q03-stream.jsonl",
+    "Hash": "801E3E57080DD5CE5C2398CAF518A7ABF0B14FE5ECED2B654DF40BB1C9626425"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q03-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q04-metrics.json",
+    "Hash": "1534BAEE8E16352D0B8B41AB5BBB16B910A996122B6519D53F7E819C391458C5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q04-request.json",
+    "Hash": "CD091036AF218D638275D9566D775A9531A2E82B6E3929C5B8B4B9E143B445A1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q04-response.txt",
+    "Hash": "97A62AD21D79C01CCEB7767952ACEC4FEC86BFE909B06E5F3F6963365CF91AB8"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q04-stream.jsonl",
+    "Hash": "E73294430ECA8F25771653D09E308B97F2133DECA41DFE0C1F2C9BF65A6F19C2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q04-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q05-metrics.json",
+    "Hash": "8FB9DFCC9D285CFFC58008E71920FC2D8D8D2F86EF096878BCF10258B64EFB78"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q05-request.json",
+    "Hash": "A4FD65A5F43F96C8EA19A64E193A8E6BB80F52B34E1B878CFC6F103C40B60EF5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q05-response.txt",
+    "Hash": "99863C2266B69D6D59F4DFE4B3A519529DB376CF5310426B9861CDB14F18C5C5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q05-stream.jsonl",
+    "Hash": "3AE26159BEAD539CC8E32F4B113561943F7EFC37FED29171DA559DC238A7E5EC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q05-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q06-metrics.json",
+    "Hash": "0EF143B2A563095125997C9E69A48A1184CAED344086FC7501633767C9D9A390"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q06-request.json",
+    "Hash": "ABC6198406003BFAB78E1ED4741F850596617AD98883D64C574EC57293F7E5FF"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q06-response.txt",
+    "Hash": "74F239971E0C0177308DC2CDC48AF2D4CC7F781E63A3B495EB85D078CF330243"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q06-stream.jsonl",
+    "Hash": "876393D08E83F05294639024B7406E8954400809408D2047FBA78F693132538D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q06-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q07-metrics.json",
+    "Hash": "A65FD7505BB20BCAC87DF277A350F009FA93F68023AA1D2F66529162A955EF18"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q07-request.json",
+    "Hash": "8830CDDBB8955D6C30EA0DB837EC8C7AD721894D58EE79178D3005D52B342B05"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q07-response.txt",
+    "Hash": "77A8A1CBCD5113036D38CEC494548D298FEB7A1D07FA3FF987003759D30FC4F6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q07-stream.jsonl",
+    "Hash": "0CD71000E42C9B584E824DA1C2087DFB9B347C11E56031E159578058B07FDCB5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q07-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q08-metrics.json",
+    "Hash": "227F95D2F38D7793664393D0A39C9C8D049A573AFF8FC52E3E5CE2DCB2C8279E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q08-request.json",
+    "Hash": "DFA5E98CC6859D89C3907F23A311CB0AC842D0B77857E79211B320965B33E897"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q08-response.txt",
+    "Hash": "A038FB960A262CA4D59AB7F8FBED35A6147B0AFF63E7BEFC67151DA485DA8EE7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q08-stream.jsonl",
+    "Hash": "4756F9B4D1827D25EE62F3952902CCC79F2F96176B8AE4488E90325E11CB80F9"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q08-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q09-metrics.json",
+    "Hash": "6A42247D676415ACBA9614F7B6E4330C71D01150F5A0B4278CF0BC1363027CF2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q09-request.json",
+    "Hash": "476AA858810D7E36811DAE65A41ED6C7DE43265693D83D088560CD54A0652A00"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q09-response.txt",
+    "Hash": "D03C4B9CA543FE7FF52F92C48DF424C67632D2E8C596DA69F6096187F1B650D0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q09-stream.jsonl",
+    "Hash": "487E9FAC00DF8295FA0059522153AF4CF0F8306DAAC0966D51088028D55998C4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q09-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q10-metrics.json",
+    "Hash": "A396AC5752AD74ACBD91179CC1CDFC2E0D08925E8F40D7D4B60C11F6D9993752"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q10-request.json",
+    "Hash": "1F56DC0195095C82380C06CC5E840A4B1C3CB1C33A156DF3C878D62B1B0FFAAD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q10-response.txt",
+    "Hash": "95BCC4DC83C6D7655DDB24F9A04438069D514AE945D1B7E2A990072794301294"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q10-stream.jsonl",
+    "Hash": "5B8450BF88922E944517D26B87CDFFD605C79BA35A6130E29D3D8023050879D0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\q10-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\quality-scores.json",
+    "Hash": "2494319FE4909449571888CA87A88F19412F0387F8AABBDCB9EC582A0B1DC52F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-0-metrics.json",
+    "Hash": "B517215CA79C38001476838D315978CC1C66C227D1E81CC5569232829242ED2B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-0-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-0-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-0-stream.jsonl",
+    "Hash": "05AF08B23D8160FF05D7133AECEA383F85ECC1F4E682EFFB19E224CBBBC6EE99"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-0-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-1-metrics.json",
+    "Hash": "9EFE60AAAEE36D600F8A17818303939C355924A26DC93EB4725BD31BBFB893BA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-1-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-1-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-1-stream.jsonl",
+    "Hash": "9ECA2A921D09F22D638AECC8443B930B837909079139B2D174D27C9F11EC2352"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-1-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-2-metrics.json",
+    "Hash": "219DFD50FEFF5E9919746FEF2B58209D84F7335D981A61A2308546B603DC36ED"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-2-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-2-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-2-stream.jsonl",
+    "Hash": "152B0F09DDCFE67E9ABDFB0B318854AFB95AE0E1D9FB298B95A07F5AFB9A7C36"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-2-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-3-metrics.json",
+    "Hash": "1F8FA9DA37767518FAE62C216225AED4B73F44A49B7DEE6908D7B0428053AF11"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-3-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-3-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-3-stream.jsonl",
+    "Hash": "64BC61B4E614CBEDCC22647154A45BE940165CBD86D75BD1FC8B6F7C44D3E3C7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-3-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-4-metrics.json",
+    "Hash": "1C24A9FF5BC05C4ACA65EED2E1E8BEED254724B4A11BE45DE93DCD60329BCA28"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-4-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-4-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-4-stream.jsonl",
+    "Hash": "994473F3DCA465DFC1CFBBE72E777B383D656533B857A362508A3DCC335DFACE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-4-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-5-metrics.json",
+    "Hash": "4A40A1842C4D32C7DE07AF2BDB8BE7392636CCEE6FB5711C5F796A18BAE8D421"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-5-request.json",
+    "Hash": "F79D5FCE4417D647C67493181FA110FE525953A9E80CF2BC30DEF35363774529"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-5-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-5-stream.jsonl",
+    "Hash": "60B20662570D235FCA8D0310DEBDB95F57E79754E566ED56E7F8589A5D29D1CA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-repeated-prefix-5-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-0-metrics.json",
+    "Hash": "00BA7312F387740343D1241C4A170EE8AA80193F7503D1F158C2C586C98424A9"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-0-request.json",
+    "Hash": "3A2205982DEF825456A22F17867D159E2DD72EE56D03C13EFAA5743C86232376"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-0-response.txt",
+    "Hash": "4EEC63DBCB392BDEB4A4BBEB28CF6D5993E78B91ED5C88B55BB01B884DAAB1AD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-0-stream.jsonl",
+    "Hash": "1550F775BE20151B02859A1CCDE337BECAB7F1BF2307F7F09F7D3477984EE870"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-0-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-1-metrics.json",
+    "Hash": "C0412006919986DF89F691701CAAFE11F5050EC3D7385E5C62CEF80E93A8D618"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-1-request.json",
+    "Hash": "FA22907135A6A04A5D5F3811920ACDAD2453BC4034A9D99CEDE9E28330D8F3B1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-1-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-1-stream.jsonl",
+    "Hash": "E005EB4C60A46778E3C7805FBDBF501CF1388298FB2E3EE8200F6B9D4E5CC2FC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-1-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-2-metrics.json",
+    "Hash": "BBD1DA086A84444489FF078334071E0880E7272CD3A4C34C21C08CF5FF7EF189"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-2-request.json",
+    "Hash": "1556EF5A6D9F429B8370F5AB18B69816F8FC724DAD4F1D78E4D051D9DA71585A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-2-response.txt",
+    "Hash": "B3215B4C4E5017495DF413A0E3E3967A5E705E70FE493A1F6463C4B8C4614C25"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-2-stream.jsonl",
+    "Hash": "BA979E9828D275A0CB9CD7D80545349EE7D1695058F62FE94D9463A3469DBABF"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-2-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-3-metrics.json",
+    "Hash": "4246CC4D68DDE17FA00B7C6A7BA23038C4F87312420B4B6C5F8667D49364F4C5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-3-request.json",
+    "Hash": "0D747ECA72E0387272511968CE3078F5B405E55C4B58AC669B0D7B43FF34B5DE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-3-response.txt",
+    "Hash": "0D0AE7EF80CEFA63DA5FFF32360150AD14D85A89BA4578631A698661D652BC73"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-3-stream.jsonl",
+    "Hash": "6E20F36F18E10F387BDEED6DC8714E3BD63AB5ED60686C39B9BC4D714E2DE00B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-3-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-4-metrics.json",
+    "Hash": "2EF9158A1BC10986E7A69A039A492A8906B8743486EB1FA73CE7F4580A82B3FD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-4-request.json",
+    "Hash": "0853DF0243A41257BA90BA2673E17A7DC9D9CFA788F946EC277964415E98A498"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-4-response.txt",
+    "Hash": "52980A93C1E177DA22B6787185A6035E672D068C3951352EF2B13070D13AA92E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-4-stream.jsonl",
+    "Hash": "3AD7692A803D1C655E777251E972126F7EC9CDEBB16A4390BA84835819DB86F0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-4-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-5-metrics.json",
+    "Hash": "7549330ED4F4DC7C3D6BBBCADCDD09CBECB38058BE17B2974E53226407D95FFE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-5-request.json",
+    "Hash": "C90C4352CA6F8B4769ECEF18E443FB2C2AB583E7820E69B6ED1581143B5A2AB2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-5-response.txt",
+    "Hash": "AB7D2FF8CE396EDDD6617BCA1FD55BD69C6AA7249528C213029C4793567DF2E2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-5-stream.jsonl",
+    "Hash": "82BFA86A92D674EA243023EE1E49F04AEEFB31E9E5C48C29BF196503790B957A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\resident-variable-prefix-5-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\run-status.json",
+    "Hash": "FCCC8C463F6E6C2DDEA66DB436896C3E929B0B4C382C390BE0AA73A60CB21DD2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\run.json",
+    "Hash": "E81A2537DD7C6BA9F8DA4E5C3D56C26366C9E72FF6F09919F31E65A4CB569D78"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\runtime-inference.log",
+    "Hash": "7DFB5DCAE66C1CB0086E7836D994046CFD0E3D50AFB74BDCD7DA822C96B544B4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\schedule.json",
+    "Hash": "D1EF44EC4E04BAE7F814D2B98FB38DE7D37040E2FFEAC68E746F68867E191CDC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\show.json",
+    "Hash": "4BA6DD97156B6C78B7EE266C118D6B082744881A3DEC21BAA7CBA0E703DAE3ED"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\sources.json",
+    "Hash": "AF05C42D5CA55C7D5921A55FC962B3002B08FFD465DC366EFDB7EAABE70E64A2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\suite.json",
+    "Hash": "7857461D953B8EBB313F6BA7C9924DA30A022371AB9F222A14230BA9926BB78E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\summary-initial.json",
+    "Hash": "595C4BB25FFF7E4F177863CD61D2A95C13EFD9A2AB12E9C04B5F679AD007D7D6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\summary.json",
+    "Hash": "F7FE20949F35EE296FF66AFBA155407039161649340B66D6FDA2CC6C590609D5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\telemetry-job.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\telemetry.jsonl",
+    "Hash": "11FFA64D06AC183260206D4D0ED28D18FFDF9C3D6E3CDF581BD53A7F8A5A402E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\telemetry.stop",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\pilot-20261014-reference-v1\\validation.json",
+    "Hash": "6739BB8791D56C7AF9DC99D649B409DE5D447EC850D5D502AC4F068CCEA4D9B4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b01-metrics.json",
+    "Hash": "30CA5FDA2D76324232E697B712AA01B59C06681E93023237274BFC6CA3E71E05"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b01-request.json",
+    "Hash": "EC9065E505C45948ECD237AD1A4941606FAE639B18D2532D53378A7269DC7653"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b01-response.txt",
+    "Hash": "D1A236384DEA5CB45D8E440826DDAE8B2FDC76B7E6E4C9E336FD6600C79FC123"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b01-stream.jsonl",
+    "Hash": "7C70A4311E6F5400C6CB17FB72A013688A589463F929520A149AED1A059BB622"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b01-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b02-metrics.json",
+    "Hash": "57A7130D5570740A4303CFA54875941EF009A74D54376B3B674119EC97C95A2F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b02-request.json",
+    "Hash": "A289CA405AE803C7E153EC53D32F4D31800FF65B57C99C93239A8D76C25F84A5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b02-response.txt",
+    "Hash": "8C1F1046219DDD216A023F792356DDF127FCE372A72EC9B4CDAC989EE5B0B455"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b02-stream.jsonl",
+    "Hash": "27FA7C7FE9EBC115E3FA1D8605F1FF4D86E893F47A8173E686B7C9EF27834616"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b02-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b03-metrics.json",
+    "Hash": "62B7D8573AB891478FAFFE43BA9E7916C330CAEA62EA147105CDCA58B10C5648"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b03-request.json",
+    "Hash": "75EB52F0BB6ACFD320EAADCFC7385DBCE48BE6620D965F943580BC9A785836EA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b03-response.txt",
+    "Hash": "D970353F29A73575E546F999726948428A3BEE91FB3CE0C37DBF5068F477A2B1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b03-stream.jsonl",
+    "Hash": "072B908B8927ADE5CE0FFFC3EC0524EAF00A96E12C02F5C377C493FF76D4AC48"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b03-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b04-metrics.json",
+    "Hash": "748EC8ED8C28E388A37C0C93D5A0FACB045E837A3C50E96C7425C37F016E43AE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b04-request.json",
+    "Hash": "1FF21712B0B92B465FB0F7E006153887A403D847BAE459260E63E1F29AE74E85"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b04-response.txt",
+    "Hash": "83151157C10D85AF7C84657C71C3E3603D955160F0526FCE672481DA83A2E090"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b04-stream.jsonl",
+    "Hash": "BC61F1DB7A1278150EBE894E3B5FB9EBD2C11CF4182AF16D57AC5EE09D67F28E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b04-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b05-metrics.json",
+    "Hash": "503D2A388F472A375F8C073AF3543C31B8C810DE1F2F0DA9FC364503C90DDD64"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b05-request.json",
+    "Hash": "DBC5D332A2401D532589A40EAFDE46E23D818DD0F510CD18FC5BBBE2562174DF"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b05-response.txt",
+    "Hash": "3626206C73A6EB80A33A560D3A6503D9358BCB320D44BB562B639898E9A238E4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b05-stream.jsonl",
+    "Hash": "224A18A7858E1102DE377D87CDC8FF5AF0F7B14A51045F383B18082E5CB84E58"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b05-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b06-metrics.json",
+    "Hash": "6053BC5C98794392368FCCE2F675F34F8CCE862BB69989DB89618ECD5B953BAE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b06-request.json",
+    "Hash": "21108D9A2C0D410F04C42877077A98D996DDA0F189D0E05E5B059185554A18E7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b06-response.txt",
+    "Hash": "9390298F3FB0C5B160498935D79CB139AEF28E1C47358B4BBBA61862B9C26E59"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b06-stream.jsonl",
+    "Hash": "B712F5DD04AD1A88F8D8058EC2297800C410141CD4A02BC9136B36FB05F12E88"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b06-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b07-metrics.json",
+    "Hash": "9AEAADEB55450421921FA95EE519E9D83B3F6F8275F807FB4DE5A839A6860544"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b07-request.json",
+    "Hash": "0E7C5C753C3D400AB9ADA202DB50EDEE052A92DC42D7CAD91248AFD3C6D7DC09"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b07-response.txt",
+    "Hash": "97A62AD21D79C01CCEB7767952ACEC4FEC86BFE909B06E5F3F6963365CF91AB8"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b07-stream.jsonl",
+    "Hash": "C35640E26BD716B21676BC5B735A957451ACAE98C6D41DEE29B4B7C527200733"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b07-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b08-metrics.json",
+    "Hash": "3C6FB1023126AC43086B8A7751187A9235150ACA23EE37777CE7273B445D0719"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b08-request.json",
+    "Hash": "54D133FA186F8E4B852A4AFC46DBAD5659DD3AF2E7D205FFD2D2492BC5B4FD79"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b08-response.txt",
+    "Hash": "F7EBD67DB3BFF48E7A60EAB3478246E84934DCAD11D1F30C657AEDCC3791A42A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b08-stream.jsonl",
+    "Hash": "7BC9DA51448159506AC7B4A3850415F1B85389ACCAAD6FA986340C23BE0AD6CE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b08-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b09-metrics.json",
+    "Hash": "04163411C14D75C98DE3F3EC777FCED9B6C4B1E5791F81184CC34659067AAC3B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b09-request.json",
+    "Hash": "2FDD6C811C5D98FED78CE3B3DE67B9964446448E4F4270239BD835E6405C07C3"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b09-response.txt",
+    "Hash": "9390298F3FB0C5B160498935D79CB139AEF28E1C47358B4BBBA61862B9C26E59"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b09-stream.jsonl",
+    "Hash": "869A85A537F210E6FFFE951ADB81E80539B690A35654F8D9D805CD9CDF901E95"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b09-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b10-metrics.json",
+    "Hash": "88E42E2F4529F0E1C700D86DCC182E6B67108B3C01EC32FB33FB693896CBF304"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b10-request.json",
+    "Hash": "524D2EDC3F3E8203E91D5B6BCA7666F3656E9888B617F9DC314FE63699710F3A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b10-response.txt",
+    "Hash": "45F86C82518BD82FC5614192AAE66EEEA71018F3DF74D92D47AFD41AFFA4F967"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b10-stream.jsonl",
+    "Hash": "62D0E120AEA9F56109A8C4449D5334EA50376C608C88CC61D935254EE9FE71C7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b10-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b11-metrics.json",
+    "Hash": "E84A03BA58F80FAB285AD1C3ABA8A107994E8D07558AD6E8A18E1898CFE5989D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b11-request.json",
+    "Hash": "830AE5F412144C44EB844791057D69456E0E3BEC476D52E37FAD83A36CA20647"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b11-response.txt",
+    "Hash": "266D076A45A4D25AE478CA9BA89339DB0611F326FCF791A4F6625DA13C13B69A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b11-stream.jsonl",
+    "Hash": "D4E854565A18354BCA6D813C6470BE7A778A4D7709DA872A2A8476D18AFE57E4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b11-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b12-metrics.json",
+    "Hash": "F6C371E101EF4F8D94E8C91A950B642A14C9542119C51E26A1E14CF44295B1B2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b12-request.json",
+    "Hash": "919429C884760B768A046175D3ED30839EAE03B08DE9636847342CAB8AEF3320"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b12-response.txt",
+    "Hash": "51834E129778EB5F14937ECA98BB3EBABE72A60E6555C14D729B13738F37732C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b12-stream.jsonl",
+    "Hash": "3984EFFF20E10BDEED2714E92FF52D299959D1C5A988AE874AE852264AF4BDB0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b12-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b13-metrics.json",
+    "Hash": "F6BC56273B16C2B11B5084A871ACB01BF45100608F938C74132D3105992FEC7E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b13-request.json",
+    "Hash": "ABFFCD8D0E7432845CAF88E57DCC19F3D2F73F176A95266406FC3C403A2EAA4D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b13-response.txt",
+    "Hash": "B48629B63CA680B0A7ADF21AF56978A9A241D8607ED92686C21832778C33006D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b13-stream.jsonl",
+    "Hash": "F1887E0B846C66BB1C7BF6042CF3539470E50D866A03DE15AB3AFE30D3723CCE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b13-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b14-metrics.json",
+    "Hash": "B194E9773987A7B686548B686DD9A6FC405A822895DA992786D62A22A5FFEBFA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b14-request.json",
+    "Hash": "26DD6B5D8A680292A8F72319100A099E749E01188DADC5988BAE44F2D2D99518"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b14-response.txt",
+    "Hash": "1C96B52EB6F5904D4EF6E9E1F2A4A0DB356BD7055FC7C8F0AF3FCB27007A0FA9"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b14-stream.jsonl",
+    "Hash": "81EFBB5BE1F7B34996982CA76151990D7B38628CCDA9A155533F69D58F4ADA95"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b14-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b15-metrics.json",
+    "Hash": "0B443E6F9F7A21D38195832474564B7212C36E6C4EE7B166A2A8AFB1452307A5"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b15-request.json",
+    "Hash": "742BBCAE8AE00820D1B8454ABAC10328A0E15195C6649D02C60085BC29CE82EA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b15-response.txt",
+    "Hash": "DCF6903F865356DA75295FCA7FFEABCA7FC1A630DB78914894B00FEFD9828E9C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b15-stream.jsonl",
+    "Hash": "DEA96AAA482B7120AD59EF2E279AC1B31B9D99BF2F519834C14659F00AF9B7D7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b15-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b16-metrics.json",
+    "Hash": "1AA6E57076DFA74BBF50A7F7D44D5257991832505F7E127BD466BDCE2DE1D2F0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b16-request.json",
+    "Hash": "E4F76CE830576D514B36963FB37262E573D9E49034ECDE844CBF1A008E37CBD1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b16-response.txt",
+    "Hash": "2947880CFF230D4B9AB253B97C96658CF1A2D9569E8099A7736FFA0ED94B4DE3"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b16-stream.jsonl",
+    "Hash": "9DD9D28FD521FDBE391008227FCEA48E79132481C5CD135FBE40199FCAA443D4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b16-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b17-metrics.json",
+    "Hash": "9C76DD884D6A3F8E27497862CC6F48758AB05C2E68419E0D5E438B9AF61A8F09"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b17-request.json",
+    "Hash": "353132AC73C504E5AB181373E63F15EABD89842BC33BF27AFBDBF1BA7E22D2A3"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b17-response.txt",
+    "Hash": "54254D0FA486B81BE9E09E045CA657707B6A1EC637E8FA191252690C380A6453"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b17-stream.jsonl",
+    "Hash": "7FF4A0CBD7AC6D3F157BDAFCBA68F7EF7AA8E7717A3F8E8F7D2E5FCFCD69F3F4"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b17-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b18-metrics.json",
+    "Hash": "EA5205D2D3F9EF58AD1282DBC8CD72394FF618123B8D56D0A423A2ADFBD9A69F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b18-request.json",
+    "Hash": "99A70505BFF8D1F85F77A697539A08EE7EDED551BB6A28F84699881AC5FEA9D2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b18-response.txt",
+    "Hash": "6343E526781920F324612B4E971714C997EFA105B5AE605129CA8DD275FFCD64"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b18-stream.jsonl",
+    "Hash": "5EE3ECC504CEFCBDB66E6E00D153076BDD855C7C2CF2C0B54278F3F706A0FCEC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b18-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b19-metrics.json",
+    "Hash": "70F9D54F71A5431D1EEE3592479E17BB8C5928696088CB0A22C7F719965C8298"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b19-request.json",
+    "Hash": "F5BCA868C0A29A7EE7AA9C1CBFC6F300210F33404C68CD8476AD94CD32C78897"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b19-response.txt",
+    "Hash": "A2E2BAB5BBFB1118F61190EB01EA33A69DC06F39E6CE654184063C9325EA276D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b19-stream.jsonl",
+    "Hash": "54AE03FB76381FBADEE757C4A9AD9DB2F437906788B9C562FDDCCA92975926CA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b19-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b20-metrics.json",
+    "Hash": "7BA73585A81CA817054A975D07B6C7F104198CB6EF1AAD19B149A9C8EF265A05"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b20-request.json",
+    "Hash": "A71CDC520B0E7E4894B4DC235E99ACFB596FAF031C49B8F29F529F8EA2096B4D"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b20-response.txt",
+    "Hash": "07F299686E0FAE39B1E6B169DDEE8D1F28191E9607DD6013597FE8B3B8FEA46E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b20-stream.jsonl",
+    "Hash": "29A4EF0F9A322C811869A544318808EB4D7A4BA98FBDDA7199075F72523DF491"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b20-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b21-metrics.json",
+    "Hash": "62E539F7C4093A4BC3FE83AD67205E77A382D606CFACB2AFD7D6AC038482748B"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b21-request.json",
+    "Hash": "93045C918648369C8C314D03808034962EAAB1EE6B367179FF5AE84DE044B0BA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b21-response.txt",
+    "Hash": "DEF57B198822A64EF440C142D7652A0C8584180A9769267094B999149DCDB3C8"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b21-stream.jsonl",
+    "Hash": "15CD40570F8C9A95C8B7B63476612D979863C46EC228F1B33B2043324DFABCE2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b21-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b22-metrics.json",
+    "Hash": "788C840EE0587461EECF1BAF9225F20696085CCF02EEDDCF9176999C009DDA1F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b22-request.json",
+    "Hash": "6FC45F0CFD244FF85DF7EB27BC5F79379B9999014D27455DDF0B70E41116110E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b22-response.txt",
+    "Hash": "2BA968D21E541D3AB62C22F0B2DBB5B0CD3A2AAF7195FE4B53F01ADB70CFA3B1"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b22-stream.jsonl",
+    "Hash": "3D41C499428F218B322642C950ADDB93148A9EE5B0EF02A7D1C9F2F00614FAF2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\b22-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\compatibility-nonresident-metrics.json",
+    "Hash": "7376D23C3E2B04362846A4806049657B604B7E81ECB89E830C0CFDB4D022AC4A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\compatibility-nonresident-request.json",
+    "Hash": "A4AEE44D64DFF63B76D95A383786918A1B31A0679EF6ED69AB8B3B1E43CA4977"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\compatibility-nonresident-response.txt",
+    "Hash": "FEE981365E329CBF45BDAECC332777DF1AAE93CE69E21E223F1BD8B6868F4A95"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\compatibility-nonresident-stream.jsonl",
+    "Hash": "E563664E35C43D908E773BCD729985C6AE844941F65F1D019BFFB1E4FA418812"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\compatibility-nonresident-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\config.json",
+    "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\content-format-review.json",
+    "Hash": "4A9BE5813C4104313F89F2119C052864A205FC704F02A8217CBD2CF3FBF31EB7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\final-script-hashes.json",
+    "Hash": "1433035AE243277D713A02CB60C76DE3987B7F1D38B8ED9CD3C56E82B1A9928E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-000-metrics.json",
+    "Hash": "E80D57DA8E2A12A54465CF9FFCB89E3497857BC0462D61A56A27CFFD80D4B9FE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-000-request.json",
+    "Hash": "BABFD4375563D2BE797F2B34A5155F92CFF85D9143AEA0DBAF860A216823D18A"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-000-response.txt",
+    "Hash": "1CB3AB9F836761C4A34CD9B4C279E9678E939E938DCCB6DF32186E618A0B1DFD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-000-stream.jsonl",
+    "Hash": "59A9F5F2E2C1FEAD4FA132BC200C1E857208F6F5656381680E2692AF1A1BC887"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-000-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-001-metrics.json",
+    "Hash": "FDD740BDC2B53694844F02EF18A4F737607982C0F9375AC5747D6DC9FD7CBAEC"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-001-request.json",
+    "Hash": "546F4339FD61E9D609BF548E4929F9B28D6A513FE2C686DC31B160CB985D4894"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-001-response.txt",
+    "Hash": "1CB3AB9F836761C4A34CD9B4C279E9678E939E938DCCB6DF32186E618A0B1DFD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-001-stream.jsonl",
+    "Hash": "EB0CEB8C076576339938EC8D092964F4712982F1382AB5D1A9A1F69D75ED9F53"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-001-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-002-metrics.json",
+    "Hash": "4E5732A91CD194B0EABE051E2A43C1228CDBD18DBD334C0DE5B36AAF610D3649"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-002-request.json",
+    "Hash": "CE08D8444F25BBC6959D11C8EA24493A854DF542F23C2DC09D5169B53641A33C"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-002-response.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-002-stream.jsonl",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-long-002-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-000-metrics.json",
+    "Hash": "E676CDB72968B927AA29074DF05745C1B793E0EFE8ED00E0D1925E38D690E59E"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-000-request.json",
+    "Hash": "A0DA0A88AE848F7D8D5ACE6B43807EEBE6279D5B886441398C9B86BB27623E05"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-000-response.txt",
+    "Hash": "1CB3AB9F836761C4A34CD9B4C279E9678E939E938DCCB6DF32186E618A0B1DFD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-000-stream.jsonl",
+    "Hash": "B1D9FBA83FAA1229AAC491C23965258A85AE9617B6D3D6A7F538289C31AD0CB3"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-000-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-001-metrics.json",
+    "Hash": "AF816DF1639C2C3894F67162BFFB0D7A6F733B5548D5B2B358734EC10DF8D095"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-001-request.json",
+    "Hash": "B353C413719D05724C4B12711B00D66DDECD2D94EDA65867918D8222708C6DD3"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-001-response.txt",
+    "Hash": "1CB3AB9F836761C4A34CD9B4C279E9678E939E938DCCB6DF32186E618A0B1DFD"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-001-stream.jsonl",
+    "Hash": "643C98D18BCF79433F5FF9D6787D8604A7F84B350EABC49A956E3F7ED0AE3973"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\input-short-001-thinking.txt",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\inventory-after.json",
+    "Hash": "9B768C0F71E1F78BF058681D3A0C11443A80DFA606674599F4CC80EB2DD99E11"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\inventory-before.json",
+    "Hash": "97EC0C290E06F7C4C3DA92FA9F393AD20C4C30613980227B6D303578B4E30817"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\manual-review.json",
+    "Hash": "94B8186B9FEDE236180026C22C2A189FC07B78A0AC1ADBFCE229E8FF9844E429"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\memory-diagnosis.json",
+    "Hash": "467E95A27F75B697557AE942428D459CFE8B9FD8DB5C4C78569F76F3B50E4402"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\memory-sources.json",
+    "Hash": "825D50E119A4835FC6FC7EC8E975FC16941F5A406DE616B7BF720D11819DC2B7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\metrics.json",
+    "Hash": "EBC72C3B269F318A81BF246549C0D6092413086F4517C7661D9C515B12567C47"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\protocol.json",
+    "Hash": "9B10976CF88C4ADB84EC4CD3A3BCA337751E7EAF00C8EFDF35C364885F6A32F2"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\PROTOCOL.md",
+    "Hash": "C039FE29BDA90201337D70E6F62E9F18F0E8039C464B6A70027E44833E1E256F"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\quality-scores.json",
+    "Hash": "07C65F8DD2B9840DD99B329D75A27B0DE61BA6D851A9695668AEC57C61B36427"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\run-status.json",
+    "Hash": "23FBFDE9B84F847DA1CEEB48C94A697E006E61D0B60256DBB4B6277F994B7E51"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\run.json",
+    "Hash": "829FBEA3D206CDC631798E9ABAF51211829E5F3B1A8D33F4BAFB65C73A95E8D7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\runtime-inference.log",
+    "Hash": "2552C87E15824750E0678B597232FEAE54973DB8B94FCFF195A6FC364A764C21"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\safety-abort.json",
+    "Hash": "7FEF1A64DC0D3A499CC0787047BC17D06BBE63679E5C74606691603B780564AB"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\schedule.json",
+    "Hash": "F13F05B6BC710E26516A363FFE29CC2842DF77FAF97CE5F43DA31102C106A3F0"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\show.json",
+    "Hash": "8634E806049D0BE8F3D8A8E214F5D22F8B00FFF9E733435E271243E722D45E39"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\sources.json",
+    "Hash": "EAE2A553D6EA15D7C0015726E9AB6262E5D9D4BAF81F84E8A71D9CDB6E56C369"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\suite.json",
+    "Hash": "E9EAFB684581C8D48C76B10288D2596D78951E9425115CF1C1F4F1CC008D88AE"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\summary.json",
+    "Hash": "C1E0DA3E5FD4C6D74D13A68C58366A403AA718F0FB8B6D4D19C4B435F356CD56"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\sustained-candidates.json",
+    "Hash": "40C829E2596EF7672BA2EEFB8A2A34EE0C3891ED790DFBBCB1E874B19F01CA12"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\telemetry-job.txt",
+    "Hash": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\telemetry.jsonl",
+    "Hash": "AF3877A978264FD9FA949493C18012F50BBBBBEAE6296A566919F71E115CF753"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\telemetry.ready",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\telemetry.stop",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\results\\reduced-20261014-reference-v1\\validation.json",
+    "Hash": "54F4D4067ED24422FC91D3A47A22FD457E46174E679E79AF7355F0CEDCBECDC7"
+  },
+  {
+    "Path": "E:\\Documents\\qwen_optimization\\configs\\reference.json",
+    "Hash": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA"
+  }
+]

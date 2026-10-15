@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "name": "Invoke-BenchmarkPilot.ps1",
+      "matches_both_runs": true,
+      "sha256": "47AA20FED26C674D0C2243E8062B935D1F22277380711139623E6B7BF2BDBC9F"
+    },
+    {
+      "name": "Invoke-RecoverySession.ps1",
+      "matches_both_runs": true,
+      "sha256": "069223612211EE7E2138FB9B16A575DCA62B0E72D47DE804C62E3BCB3EB31F38"
+    },
+    {
+      "name": "Start-ProjectOllama.ps1",
+      "matches_both_runs": true,
+      "sha256": "39C7F1994900FAD63D4DC40A3AA9857AFEC5C021239327145258923925D00F78"
+    },
+    {
+      "name": "Stop-ProjectOllama.ps1",
+      "matches_both_runs": true,
+      "sha256": "9DA2121D52A4868132893BF85FE35C3ACE9DF086BCE2C687DFC6B47856C9B4E4"
+    },
+    {
+      "name": "Benchmark.Common.ps1",
+      "matches_both_runs": true,
+      "sha256": "9DED6739FD9CE36A23792B7EEAA959842FC018E7ADDA3E40729EA6AA4AB95510"
+    },
+    {
+      "name": "Benchmark.Schedule.ps1",
+      "matches_both_runs": true,
+      "sha256": "EAE3C9E3C2F579303FB7DCCA804D83117ABB9BFD7372CB88D1B03735ED31E1E4"
+    },
+    {
+      "name": "Measure-ProjectResources.ps1",
+      "matches_both_runs": true,
+      "sha256": "3435B1E64C7BE2DAC775E7E0DFC39D5FF8912D058D714C4821E61AA2BD3CB588"
+    }
+  ],
+  "purpose": "Raw source snapshot matching pre-inference hashes, preserved under results -text independent of future checkout line-ending conversions",
+  "captured_at": "2026-10-15T07:28:18.8761968Z"
+}

@@ -1,0 +1,287 @@
+{
+  "cache_states": [
+    {
+      "cache_MiB": 0.0,
+      "prompts": 0,
+      "line": 376
+    },
+    {
+      "cache_MiB": 300.566,
+      "prompts": 1,
+      "line": 406
+    },
+    {
+      "cache_MiB": 609.504,
+      "prompts": 2,
+      "line": 441
+    },
+    {
+      "cache_MiB": 1095.122,
+      "prompts": 3,
+      "line": 480
+    },
+    {
+      "cache_MiB": 1553.714,
+      "prompts": 4,
+      "line": 522
+    },
+    {
+      "cache_MiB": 2039.331,
+      "prompts": 5,
+      "line": 566
+    },
+    {
+      "cache_MiB": 2524.949,
+      "prompts": 6,
+      "line": 612
+    },
+    {
+      "cache_MiB": 2983.541,
+      "prompts": 7,
+      "line": 660
+    },
+    {
+      "cache_MiB": 3442.132,
+      "prompts": 8,
+      "line": 710
+    },
+    {
+      "cache_MiB": 3927.75,
+      "prompts": 9,
+      "line": 762
+    },
+    {
+      "cache_MiB": 4413.368,
+      "prompts": 10,
+      "line": 816
+    },
+    {
+      "cache_MiB": 4871.96,
+      "prompts": 11,
+      "line": 872
+    },
+    {
+      "cache_MiB": 5330.551,
+      "prompts": 12,
+      "line": 930
+    },
+    {
+      "cache_MiB": 5816.169,
+      "prompts": 13,
+      "line": 990
+    },
+    {
+      "cache_MiB": 6301.787,
+      "prompts": 14,
+      "line": 1052
+    }
+  ],
+  "request_end_nearest_telemetry": [
+    {
+      "distance_seconds": 0.3324905,
+      "input_tokens": 17,
+      "output_tokens": 3,
+      "cached_tokens": 0,
+      "kind": "compatibility",
+      "private_committed_tree_GiB": 20.542503356933594,
+      "free_ram_GiB": 8.30617904663086,
+      "request_end": "2026-10-15T07:15:37.8195524Z",
+      "sample_at": "2026-10-15T07:15:38.1520429Z",
+      "id": "compatibility-nonresident",
+      "working_set_tree_GiB": 9.662864685058594
+    },
+    {
+      "distance_seconds": 0.4039975,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 0,
+      "kind": "warmup",
+      "private_committed_tree_GiB": 20.82341766357422,
+      "free_ram_GiB": 8.099624633789062,
+      "request_end": "2026-10-15T07:15:40.7734546Z",
+      "sample_at": "2026-10-15T07:15:41.1774521Z",
+      "id": "input-short-000",
+      "working_set_tree_GiB": 9.97580337524414
+    },
+    {
+      "distance_seconds": 0.2959688,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 0,
+      "kind": "warmup",
+      "private_committed_tree_GiB": 21.33041000366211,
+      "free_ram_GiB": 7.801055908203125,
+      "request_end": "2026-10-15T07:15:45.5266011Z",
+      "sample_at": "2026-10-15T07:15:45.2306323Z",
+      "id": "input-long-000",
+      "working_set_tree_GiB": 10.299911499023438
+    },
+    {
+      "distance_seconds": 0.1259241,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 21.92495346069336,
+      "free_ram_GiB": 7.142040252685547,
+      "request_end": "2026-10-15T07:15:48.4835339Z",
+      "sample_at": "2026-10-15T07:15:48.3576098Z",
+      "id": "input-short-001",
+      "working_set_tree_GiB": 11.06594467163086
+    },
+    {
+      "distance_seconds": 0.0508616,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 22.414291381835938,
+      "free_ram_GiB": 6.689456939697266,
+      "request_end": "2026-10-15T07:15:52.3642351Z",
+      "sample_at": "2026-10-15T07:15:52.4150967Z",
+      "id": "input-long-001",
+      "working_set_tree_GiB": 11.543041229248047
+    },
+    {
+      "distance_seconds": 0.247235,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 22.960567474365234,
+      "free_ram_GiB": 6.17816162109375,
+      "request_end": "2026-10-15T07:15:56.2357145Z",
+      "sample_at": "2026-10-15T07:15:56.4829495Z",
+      "id": "input-long-002",
+      "working_set_tree_GiB": 12.037628173828125
+    },
+    {
+      "distance_seconds": 0.3868929,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 23.41006851196289,
+      "free_ram_GiB": 5.705921173095703,
+      "request_end": "2026-10-15T07:15:59.1576186Z",
+      "sample_at": "2026-10-15T07:15:59.5445115Z",
+      "id": "input-short-002",
+      "working_set_tree_GiB": 12.486255645751953
+    },
+    {
+      "distance_seconds": 0.5621326,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 23.86474609375,
+      "free_ram_GiB": 4.631153106689453,
+      "request_end": "2026-10-15T07:16:02.3089538Z",
+      "sample_at": "2026-10-15T07:16:02.8710864Z",
+      "id": "input-short-003",
+      "working_set_tree_GiB": 12.938087463378906
+    },
+    {
+      "distance_seconds": 0.1785913,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 24.339900970458984,
+      "free_ram_GiB": 3.5363235473632812,
+      "request_end": "2026-10-15T07:16:06.6623858Z",
+      "sample_at": "2026-10-15T07:16:06.8409771Z",
+      "id": "input-long-003",
+      "working_set_tree_GiB": 13.412425994873047
+    },
+    {
+      "distance_seconds": 0.2659805,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 24.815078735351562,
+      "free_ram_GiB": 2.833099365234375,
+      "request_end": "2026-10-15T07:16:11.0049999Z",
+      "sample_at": "2026-10-15T07:16:11.2709804Z",
+      "id": "input-long-004",
+      "working_set_tree_GiB": 13.886749267578125
+    },
+    {
+      "distance_seconds": 0.030023,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 25.26410675048828,
+      "free_ram_GiB": 2.6367111206054688,
+      "request_end": "2026-10-15T07:16:14.1169159Z",
+      "sample_at": "2026-10-15T07:16:14.0868929Z",
+      "id": "input-short-004",
+      "working_set_tree_GiB": 14.334892272949219
+    },
+    {
+      "distance_seconds": 0.1482718,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 25.713428497314453,
+      "free_ram_GiB": 2.6718406677246094,
+      "request_end": "2026-10-15T07:16:17.270201Z",
+      "sample_at": "2026-10-15T07:16:17.1219292Z",
+      "id": "input-short-005",
+      "working_set_tree_GiB": 14.783397674560547
+    },
+    {
+      "distance_seconds": 0.1689134,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 26.188583374023438,
+      "free_ram_GiB": 3.684131622314453,
+      "request_end": "2026-10-15T07:16:21.3347254Z",
+      "sample_at": "2026-10-15T07:16:21.165812Z",
+      "id": "input-long-005",
+      "working_set_tree_GiB": 15.139598846435547
+    },
+    {
+      "distance_seconds": 0.0917381,
+      "input_tokens": 519,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 26.663314819335938,
+      "free_ram_GiB": 2.977783203125,
+      "request_end": "2026-10-15T07:16:25.3089091Z",
+      "sample_at": "2026-10-15T07:16:25.217171Z",
+      "id": "input-long-006",
+      "working_set_tree_GiB": 15.73153305053711
+    },
+    {
+      "distance_seconds": 0.2148041,
+      "input_tokens": 135,
+      "output_tokens": 4,
+      "cached_tokens": 7,
+      "kind": "performance",
+      "private_committed_tree_GiB": 26.8121337890625,
+      "free_ram_GiB": 2.6601829528808594,
+      "request_end": "2026-10-15T07:16:28.4701874Z",
+      "sample_at": "2026-10-15T07:16:28.2553833Z",
+      "id": "input-short-006",
+      "working_set_tree_GiB": 15.88006591796875
+    }
+  ],
+  "run_id": "recovery-performance-20261015-v2",
+  "cache_limit_MiB": 8192,
+  "cache_peak_MiB": 6301.787,
+  "interpretation": "New process avoids inherited prompts; cache grows within session. Temporal association does not isolate all allocations or external processes. Private committed is not physical RAM/paging.",
+  "not_measured": [
+    "paging",
+    "memory leak",
+    "causal throttling",
+    "CPU temperature",
+    "PC energy"
+  ]
+}

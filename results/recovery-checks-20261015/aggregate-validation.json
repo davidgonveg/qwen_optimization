@@ -1,0 +1,29 @@
+{
+  "inference_scripts_unchanged_since_run": true,
+  "phase2_complete": false,
+  "quality_assisted_criteria": "10/12; human independent pending",
+  "phase2b_complete": true,
+  "sessions": [
+    {
+      "run_id": "recovery-performance-20261015-v2",
+      "block": "performance",
+      "validation_sha256": "29E18A8A19663447A0442935EE5F0FDDC03A60B02153D90C50C9FBDE705475FB",
+      "config_sha256": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA",
+      "requests": 15
+    },
+    {
+      "run_id": "recovery-sustained-20261015-v1",
+      "block": "sustained",
+      "validation_sha256": "5F5FC5FE1A5795B4193FA1B2100EFA6FAA3B3EE06D8EBBFFDD27535E5726CA2F",
+      "config_sha256": "78DC2E1C14B235027181722E81B13E65B93C38ED31E836957D3465EBB2F2A1CA",
+      "requests": 9
+    }
+  ],
+  "historical_files_unchanged": 352,
+  "checked_at": "2026-10-15T07:21:51.1281449Z",
+  "quality_run": "reduced-20261014-reference-v1",
+  "result": "aggregate_pass",
+  "quality_strict": "15/18",
+  "scope": "Reduced textual reference assembled from distinct sessions; no pooling of historical timing; no optimization",
+  "portable_runtime_verified": true
+}

@@ -1,0 +1,50 @@
+{
+  "protocol_id": "phase2b-recovery-performance-v1",
+  "suite": "benchmarks/reduced-v1.json",
+  "protocol_document": "benchmarks/PROTOCOL-2B-RECOVERY.md",
+  "repetitions": 6,
+  "order": "fresh process, nonresident, warmup short/long, AB BA AB BA AB BA, stop",
+  "prefix_template": "Identificador de medición: {nonce}. Ignora este identificador.\n",
+  "performance_prompt": "\nFin de notas. Responde únicamente con el nombre de la ciudad del registro objetivo: persona Inés, ciudad Oviedo. No añadas signos ni explicaciones.",
+  "padding_template": "Notas auxiliares que debes ignorar: ",
+  "padding_unit": "dato ",
+  "conditions": [
+    {
+      "id": "input-short",
+      "padding_repeats": 60,
+      "target_tokens": 128,
+      "min_tokens": 96,
+      "max_tokens": 192
+    },
+    {
+      "id": "input-long",
+      "padding_repeats": 444,
+      "target_tokens": 512,
+      "min_tokens": 384,
+      "max_tokens": 640
+    }
+  ],
+  "cache_policy": "Nonce distinto al inicio de cada mensaje; no borrar caché ni afirmar ausencia: registrar contador real y plantilla compartida",
+  "percentiles": "nearest-rank; n=6, p95 es máximo orientativo",
+  "safety": {
+    "min_free_ram_KiB": 1572864,
+    "min_free_vram_MiB": 384,
+    "max_gpu_temperature_C": 80,
+    "max_consecutive_sensor_errors": 2
+  },
+  "sustained": {
+    "target_seconds": 180,
+    "hard_limit_seconds": 210,
+    "max_requests": 60,
+    "prompt": "Ignora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos."
+  },
+  "closure": "Session only; aggregate requires preserved quality + six valid per length in performance session + sustained session 180..210s; phase 2 remains open",
+  "session_block": "performance",
+  "reuse_quality_run": "reduced-20261014-reference-v1",
+  "preflight": {
+    "max_gpu_temperature_C": 60,
+    "min_free_ram_KiB": 18874368,
+    "min_free_vram_MiB": 10240
+  },
+  "runtime_executable": "runtime/ollama-v0.40.3/ollama.exe"
+}

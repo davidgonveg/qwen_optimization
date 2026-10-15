@@ -12,6 +12,12 @@ $config=Get-Content (Join-Path $root 'configs/reference.json') -Raw | ConvertFro
 $protocol=Get-Content (Join-Path $root $ProtocolPath) -Raw | ConvertFrom-Json
 $protocolDocument=if ($protocol.protocol_document) { $protocol.protocol_document } else { 'benchmarks/PROTOCOL.md' }
 $suite=Get-Content (Join-Path $root $protocol.suite) -Raw | ConvertFrom-Json -AsHashtable
+if ($protocol.reuse_quality_run) {
+    $sourceDir=Join-Path $root "results/$($protocol.reuse_quality_run)"
+    $sourceConfig=Get-Content (Join-Path $sourceDir 'config.json') -Raw | ConvertFrom-Json -AsHashtable
+    $sourceSuite=Get-Content (Join-Path $sourceDir 'suite.json') -Raw | ConvertFrom-Json -AsHashtable
+    if (-not (Test-JsonValue $sourceConfig ($config | ConvertTo-Json -Depth 20 | ConvertFrom-Json -AsHashtable)) -or -not (Test-JsonValue $suite $sourceSuite)) { throw 'Calidad reutilizada con configuración/suite distintas' }
+}
 $record=Get-Content (Join-Path $root 'runtime/server.json') -Raw | ConvertFrom-Json
 $process=Get-Process -Id $record.pid
 $listener=Get-NetTCPConnection -State Listen -LocalPort 11435
@@ -57,6 +63,7 @@ if ($protocol.sustained) {
 }
 Write-BenchmarkJson $samples (Join-Path $outDir 'schedule.json')
 Write-BenchmarkJson $sustainedSamples (Join-Path $outDir 'sustained-candidates.json')
+Write-BenchmarkJson @() (Join-Path $outDir 'quality-scores.json')
 $sustainedStatus=$null
 try {
     for ($i=0;$i -lt 100 -and -not (Test-Path $readyPath);$i++) {
@@ -85,7 +92,7 @@ try {
             if ($null -eq $metric.final.prompt_eval_count -or $metric.final.prompt_eval_count -lt $condition.min_tokens -or $metric.final.prompt_eval_count -gt $condition.max_tokens -or ($metric.final.prompt_eval_count+$config.options.num_predict) -gt $config.options.num_ctx) { throw "Entrada fuera de rango/contexto: $($sample.id)" }
         }
     }
-    if ($protocol.sustained) {
+    if ($protocol.sustained -and $protocol.session_block -ne 'performance') {
         $sustainedWatch=[Diagnostics.Stopwatch]::StartNew()
         $sustainedStatus=@{started_at=[DateTime]::UtcNow.ToString('o');target_seconds=$protocol.sustained.target_seconds;hard_limit_seconds=$protocol.sustained.hard_limit_seconds;complete=$false;requests=0;elapsed_seconds=0;stop_reason='running'}
         Write-BenchmarkJson $sustainedStatus (Join-Path $outDir 'sustained-status.json')

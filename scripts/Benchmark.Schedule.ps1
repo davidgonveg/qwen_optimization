@@ -2,7 +2,14 @@
 function Get-BenchmarkSchedule($Protocol, $Suite) {
     $samples=[Collections.Generic.List[object]]::new()
     $samples.Add(@{id='compatibility-nonresident';kind='compatibility';condition='nonresident-disk-cache-uncontrolled';prompt='Responde únicamente: listo';logprobs=$true})
-    foreach ($task in $Suite.tasks) { $samples.Add(@{id=$task.id;kind='quality';condition='resident-quality';prompt=$task.prompt;task=$task}) }
+    if (-not $Protocol.reuse_quality_run) {
+        foreach ($task in $Suite.tasks) { $samples.Add(@{id=$task.id;kind='quality';condition='resident-quality';prompt=$task.prompt;task=$task}) }
+    }
+    if ($Protocol.session_block -eq 'sustained') {
+        $nonce='sustained-warmup'
+        $samples.Add(@{id=$nonce;kind='warmup-sustained';condition='sustained-variable-prefix';nonce=$nonce;prompt=($Protocol.prefix_template.Replace('{nonce}',$nonce)+$Protocol.sustained.prompt)})
+        return @($samples)
+    }
     if ($Protocol.sustained) {
         foreach ($condition in $Protocol.conditions) {
             $samples.Add((New-LengthSample $Protocol $condition 0 'warmup'))

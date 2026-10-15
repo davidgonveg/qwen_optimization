@@ -1,0 +1,26 @@
+{
+  "phase_complete": false,
+  "session_complete": true,
+  "checked_at": "2026-10-15T07:21:45.2894412Z",
+  "requests_checked": 9,
+  "checks": [
+    "options unchanged",
+    "configured schedule/executed prefix",
+    "response equals concatenated stream",
+    "monotonic timestamps",
+    "first text timings",
+    "complete finals or explicit partial error",
+    "quality extraction",
+    "configured repetitions/sustained required only in complete mode",
+    "input ranges/context for complete responses",
+    "JSON parse",
+    "summary empty errors and nearest-rank percentiles when present",
+    "manual review response hashes when present",
+    "positive final counters/cache bounds/generation rate"
+  ],
+  "result": "pass",
+  "telemetry_samples": 275,
+  "scope": "sustained session only; aggregate required",
+  "quality_scores_recomputed": 0,
+  "partial_mode": false
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "nonce": "sustained-001",
+    "id": "sustained-001",
+    "repetition": 1,
+    "prompt": "Identificador de medición: sustained-001. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-002",
+    "id": "sustained-002",
+    "repetition": 2,
+    "prompt": "Identificador de medición: sustained-002. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-003",
+    "id": "sustained-003",
+    "repetition": 3,
+    "prompt": "Identificador de medición: sustained-003. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-004",
+    "id": "sustained-004",
+    "repetition": 4,
+    "prompt": "Identificador de medición: sustained-004. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-005",
+    "id": "sustained-005",
+    "repetition": 5,
+    "prompt": "Identificador de medición: sustained-005. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-006",
+    "id": "sustained-006",
+    "repetition": 6,
+    "prompt": "Identificador de medición: sustained-006. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-007",
+    "id": "sustained-007",
+    "repetition": 7,
+    "prompt": "Identificador de medición: sustained-007. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-008",
+    "id": "sustained-008",
+    "repetition": 8,
+    "prompt": "Identificador de medición: sustained-008. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-009",
+    "id": "sustained-009",
+    "repetition": 9,
+    "prompt": "Identificador de medición: sustained-009. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-010",
+    "id": "sustained-010",
+    "repetition": 10,
+    "prompt": "Identificador de medición: sustained-010. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-011",
+    "id": "sustained-011",
+    "repetition": 11,
+    "prompt": "Identificador de medición: sustained-011. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-012",
+    "id": "sustained-012",
+    "repetition": 12,
+    "prompt": "Identificador de medición: sustained-012. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-013",
+    "id": "sustained-013",
+    "repetition": 13,
+    "prompt": "Identificador de medición: sustained-013. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-014",
+    "id": "sustained-014",
+    "repetition": 14,
+    "prompt": "Identificador de medición: sustained-014. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-015",
+    "id": "sustained-015",
+    "repetition": 15,
+    "prompt": "Identificador de medición: sustained-015. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-016",
+    "id": "sustained-016",
+    "repetition": 16,
+    "prompt": "Identificador de medición: sustained-016. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-017",
+    "id": "sustained-017",
+    "repetition": 17,
+    "prompt": "Identificador de medición: sustained-017. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-018",
+    "id": "sustained-018",
+    "repetition": 18,
+    "prompt": "Identificador de medición: sustained-018. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-019",
+    "id": "sustained-019",
+    "repetition": 19,
+    "prompt": "Identificador de medición: sustained-019. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-020",
+    "id": "sustained-020",
+    "repetition": 20,
+    "prompt": "Identificador de medición: sustained-020. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-021",
+    "id": "sustained-021",
+    "repetition": 21,
+    "prompt": "Identificador de medición: sustained-021. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-022",
+    "id": "sustained-022",
+    "repetition": 22,
+    "prompt": "Identificador de medición: sustained-022. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-023",
+    "id": "sustained-023",
+    "repetition": 23,
+    "prompt": "Identificador de medición: sustained-023. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-024",
+    "id": "sustained-024",
+    "repetition": 24,
+    "prompt": "Identificador de medición: sustained-024. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-025",
+    "id": "sustained-025",
+    "repetition": 25,
+    "prompt": "Identificador de medición: sustained-025. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-026",
+    "id": "sustained-026",
+    "repetition": 26,
+    "prompt": "Identificador de medición: sustained-026. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-027",
+    "id": "sustained-027",
+    "repetition": 27,
+    "prompt": "Identificador de medición: sustained-027. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-028",
+    "id": "sustained-028",
+    "repetition": 28,
+    "prompt": "Identificador de medición: sustained-028. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-029",
+    "id": "sustained-029",
+    "repetition": 29,
+    "prompt": "Identificador de medición: sustained-029. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-030",
+    "id": "sustained-030",
+    "repetition": 30,
+    "prompt": "Identificador de medición: sustained-030. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-031",
+    "id": "sustained-031",
+    "repetition": 31,
+    "prompt": "Identificador de medición: sustained-031. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-032",
+    "id": "sustained-032",
+    "repetition": 32,
+    "prompt": "Identificador de medición: sustained-032. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-033",
+    "id": "sustained-033",
+    "repetition": 33,
+    "prompt": "Identificador de medición: sustained-033. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-034",
+    "id": "sustained-034",
+    "repetition": 34,
+    "prompt": "Identificador de medición: sustained-034. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-035",
+    "id": "sustained-035",
+    "repetition": 35,
+    "prompt": "Identificador de medición: sustained-035. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-036",
+    "id": "sustained-036",
+    "repetition": 36,
+    "prompt": "Identificador de medición: sustained-036. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-037",
+    "id": "sustained-037",
+    "repetition": 37,
+    "prompt": "Identificador de medición: sustained-037. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-038",
+    "id": "sustained-038",
+    "repetition": 38,
+    "prompt": "Identificador de medición: sustained-038. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-039",
+    "id": "sustained-039",
+    "repetition": 39,
+    "prompt": "Identificador de medición: sustained-039. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-040",
+    "id": "sustained-040",
+    "repetition": 40,
+    "prompt": "Identificador de medición: sustained-040. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-041",
+    "id": "sustained-041",
+    "repetition": 41,
+    "prompt": "Identificador de medición: sustained-041. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-042",
+    "id": "sustained-042",
+    "repetition": 42,
+    "prompt": "Identificador de medición: sustained-042. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-043",
+    "id": "sustained-043",
+    "repetition": 43,
+    "prompt": "Identificador de medición: sustained-043. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-044",
+    "id": "sustained-044",
+    "repetition": 44,
+    "prompt": "Identificador de medición: sustained-044. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-045",
+    "id": "sustained-045",
+    "repetition": 45,
+    "prompt": "Identificador de medición: sustained-045. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-046",
+    "id": "sustained-046",
+    "repetition": 46,
+    "prompt": "Identificador de medición: sustained-046. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-047",
+    "id": "sustained-047",
+    "repetition": 47,
+    "prompt": "Identificador de medición: sustained-047. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-048",
+    "id": "sustained-048",
+    "repetition": 48,
+    "prompt": "Identificador de medición: sustained-048. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-049",
+    "id": "sustained-049",
+    "repetition": 49,
+    "prompt": "Identificador de medición: sustained-049. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-050",
+    "id": "sustained-050",
+    "repetition": 50,
+    "prompt": "Identificador de medición: sustained-050. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-051",
+    "id": "sustained-051",
+    "repetition": 51,
+    "prompt": "Identificador de medición: sustained-051. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-052",
+    "id": "sustained-052",
+    "repetition": 52,
+    "prompt": "Identificador de medición: sustained-052. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-053",
+    "id": "sustained-053",
+    "repetition": 53,
+    "prompt": "Identificador de medición: sustained-053. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-054",
+    "id": "sustained-054",
+    "repetition": 54,
+    "prompt": "Identificador de medición: sustained-054. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-055",
+    "id": "sustained-055",
+    "repetition": 55,
+    "prompt": "Identificador de medición: sustained-055. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-056",
+    "id": "sustained-056",
+    "repetition": 56,
+    "prompt": "Identificador de medición: sustained-056. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-057",
+    "id": "sustained-057",
+    "repetition": 57,
+    "prompt": "Identificador de medición: sustained-057. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-058",
+    "id": "sustained-058",
+    "repetition": 58,
+    "prompt": "Identificador de medición: sustained-058. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-059",
+    "id": "sustained-059",
+    "repetition": 59,
+    "prompt": "Identificador de medición: sustained-059. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  },
+  {
+    "nonce": "sustained-060",
+    "id": "sustained-060",
+    "repetition": 60,
+    "prompt": "Identificador de medición: sustained-060. Ignora este identificador.\nIgnora el identificador anterior. En español, explica en un único párrafo de entre 40 y 50 palabras para qué sirve guardar una copia de seguridad de documentos personales. No escribas listas ni títulos.",
+    "condition": "sustained-variable-prefix",
+    "kind": "sustained"
+  }
+]

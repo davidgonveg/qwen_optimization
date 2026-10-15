@@ -1,16 +1,16 @@
 # Estado del proyecto
 
-Actualizado: 14 de octubre de 2026.
+Actualizado: 15 de octubre de 2026.
 
 ## Hito actual
 
-**Fase 2B incompleta por parada de seguridad de RAM.** Runner/validación generalizados y 22 tareas nuevas terminadas: 15/18 estrictas y 10/12 criterios mediante lectura asistida. 28 peticiones intentadas, 27 completas y una cancelada; entradas reales 135/519 tokens, solo una medición válida por longitud. Faltan repeticiones y carga sostenida. **Fase 2 abierta, sin optimización.** Referencia, fase 1 y piloto 2A preservados íntegramente.
+**Fase 2B completa mediante tres fuentes de evidencia separadas.** Calidad del run parcial del 14 de octubre preservada (22 tareas, 15/18 estrictas, 10/12 criterios asistidos), más sesiones nuevas de rendimiento (seis medidas por longitud) y sostenido (188,598 s, siete peticiones). Validación agregada satisfactoria; el run monolítico original sigue incompleto. **Fase 2 abierta, sin optimización**, pendiente decisión de alcance y revisión humana. Referencia y 352 archivos históricos comprobados por hash, sin modificaciones.
 
 ## Evidencias
 
 - Modelo `qwen3.8:27b`, GGUF Q4_K_M, 27.3B, digest `sha256:aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813`, tamaño 17.741.872.154 bytes. Arquitectura `qwen35` compartida por Qwen3.8; no se sustituyó el modelo.
 - Fuente Qwen oficial, licencia Apache-2.0, revisión consultada `1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0`; commit exacto de conversión GGUF desconocido. Metadatos y fuentes en `results/phase1-20261014`.
-- Revalidado: RTX 3060 de 12 GiB, Ryzen 5 5500 de 6 núcleos/12 hilos, aproximadamente 32 GiB RAM, driver 591.86, Ollama 0.40.3 y PowerShell 7.6.5. El artefacto exige Ollama >=0.32.12.
+- Revalidado: RTX 3060 de 12 GiB, Ryzen 5 5500 de 6 núcleos/12 hilos, aproximadamente 32 GiB RAM, driver 591.86 y PowerShell 7.6.5. El artefacto exige Ollama >=0.32.12. Referencia ejecutada con Ollama **0.40.3 portátil oficial fijado** en runtime/ollama-v0.40.3; instalación/servicio habitual observados en **0.40.4** el 15 de octubre, sin modificarlos. Un arranque con versión distinta fue rechazado antes de inferencia. ZIP 1468053171 bytes/SHA256 e5ecff02dfc7cae8ddf6d6b7a7ac5f727ffeedf4491f44ae75ff5b0820dbbbd5; helper 631109b34 coherente con fuente b11351. No hay hashes binarios históricos para identidad byte a byte con el día anterior.
 - Instancia separada `127.0.0.1:11435`, almacén `models/ollama`. Sin `.venv` ni instalaciones nuevas. Modelos globales qwen3-embedding:0.6b, qwen3:8b y gemma4:12b preservados. Al cierre la instancia propia quedó detenida, el puerto 11435 libre y el servicio habitual siguió respondiendo; evidencia en `inventory-after.json`.
 - Referencia `configs/reference.json`: contexto 2.048, salida máxima 256, semilla 42, `think=false`, concurrencia 1, muestreo recomendado de Qwen para no-thinking y reparto automático. Runtime: 31/66 capas GPU, 6 hilos, MTP heredado de 4 tokens y Flash Attention efectiva. Scripts de arranque, descarga, pruebas, telemetría y parada en `scripts`.
 - Descarga completada en 260,76 s. Digest de API y manifiesto original/capas locales comprobados. La API omite el prefijo `sha256:`; Ollama añade capas de procedencia al manifiesto local. El verificador normaliza el prefijo y comprueba el blob original, sin exigir igualdad del hash del archivo reescrito.
@@ -18,23 +18,36 @@ Actualizado: 14 de octubre de 2026.
 - Revisión: español e instrucciones cumplen; código plausible mediante lectura estática, nunca ejecutado. Cálculo incorrecto: tras 36−7=29 respondió 9 por niño/resto 2; correcto 5/resto 4. La inferencia técnica funciona; la calidad no se da por validada.
 - 199 muestras de recursos sin errores: VRAM total pico 11.381 MiB; temperatura GPU pico 59 °C; potencia GPU pico 70,61 W; working set del árbol pico 10,56 GiB; memoria privada comprometida pico 21,40 GiB; RAM libre del sistema mínimo 8,03 GiB. GPU incluye otros procesos. No se midieron fallos de página ni energía del PC.
 - Detalles, método, límites y reproducción en `reports/phase1-20261014.md` y `README.md`. Los resultados iniciales permanecen intactos; las repeticiones crean nuevos directorios.
+- Recuperación: `reports/phase2b-recovery-20261015.md`, `results/recovery-performance-20261015-v2`, `results/recovery-sustained-20261015-v1` y `results/recovery-checks-20261015/aggregate-validation.json` (phase2b_complete=true, phase2_complete=false). Configs/protocolo previos separados; caché/runtime/opciones/umbrales de referencia intactos. Fuentes Ollama eab97e9 y llama.cpp 631109b fijadas; log concuerda con caché por defecto de 8192 MiB.
+- Rendimiento: n=6 por condición, 135/519 tokens, caché 7/salida 4, doce respuestas Oviedo. TTFT p50/p95 corta 2,141/2,243 s; larga 3,053/3,367 s. Total p50/p95 2,989/3,106 y 3,901/4,219 s; generación p50 4,567/4,456 tokens/s. p95 máximo orientativo. RAM libre mínimo 2,637 GiB; caché pico 6301,787 MiB, VRAM 11467 MiB y GPU 67 °C. 98 muestras sin errores, intervalo máximo 2,070 s.
+- Sostenido: siete peticiones/493 tokens en 188,598 s dentro del límite 210; sin error/truncamiento/parada. RAM libre mínimo 6,482 GiB, caché pico 2466,715 MiB, VRAM 11504 MiB, GPU 55 °C. 275 muestras sin errores. Generación p50 primeras/últimas ventanas 60 s: 2,934 (n=3) y 2,395 (n=2), caída descriptiva 18,4%, sin demostrar causa térmica ni estabilidad prolongada. No se midió paginación.
+- Coste nuevo: 24 peticiones/637 tokens, 381,202 s de tiempo cliente (~6,35 min); energía GPU por sesión 1,524 Wh/104,522 s y 2,956 Wh/278,718 s, incluye cargas y otros procesos. No energía del PC. PIDs propios 228/32928 detenidos, 11435 libre y tres modelos/digests habituales preservados; RAM libre final inventariada 18,701 GiB.
 
 ## Decisiones
 
 - La fase 1 cierra puesta en marcha, no aprobación de calidad para uso diario. No inferir calidad general a partir de una respuesta ni atribuir el fallo a Q4_K_M o a no-thinking sin comparación.
 - Conservar la referencia y el comportamiento heredado del runtime. No ajustar MTP, contexto o reparto GPU antes de medir la referencia de fase 2.
-- Fase 2A validó el procedimiento; fase 2B produjo calidad completa pero referencia de rendimiento incompleta. Mantener muestras de fases 1/2A como desarrollo y reduced-v1 como referencia personal expuesta; no relajar criterios. Evaluación amplia y optimización requieren alcance posterior.
+- Fase 2A validó el procedimiento; fase 2B reúne ahora calidad preservada y rendimiento/sostenido completos en sesiones separadas. No equiparar el agregado a una sesión continua ni mezclar latencias históricas. Mantener fases 1/2A como desarrollo y reduced-v1 como referencia personal expuesta; no relajar criterios. Evaluación amplia y optimización requieren alcance posterior.
 - Mantener los umbrales previos de fase 2B: RAM libre 1,5 GiB, VRAM libre 384 MiB, GPU 80 °C y máximo dos errores consecutivos de sensores. La parada por RAM es evidencia de viabilidad insuficiente del protocolo monolítico, no autorización para modificar caché/runtime ni repetir silenciosamente.
-- Próximo modelo recomendado: **GPT-6.1 Sol (`gpt-6.1-sol`), razonamiento medium**, para diagnosticar acumulación de memoria y recuperar mediciones mediante sesiones/cache explícitas sin cambiar la referencia. Nombre/esfuerzo reconsultados en ficha oficial y catálogo de sesión el 14 de octubre. No se cambia automáticamente el modelo.
+- Próximo modelo recomendado: **GPT-6 Luna (`gpt-6-luna`), razonamiento medium**, para consolidar evidencia existente, preparar revisión humana y explicar límites, sin nueva implementación/inferencia. Tarea acotada tras resolver la recuperación; nombres/esfuerzo comprobados en [ficha oficial](https://developers.openai.com/api/docs/models/gpt-6-luna) y catálogo de sesión el 15 de octubre. No cambia automáticamente el modelo ni garantiza acceso. Si aparece diagnóstico nuevo, reconsiderar Sol.
 - Git: seguir `main` y upstream `origin/main`, remoto `git@github.com:davidgonveg/qwen_optimization.git`. Excluir `models`, `runtime`, cachés y entornos; versionar evidencia pequeña pertinente.
 
 ## Próximo paso y pendientes
 
-Ejecutar `NEXT_PROMPT.md`, **continuación de fase 2B**, priorizando diagnóstico de RAM y protocolo de recuperación. Calidad de 22 tareas ya conservada; faltan >=5 medidas válidas por longitud (perfil v1 exige 6) y carga sostenida 180..210 s. Estudiar sesiones separadas para rendimiento/sostenido con mismas opciones y estado de caché/temperatura explícito, sin optimizar ni bajar límites. No repetir inferencia sin protocolo previo y margen justificado. Si precisa parámetros distintos, pedir cambio de alcance antes de aplicarlos.
+Ejecutar `NEXT_PROMPT.md`: consolidar la referencia reducida, preparar una revisión humana trazable de las siete rúbricas 2A/2B y presentar al usuario la decisión de alcance pendiente para fase 2. No repetir inferencia ni iniciar optimización. La revisión humana solo se registra al recibir decisiones reales del usuario; otra lectura de Codex sigue siendo asistida.
 
-Revisión humana independiente de las rúbricas 2A/2B pendiente; los resultados de Codex son asistidos. Logprobs generados comprobados, loglikelihood arbitraria no demostrado. Rendimiento estable, variación, coste de suite completa y fiabilidad prolongada pendientes. Visión, thinking, aislamiento de código y optimización fuera de alcance. Puesta en marcha sigue resuelta; bloqueo actual de fase 2B: presión de RAM acumulada.
+Logprobs generados comprobados, loglikelihood arbitraria no demostrado. El sostenido acotado terminó, con deriva de velocidad descriptiva pendiente de explicación si se autoriza investigarla. No acredita rendimiento constante ni fiabilidad prolongada. Visión, thinking, benchmarks oficiales, aislamiento de código y optimización fuera de alcance. El protocolo monolítico sigue sin viabilidad demostrada; la referencia recuperada requiere sesiones separadas. No declarar fase 2 completa sin decisión explícita del usuario.
 
 ## Registro de continuidad y Git
+
+### Recuperación fase 2B — 15 de octubre
+
+- Fuentes fijadas e hipótesis previas en `benchmarks/PROTOCOL-2B-RECOVERY.md`; dos configuraciones nuevas, sin modificar referencia ni protocolos anteriores. Entradas conservadoras adicionales de 18 GiB libres/10 GiB VRAM/GPU <=60 °C; paradas originales intactas.
+- Incidencia de actualización externa 0.40.4 resuelta aislando ZIP portátil oficial 0.40.3, sin instalar globalmente. Verificación de cliente dirigida al puerto propio y de API tras arranque. Evidencia del rechazo inicial, paquete y prueba sin inferencia conservada.
+- Calidad original reutilizada, dos sesiones completadas sin reintentos de inferencia ni parada. Las validaciones de sesión no cierran por sí solas fase 2B; `aggregate-validation.json` acredita cierre agregado. No fase 3 ni ejecución de código generado.
+- 352 archivos históricos/configuración idénticos por hash. Scorer/schedule/sintaxis/JSON, 24 streams/finales/contadores/opciones y 373 muestras de telemetría comprobados. Piloto validado sin inferencia y resumen recalculado fuera de su carpeta: idéntico al esquema generalizado de fase 2B excepto fecha. La comparación inicial con el esquema antiguo se conserva y explica como diferencia de campos/redacción, sin cambios de métricas.
+- Scripts de inferencia/monitor/arranque/parada conservan hashes previos a los runs; análisis/validadores finales registrados en `final-script-hashes.json`. No se sustituyen datos ausentes por cero ni se reescriben parciales.
+- Cierre con diff/comprobaciones y commit/push normal autorizado en main/origin/main. Hash/resultado definitivos en el mensaje final; cualquier fallo se registrará antes de terminar.
 
 ### Fase 2B — Parcial por presión de RAM
 
